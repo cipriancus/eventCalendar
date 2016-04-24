@@ -1,0 +1,229 @@
+import java.util.List;
+import java.util.Properties;
+import java.beans.XMLEncoder;
+import java.io.*;
+import java.util.*;
+
+import javax.mail.*;
+import javax.mail.Flags.Flag;
+import javax.mail.search.FlagTerm;
+public class Main {
+	
+	private static Folder inbox;
+	private static Email e =new Email();
+	private static List<Email>es=new ArrayList<Email>();
+	private static int  k=0;
+	private static EmailList lista=new EmailList();
+	private static List<Email> ess=new ArrayList<>();
+		 public static void Messages(int option){
+			
+			
+			 /*  Set the mail properties  */
+			 Properties props = System.getProperties();
+			 props.setProperty("mail.store.protocol", "imaps");
+			 try
+			 {
+			 /*  Create the session and get the store for read the mail. */
+			 Session session = Session.getDefaultInstance(props, null);
+			 Store store = session.getStore("imaps");
+			 store.connect("imap.gmail.com","detectionApp@gmail.com ", "detection1234");
+			 
+			 /*  Mention the folder name which you want to read. */
+			 inbox = store.getFolder("Inbox");
+			if(option==1)
+			 System.out.println("No of Unread Messages : " + inbox.getUnreadMessageCount());
+			else
+				System.out.println("No of Total Messages : " + inbox.getMessageCount());	
+			 /*Open the inbox using store.*/
+			 inbox.open(Folder.READ_ONLY);
+			 
+			 /*  Get the messages which is unread in the Inbox*/
+			// Message messages[] = inbox.search(new FlagTerm(new Flags(Flag.SEEN), false));
+			 Message messages[];
+			 if(option==1){
+			  messages = inbox.search(new FlagTerm(new Flags(Flag.SEEN), false));
+			 }
+			 else
+			 {
+				  messages = inbox.search(new FlagTerm(new Flags(Flag.USER), false)); 
+			 }
+			 
+			 /* Use a suitable FetchProfile    */
+			 FetchProfile fp = new FetchProfile();
+			 fp.add(FetchProfile.Item.ENVELOPE);
+			 fp.add(FetchProfile.Item.CONTENT_INFO);
+			 inbox.fetch(messages, fp);
+			 
+			 try
+			 {
+			 printAllMessages(messages);
+			 inbox.close(true);
+			 store.close();
+			 }
+			 catch (Exception ex)
+			 {
+			 System.out.println("Exception arise at the time of read mail");
+			 ex.printStackTrace();
+			 }
+			 }
+			 catch (NoSuchProviderException e)
+			 {
+			 e.printStackTrace();
+			 System.exit(1);
+			 }
+			 catch (MessagingException e)
+			 {
+			 e.printStackTrace();
+			 System.exit(2);
+			 }
+			 
+			 lista.setEmails(ess);
+				
+				XMLEncoder x;
+				try {
+					x = new XMLEncoder(new BufferedOutputStream(new FileOutputStream("emails.xml")));
+					 x.writeObject(lista);
+					    x.close();
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			   
+			 
+			 
+			 }
+			 
+			 public static void printAllMessages(Message[] msgs) throws Exception
+			 {
+			 for (int i = 0; i < msgs.length; i++)
+			 {e=new Email();
+			 System.out.println("MESSAGE #" + (i + 1) + ":");
+			 e.setEmailNumber(i+1);
+			 
+			 //FileWriter fileWritter = new FileWriter(file, true);
+			//	BufferedWriter bufferWritter = new BufferedWriter(fileWritter);
+			//	bufferWritter.write("MESSAGE #" + (i + 1) + ":"+"\r\n" );
+                             
+                           //  bufferWritter.write("\n");
+				//bufferWritter.close();
+			 printEnvelope(msgs[i]);
+			 }
+			 }
+			 
+			 /*  Print the envelope(FromAddress,ReceivedDate,Subject)  */
+			 public static void printEnvelope(Message message) throws Exception
+			 {
+			 Address[] a;
+			 // FROM
+			 if ((a = message.getFrom()) != null)
+			 {
+			 for (int j = 0; j < a.length; j++)
+			 {
+			 System.out.println("FROM: " + a[j].toString());
+		//	e.setReciver(a[j].toString());
+			 e.setSender(a[j].toString());
+			 //FileWriter fileWritter = new FileWriter(file, true);
+				//BufferedWriter bufferWritter = new BufferedWriter(fileWritter);
+				//bufferWritter.write("FROM: " + a[j].toString()+"\r\n" );
+			 }
+			 }
+			 // TO
+			 if ((a = message.getRecipients(Message.RecipientType.TO)) != null)
+			 {
+			 for (int j = 0; j < a.length; j++)
+			 {
+			 System.out.println("TO: " + a[j].toString());
+			 e.setReciver(a[j].toString());
+			 //FileWriter fileWritter = new FileWriter(file, true);
+			//	BufferedWriter bufferWritter = new BufferedWriter(fileWritter);
+			//	bufferWritter.write("TO: " + a[j].toString()+"\r\n" );
+			 }
+			 }
+			 String subject = message.getSubject();
+			 Date receivedDate = message.getReceivedDate();
+			 String content = message.getContent().toString();
+			 System.out.println("Subject : " + subject);
+			 System.out.println("Received Date : " + receivedDate.toString());
+			 e.setSubject(subject);
+			 e.setDate(receivedDate.toString());
+			   // FileWriter fileWritter = new FileWriter(file, true);
+				//BufferedWriter bufferWritter = new BufferedWriter(fileWritter);
+				//bufferWritter.write("Subject : " + subject+"\r\n" );
+				//bufferWritter.write("Received Date : " + receivedDate.toString()+"\r\n" );
+			// System.out.println("Content : " + content);
+			 getContent(message);
+			 System.out.printf("\n\n\n\n --------------------\n");
+			// bufferWritter.write("\r\n"+"\r\n"+"\r\n"+"\r\n");
+			 }
+			 
+			 public static void getContent(Message msg)
+			 {
+			 try
+			 {
+			 String contentType = msg.getContentType();
+			// System.out.println("Content Type : " + contentType);
+			 Multipart mp = (Multipart) msg.getContent();
+			 int count = mp.getCount();
+			 for (int i = 0; i < count-1; i++)
+			 {
+			 dumpPart(mp.getBodyPart(i));
+			 }
+			 }
+			 catch (Exception ex)
+			 {
+			 System.out.println("Exception arise at get Content");
+			 ex.printStackTrace();
+			 }
+			 }
+			 
+			 public static void dumpPart(Part p) throws Exception
+			 {
+			 // Dump input stream ..
+			 InputStream is = p.getInputStream();
+			 // If "is" is not already buffered, wrap a BufferedInputStream
+			 // around it.
+			 if (!(is instanceof BufferedInputStream))
+			 {
+			 is = new BufferedInputStream(is);
+			 }
+			 int c;
+			 String continut="";
+			 System.out.println("Message : ");
+			
+			 while ((c = is.read()) != -1)
+			 {
+			// System.out.write(c);
+			// System.out.println(c);
+				 if(!((char)c=='â') && !((char)c=='Â'))
+			 continut+=(char)c;
+				//1 System.out.println();
+			 }
+			 
+			 
+			System.out.println(continut);
+			e.setContent(continut);
+			//es.get(k)=(List<Email>) e;
+			ess.add(e);
+			
+			 }
+		 
+		 //Constructor of the calss.
+		 public Main()
+		 {
+		 
+		 }
+		 
+		 
+		 public static void allMessages(){
+			 
+		 }
+		 
+		 public static void main(String args[])
+		 {
+		 //new Main();
+			 Messages(2);
+		 }
+	
+	
+}
+
