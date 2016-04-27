@@ -1,0 +1,20 @@
+package detect;
+//Bordeianu fa te rog bucata aia a ta mulata pe functiile astea 
+public class GiveMeLocationOrgPerson {
+
+	public String giveMeLocation(String emailText) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String giveMePersons(String emailText) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String giveMeOrg(String emailText) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
