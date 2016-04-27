@@ -1,0 +1,12 @@
+package detect;
+
+public class Main {
+
+	public static void main(String args[])
+	{
+		
+		Detect d = new Detect("detectionApp@gmail.com","detection1234",1);
+	   // System.out.println(	d.getNumber());
+	}
+	
+}
