@@ -10,7 +10,7 @@ public class EventsType {
 		int count = 0;
 		float myProc = 0.0f;
 
-		for (int i = 0; i < keywords.length(); i++) {
+		for (int i = 0; i < keywords.length; i++) {
 			keywords[i].toLowerCase();
 			if (text.toLowerCase().contains(keywords[i])) {
 				freq[i] = 1;
