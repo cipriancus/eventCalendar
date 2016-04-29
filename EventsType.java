@@ -23,7 +23,7 @@ public class EventsType {
 			}
 		}
 		myProc = (float) count / keywords.length * 100;
-		if (myProc > proc)
+		if (myProc >= proc)
 			return true;
 		else
 			return false;
