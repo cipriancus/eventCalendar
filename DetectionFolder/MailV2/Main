@@ -1,0 +1,16 @@
+
+
+
+public class Main {
+	
+	
+	public static void main(String args[])
+	{
+		FetchEmail f=new FetchEmail("detectionApp@gmail.com","detection1234",1);
+		GetContent e=new GetContent("emails.xml");
+	   // System.out.println(	e.getNumber());
+		
+
+}
+
+}

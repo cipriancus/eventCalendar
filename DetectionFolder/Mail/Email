@@ -1,0 +1,48 @@
+
+public class Email {
+	
+	private int emailNumber;
+	private String sender;
+	private String reciver;
+	private String date;
+	private String subject;
+	private String content;
+	public int getEmailNumber() {
+		return emailNumber;
+	}
+	public void setEmailNumber(int emailNumber) {
+		this.emailNumber = emailNumber;
+	}
+	public String getSender() {
+		return sender;
+	}
+	public void setSender(String sender) {
+		this.sender = sender;
+	}
+	public String getReciver() {
+		return reciver;
+	}
+	public void setReciver(String reciver) {
+		this.reciver = reciver;
+	}
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+	public String getSubject() {
+		return subject;
+	}
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	
+
+}

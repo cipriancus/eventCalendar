@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_73" class="java.beans.XMLDecoder">
+ <object class="detect.EmailList">
+  <void property="emails">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>        , ,     ?     ,          .&#13;
+        6 18:00,       .&#13;
+     ,           ..&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Sat Apr 23 19:49:23 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>1</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionApp@gmail.com&quot; &lt;detectionApp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Corciu Mihai &lt;free_roaming94@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Demolition</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>          ,  , 16 .&#13;
+       .         .&#13;
+        ,   .&#13;
+      .&#13;
+.&#13;
+&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Sat Apr 23 19:50:24 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>2</int>
+      </void>
+      <void property="reciver">
+       <string>detectionApp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Corciu Mihai &lt;free_roaming94@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Southpaw</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>&quot; &quot;&#13;
+           .        :&#13;
+,   :  &#13;
+ :   &#13;
+-:    ®&#13;
+:  ,  ,   ,  &#13;
+:  6&#13;
+: 19:30&#13;
+: 1 20 &#13;
+ &#13;
+          ,         ,       .                .                 -   !&#13;
+&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Sat Apr 23 19:50:36 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>3</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionApp@gmail.com&quot; &lt;detectionApp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>&quot;Freelancer story&quot;</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>!&#13;
+    ,  27, 2016 , 5:00   9:00    &apos;     &quot;&quot;.&#13;
+     &apos;&apos;   .&#13;
+                    ,    ()  205        ,  ( )   .  &apos;&apos;                        .&#13;
+&#13;
+&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Sat Apr 23 19:54:31 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>4</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionApp@gmail.com&quot; &lt;detectionApp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Hamlet</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>          ,  29  2016      ,   ,  </string>
+      </void>
+      <void property="date">
+       <string>Sat Apr 23 23:33:33 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>5</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionApp@gmail.com&quot; &lt;detectionApp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Concert Invitation</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>                ,                   30      .       9 .&#13;
+     0264 531 622.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Sat Apr 23 23:38:28 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>6</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionApp@gmail.com&quot; &lt;detectionApp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Yan James concert</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>            ()  17   2016,   18:30.&#13;
+                .   ,         &apos;     24  1871;       .           ,       ;   &apos;   ,       1,100   1886. &apos;            ,      -        .&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Sat Apr 23 23:56:13 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>7</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionApp@gmail.com&quot; &lt;detectionApp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Aida</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>, 24   2016, 1900&#13;
+   &#13;
+    ,        &apos; : &quot;&quot;, &quot; &quot;, &quot; &quot;, &quot;&quot;, &quot;    &quot;, &quot;&quot;, &quot;  &quot;, &quot;  &apos; &quot;. &#13;
+         ,  ,   ,  ,  ,  ,  ,  .&#13;
+:   ()&#13;
+ :  ,  &#13;
+:   (),    (),   (),   (),  ,  ,  ,    ()&#13;
+             .</string>
+      </void>
+      <void property="date">
+       <string>Sun Apr 24 11:16:26 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>8</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionApp@gmail.com&quot; &lt;detectionApp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Shakespeare and Music</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>---------------&#13;
+ &#13;
+---------------&#13;
+&#13;
+1.  (), .   ,  ,. ()&#13;
+&#13;
+2.  (), .   ,   . ()&#13;
+.&#13;
+   ,  ()     &#13;
+  .       (,    ) , &#13;
+         ,      .&#13;
+&#13;
+3. , .   , 3 .&#13;
+.&#13;
+          &#13;
+ 7  ,     .     !  &#13;
+   16  (   ).&#13;
+&#13;
+4. , .  ,  .&#13;
+.&#13;
+       (     &#13;
+ )       .     &#13;
+     2  .&#13;
+&#13;
+5.      ().     &#13;
+ . ( )&#13;
+&#13;
+6.       ().   &#13;
+   . ( )&#13;
+&#13;
+---------------&#13;
+&#13;
+&#13;
+---------------&#13;
+1. .&#13;
+2.       .&#13;
+3. ( 12-14)    .   12-14    ,  &#13;
+     14-16.&#13;
+&#13;
+---------------&#13;
+ &#13;
+---------------&#13;
+----------------------------------------------------&#13;
+        &#13;
+----------------------------------------------------&#13;
+08-10         ()     ()     ()  ()&#13;
+----------------------------------------------------&#13;
+10-12         -() ()     ()    ()&#13;
+----------------------------------------------------&#13;
+12-14&#13;
+----------------------------------------------------&#13;
+14-16   -()&#13;
+----------------------------------------------------&#13;
+16-18&#13;
+----------------------------------------------------&#13;
+18-20&#13;
+----------------------------------------------------&#13;
+    ,  ,      .   &#13;
+      ()       &#13;
+  ( ) .        .  &#13;
+&#13;
+ : 2      2   .&#13;
+ : 1        .&#13;
+ : 1        .&#13;
+&#13;
+             &#13;
+,        7    &#13;
+.&#13;
+&#13;
+ :&#13;
+          16.   ,  &#13;
+       .&#13;
+ :&#13;
+       /    8  10   &#13;
+   6  8.  11:00 ..  4:00 .. ,    &#13;
+   .&#13;
+ :&#13;
+           3 .&#13;
+        5        &#13;
+      .&#13;
+&#13;
+ &#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Sun Apr 24 11:34:56 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>9</int>
+      </void>
+      <void property="reciver">
+       <string>detectionapp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>[Schedule]</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>&quot;      &quot; &#13;
+: 18  2016 ,  6.30   9.00  &#13;
+   &apos; -           &apos;  .&#13;
+ 100      - &apos;                   -     .                     .&#13;
+&apos;         ,  ,       .       ,            .&#13;
+             &apos;   -    .  :    .&#13;
+ : 26.00  100.00&#13;
+&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Sun Apr 24 23:41:26 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>10</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionApp@gmail.com&quot; &lt;detectionApp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>       &quot;&quot;  &#13;
+, ,  27, 2016, 18:30.&#13;
+&quot;&quot;       ,    &#13;
+      &quot; &quot;    &#13;
+     ()    55&#13;
+    .      &#13;
+ (),      . &#13;
+. ().&#13;
+ :   () -   -  &#13;
+  (   -) -   -.&#13;
+          .&#13;
+ , , ,   &apos;   &#13;
+   .&#13;
+   :&#13;
+  -     - (   -)&#13;
+  -   - ( )&#13;
+  -   &#13;
+   -   &#13;
+   -   &#13;
+   -  &#13;
+  -  &#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue Apr 26 17:22:17 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>11</int>
+      </void>
+      <void property="reciver">
+       <string>detectionApp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Clim Andrei &lt;andreiclim20@gmail.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>„Tosca”</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>        ,   &#13;
+   , ,  18, 2016,  18.30   &#13;
+     ?.&#13;
+:  &#13;
+          &#13;
+.&#13;
+  :&#13;
+ -   - (   -)&#13;
+   -  &#13;
+ -  ?&#13;
+ -  &#13;
+ -   ?&#13;
+ -  &#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue Apr 26 17:23:03 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>12</int>
+      </void>
+      <void property="reciver">
+       <string>detectionApp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Clim Andrei &lt;andreiclim20@gmail.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Rigoletto</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>&quot;,   &quot;&#13;
+:   , &apos; &#13;
+: 21   , ,  1 9&#13;
+: 21&#13;
+  : &quot;&apos;     , ©- :  -         ,   ,    .       ( )  ,            .&quot;&#13;
+&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue Apr 26 23:19:27 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>13</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>&quot;Pericles, Prince of Tyre&quot;</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>&quot;   &quot;&#13;
+:  , &#13;
+: 16 -18  &apos; ,  1 1&#13;
+:  18,  2 , 5   8 &#13;
+  : &quot;      1927,     (  )       .   ,    2005,    &apos;    &apos;.             (1984),          .&quot; &#13;
+&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue Apr 26 23:21:37 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>14</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Ma Rainey’s Black Bottom</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>:    2   ,  2 0&#13;
+:  28  29,   7 &#13;
+:&quot; &quot;&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue Apr 26 23:26:54 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>15</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>&quot;Red Velvet&quot;</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>&quot;&quot;&#13;
+&#13;
+:   , &apos; &#13;
+: 21   , ,  1 9&#13;
+:  21   2015   22   2016,  16.00, 18.00, 20.00&#13;
+  : &quot;           ,   ,   ,   ,         ...                    -      .&quot;&#13;
+&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue Apr 26 23:30:02 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>16</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>&quot;Cymbeline&quot;</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>  ,&#13;
+&#13;
+        (26)  3   5. &#13;
+        ,    &#13;
+      .&#13;
+&#13;
+            &#13;
+    .     ,&#13;
+,       ,   &#13;
+        .&#13;
+&#13;
+       3 .&#13;
+&#13;
+*,*&#13;
+* *&#13;
+* *&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Wed Apr 27 22:32:18 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>17</int>
+      </void>
+      <void property="reciver">
+       <string>detectionapp@yahoo.com</string>
+      </void>
+      <void property="sender">
+       <string>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>[Marketing team]</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>           :&#13;
+&#13;
+*:*&#13;
+&#13;
+*7*&#13;
+&#13;
+*6*&#13;
+&#13;
+*:*&#13;
+&#13;
+*12:00-14:00*&#13;
+&#13;
+*14:00-16:00*&#13;
+&#13;
+*:*&#13;
+&#13;
+**&#13;
+&#13;
+**&#13;
+&#13;
+*:*&#13;
+&#13;
+*311*&#13;
+&#13;
+*311*&#13;
+ &#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Wed Apr 27 22:56:53 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>18</int>
+      </void>
+      <void property="reciver">
+       <string>detectionapp@yahoo.com</string>
+      </void>
+      <void property="sender">
+       <string>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>--00111402934405318332&#13;
+-: /; =-8&#13;
+&#13;
+&#13;
+&#13;
+--00111402934405318332&#13;
+-: /; =-8&#13;
+&#13;
+&lt; =&quot;&quot;&gt;&lt;&gt;&lt;/&gt;&#13;
+&#13;
+--00111402934405318332--</string>
+      </void>
+      <void property="date">
+       <string>Thu Apr 28 20:13:06 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>19</int>
+      </void>
+      <void property="reciver">
+       <string>detectionApp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Teofil Ursan &lt;teofil.ursan@gmail.com&gt;</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
