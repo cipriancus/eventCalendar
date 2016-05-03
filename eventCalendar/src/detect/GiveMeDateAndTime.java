@@ -6,7 +6,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class GiveMeDateAndTime {
-
+	
+	//tested by Luciana && Andreea
 	public String giveMeDate(String text) {
 		int regexsNumber = 4;
 		String[] results = new String[regexsNumber + 1];
@@ -58,6 +59,7 @@ public class GiveMeDateAndTime {
 
 	}
 
+	//tested by Luciana && Andreea
 	public String giveMeTime(String text) {
 		String time = null;
 		int regexsNumber = 4;
@@ -89,11 +91,13 @@ public class GiveMeDateAndTime {
 		return time;
 	}
 
+	//tested by Luciana && Andreea
 	static String[] RemoveNullValue(String[] firstArray) {
 		return firstArray = Arrays.stream(firstArray).filter(s -> (s != null && s.length() > 0)).toArray(String[]::new);
 
 	}
 
+	//tested by Luciana && Andreea
 	static String maxString(String array[]) {
 		int index = 0;
 
