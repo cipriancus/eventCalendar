@@ -3,7 +3,7 @@ package detect;
 
 import java.util.LinkedHashSet;
 
-
+//nimic de testat
 public class Event {
 	private String date;
 	private String location;
