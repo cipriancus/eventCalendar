@@ -1,0 +1,33 @@
+Raport Testare  eventCalendar/src/detect/FetchEmail.java
+Data ultimei modificari: 9 mai 2016
+Teste trecute: 50%
+Autori: Andro Andreea, Bursuc Antonia-Luciana
+
+
+Raport testare eventCalendar/src/detect/GiveMeDateAndTime/FetchEmail(String username, String password, int option)
+
+Constructorul acceseaza o adresa de gMail si acceseaza toate mailurile. Pentru fiecare mail sunt scoase metadatele de tip ENVELOPE si CONTENT_INFO si se creeaza o instanta a clasei Email . Lista de mailuri  este apoi serializata in format XML in fisierul "emails.xml".  
+
+
+1. testFetchEmail1()
+Rezultat: Test trecut
+
+2. testFetchEmail2()
+Rezultat: Test trecut
+
+3. testFetchEmail3()
+Rezultat: Test esuat
+Cauza:parola este gresita. Eroare nu poate fi prinsa in try catch in jUnit si a trebuit sa fie lasat comentat testul asta.
+
+4. testFetchEmail4()
+Rezultat: Test esuat
+Cauza:adresa de email este gresita. Eroare nu poate fi prinsa in try catch in jUnit si a trebuit sa fie lasat comentat testul asta.
+
+
+Raport testare eventCalendar/src/detect/GiveMeDateAndTime/printEnvelope(Message message)
+
+Functia primeste un mesaj si modifica niste campuri din variabila statica e ( de tip Email) : sender , receiver , subject , date . Apoi apeleaza o alta functie , getContent. 
+
+Observatie:
+Se pastreaza un singur receiver(evident) si un singur sender , dar se folosesc bucle for pentru a-i parcurge pe toti.
+
