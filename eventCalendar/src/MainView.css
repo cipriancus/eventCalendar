@@ -1,0 +1,70 @@
+.menu-button {
+	-fx-background-color: #F5F5F5;
+	-fx-background-insets: 0, 1, 2, 3;
+	-fx-background-radius: 3, 2, 2, 2;
+	-fx-padding: 12 30 12 30;
+	-fx-font-size: 16px;
+	
+
+}
+
+.menu-button:hover {
+	-fx-background-color:f2f2f2;
+	-fx-background-insets: 0, 1, 2, 3;
+	-fx-background-radius: 3, 2, 2, 2;
+	-fx-padding: 12 30 12 30;
+	-fx-font-size: 16px;
+        
+
+}
+
+.menu-button Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+
+#top-menu-button{
+	-fx-background-image: url('../resources/slideMenu.png');
+  	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+}
+
+#top-menu-back{
+        -fx-background-image: url('../resources/back.png');
+  	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+}
+
+#slide-panel{
+-fx-background-color:#F5F5F5;
+-fx-min-height: 1920px;   
+}
+
+#settings-save-button{
+	-fx-background-color:#e6e6e6 ;
+	-fx-background-insets: 0, 1, 2, 3;
+	-fx-background-radius: 3, 2, 2, 2;
+	-fx-padding: 12 30 12 30;
+	-fx-font-size: 16px;
+}
+
+#settings-save-button:hover{
+	-fx-background-color: #cccccc;
+	-fx-background-insets: 0, 1, 2, 3;
+	-fx-background-radius: 3, 2, 2, 2;
+	-fx-padding: 12 30 12 30;
+	-fx-font-size: 16px;
+}
+
+#settings-save-button:pressed{
+         -fx-background-color:#b3b3b3;
+	-fx-background-insets: 0, 1, 2, 3;
+	-fx-background-radius: 3, 2, 2, 2;
+	-fx-padding: 12 30 12 30;
+	-fx-font-size: 16px;
+}
+
+.plus-sign{
+	-fx-background-image: url('../resources/plus-sign.png');
+  	-fx-background-repeat: no-repeat;
+  	-fx-background-position: center;
+}
