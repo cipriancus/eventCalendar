@@ -29,5 +29,5 @@ Raport testare eventCalendar/src/detect/GiveMeDateAndTime/printEnvelope(Message 
 Functia primeste un mesaj si modifica niste campuri din variabila statica e ( de tip Email) : sender , receiver , subject , date . Apoi apeleaza o alta functie , getContent. 
 
 Observatie:
-Se pastreaza un singur receiver(evident) si un singur sender , dar se folosesc bucle for pentru a-i parcurge pe toti.
+Se pastreaza un singur receiver si un singur sender , dar se folosesc bucle for pentru a-i parcurge pe toti.
 
