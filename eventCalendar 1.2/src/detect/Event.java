@@ -77,7 +77,7 @@ public class Event {
 
 	@Override
 	public String toString() {
-		return "Event data: " + dates + " time " + time + " locatie " + location + " cu " + persons + " organizatii "
+		return "Event data: " + dateCalendar+ " time " + time + " locatie " + location + " cu " + persons + " organizatii "
 				+ org;
 	}
 }

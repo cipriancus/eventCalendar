@@ -158,19 +158,28 @@ public class MainController implements Initializable {
 		agendaDay.getChildren().add(agenda);
 
 		viewCalendar.calendarProperty().addListener(e -> {
-			@SuppressWarnings("deprecation")
-			String selectedDate = viewCalendar.calendarProperty().getValue().getTime().toLocaleString();
+			StringBuilder selectedDateSB =new StringBuilder();
+			
+			DateFormatSymbols date=DateFormatSymbols.getInstance(java.util.Locale.ENGLISH);
+			selectedDateSB.append(date.getMonths()[viewCalendar.calendarProperty().getValue().getTime().getMonth()].substring(0, 3));
+			selectedDateSB.append(' ');
+			selectedDateSB.append(viewCalendar.calendarProperty().getValue().getTime().getDate());
+			selectedDateSB.append(", ");
+			selectedDateSB.append(1900+viewCalendar.calendarProperty().getValue().getTime().getYear());
+			selectedDateSB.append(' ');
+			selectedDateSB.append("00:00");
+			String selectedDate=selectedDateSB.toString();
 			agenda.appointments().clear();
 			LocalDateTime time;
 
 			StringBuilder selected = new StringBuilder();
 			if (selectedDate.charAt(5) == ',') {// e data du dd=1
-				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM d, yyyy HH:mm");
+				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM dd, yyyy HH:mm", java.util.Locale.ENGLISH);
 				time = LocalDateTime.parse(selectedDate.substring(0, 17), formatter);
 				selected.append(selectedDate.substring(0, 12));
 				selected.insert(4, '0');
 			} else {
-				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM dd, yyyy HH:mm");
+				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM dd, yyyy HH:mm", java.util.Locale.ENGLISH);
 				time = LocalDateTime.parse(selectedDate.substring(0, 18), formatter);
 				selected.append(selectedDate.substring(0, 12));
 			}
@@ -199,7 +208,7 @@ public class MainController implements Initializable {
 						minute = 0;
 					}
 
-					DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM d, yyyy HH:mm");
+					DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM dd, yyyy HH:mm", java.util.Locale.ENGLISH);
 					LocalDate eventTime = LocalDate.parse(eventDate.toString(), formatter);
 
 					Appointment lTestAppointments = new Agenda.AppointmentImplLocal()
