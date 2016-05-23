@@ -174,7 +174,7 @@ public class MainController implements Initializable {
 
 			StringBuilder selected = new StringBuilder();
 			if (selectedDate.charAt(5) == ',') {// e data du dd=1
-				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM dd, yyyy HH:mm", java.util.Locale.ENGLISH);
+				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM d, yyyy HH:mm", java.util.Locale.ENGLISH);
 				time = LocalDateTime.parse(selectedDate.substring(0, 17), formatter);
 				selected.append(selectedDate.substring(0, 12));
 				selected.insert(4, '0');
