@@ -23,12 +23,7 @@ import javafx.util.Duration;
 
 public class settingsController implements Initializable {
 	
-	@FXML
-	private ToggleButton menu;
-	@FXML
-	private AnchorPane navList;
-	@FXML
-	private TextArea currentDate;
+
 	@FXML
 	private Button exit;
 	@FXML
@@ -46,11 +41,7 @@ public class settingsController implements Initializable {
 	}
 
 	private void prepareSlideMenuAnimation() {
-		TranslateTransition openNav = new TranslateTransition(new Duration(350), navList);
-		openNav.setToX(0);
-		TranslateTransition closeNav = new TranslateTransition(new Duration(350), navList);
-
-		currentDate.setText(getDate());
+		
 		syncPeriod.getItems().add("30s");
 		syncPeriod.getItems().add("1min");
 		syncPeriod.getItems().add("5min");
@@ -58,22 +49,14 @@ public class settingsController implements Initializable {
 		syncPeriod.getItems().add("30min");
 		syncPeriod.getItems().add("1hour");
 
-		menu.setOnAction((ActionEvent evt) -> {
-			if (navList.getTranslateX() != 0) {
-				openNav.play();
-			} else {
-				closeNav.setToX(-(navList.getWidth()));
-				closeNav.play();
-			}
-		});
-
+	
 		exit.setOnAction((ActionEvent evt) -> {
 			System.exit(0);
 		});
 
 		email.setOnAction((ActionEvent evt) -> {
-			Stage stage = (Stage) navList.getScene().getWindow();
-			Scene scene = navList.getScene();
+			Stage stage = (Stage) syncPeriod.getScene().getWindow();
+			Scene scene = syncPeriod.getScene();
 
 			AnchorPane root;
 			try {
@@ -88,8 +71,8 @@ public class settingsController implements Initializable {
 		});
 
 		back.setOnAction((ActionEvent evt) -> {
-			Stage stage = (Stage) navList.getScene().getWindow();
-			Scene scene = navList.getScene();
+			Stage stage = (Stage) syncPeriod.getScene().getWindow();
+			Scene scene = syncPeriod.getScene();
 
 			AnchorPane root;
 			try {

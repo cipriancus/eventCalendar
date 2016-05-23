@@ -54,10 +54,6 @@ public class MainController implements Initializable {
 	private List<String> optional = new ArrayList<String>();
 
 	@FXML
-	private ToggleButton menu;
-	@FXML
-	private AnchorPane navList;
-	@FXML
 	private Button exit;
 	@FXML
 	private Button settings;
@@ -78,7 +74,7 @@ public class MainController implements Initializable {
 	private VBox optionalVB;
 	@FXML
 	private TextField mandatoryItemText;
-	@FXML	
+	@FXML
 	private TextField optionalItemText;
 	@FXML
 	private ToggleButton mandatoryAddButton;
@@ -88,7 +84,7 @@ public class MainController implements Initializable {
 	@SuppressWarnings("unchecked")
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
-		prepareSlideMenuAnimation();
+		prepare();
 
 		EmailXMLParser emailParser = new EmailXMLParser();
 		emailParser.deserialise();
@@ -142,13 +138,15 @@ public class MainController implements Initializable {
 			text.setText(iterator.toString());
 			leftAllEvents.getChildren().add(text);
 		}
+
 	}
 
-	private void prepareSlideMenuAnimation() {
+	private void prepare() {
 		/*
 		 * obligatorii: data, locatie, organizatie, timp, etc optionale: data,
 		 * locatie, organizatie
 		 */
+
 		this.getEventList();
 
 		CalendarPicker viewCalendar = new CalendarPicker();
@@ -157,7 +155,6 @@ public class MainController implements Initializable {
 
 		Agenda agenda = new Agenda();
 		agenda.setMinSize(1000, 0);
-		// agenda.set
 		agendaDay.getChildren().add(agenda);
 
 		viewCalendar.calendarProperty().addListener(e -> {
@@ -180,13 +177,11 @@ public class MainController implements Initializable {
 
 			agenda.setDisplayedLocalDateTime(time);
 
-			
-			GiveMeDateAndTime dateTime = new GiveMeDateAndTime();
 			for (Event event : allEvents) {
-				if (equals(selected.toString(),event.getDateCalendar())==true) {
+				if (equals(selected.toString(), event.getDateCalendar()) == true) {
 					StringBuilder eventDate = new StringBuilder();
 
-					int hour ;
+					int hour;
 					int minute;
 
 					if (event.getTime() != null) {
@@ -228,8 +223,8 @@ public class MainController implements Initializable {
 		});
 
 		email.setOnAction((ActionEvent evt) -> {
-			Stage stage = (Stage) navList.getScene().getWindow();
-			Scene scene = navList.getScene();
+			Stage stage = (Stage) calendarMenu.getScene().getWindow();
+			Scene scene = calendarMenu.getScene();
 
 			AnchorPane root;
 			try {
@@ -244,8 +239,8 @@ public class MainController implements Initializable {
 		});
 
 		settings.setOnAction((ActionEvent evt) -> {
-			Stage stage = (Stage) navList.getScene().getWindow();
-			Scene scene = navList.getScene();
+			Stage stage = (Stage) calendarMenu.getScene().getWindow();
+			Scene scene = calendarMenu.getScene();
 
 			AnchorPane root;
 			try {
@@ -281,11 +276,11 @@ public class MainController implements Initializable {
 		settings_save_button.setOnAction((ActionEvent evt) -> {
 			// serializare XML pentru mandatory si optional
 
-			AllMandatoryXMLParser mandatoryParser = new AllMandatoryXMLParser();
-			mandatoryParser.serialise(mandatory);
+			AllMandatoryXMLParser mandatoryParserXML = new AllMandatoryXMLParser();
+			mandatoryParserXML.serialise(mandatory);
 
-			AllOptionalXMLParser optionalParser = new AllOptionalXMLParser();
-			optionalParser.serialise(optional);
+			AllOptionalXMLParser optionalParserXML = new AllOptionalXMLParser();
+			optionalParserXML.serialise(optional);
 		});
 	}
 
@@ -295,15 +290,15 @@ public class MainController implements Initializable {
 		this.allEvents = parser.getEvents();
 
 	}
-	
-	private boolean equals(String selected,String event){
-		if(selected!=null && event!=null){
-		for(int iterator=0;iterator<event.length();iterator++){
-			if(selected.charAt(iterator)!=event.charAt(iterator))
-				return false;
-		}
-		return true;
-		}else{
+
+	private boolean equals(String selected, String event) {
+		if (selected != null && event != null) {
+			for (int iterator = 0; iterator < event.length(); iterator++) {
+				if (selected.charAt(iterator) != event.charAt(iterator))
+					return false;
+			}
+			return true;
+		} else {
 			return false;
 		}
 	}

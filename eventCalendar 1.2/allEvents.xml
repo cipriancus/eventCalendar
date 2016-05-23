@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jul 06, 2016</dateCalendar>
+        <dates>2016-07-06T18:00***</dates>
+        <location>[Cinema, City, Iasi]</location>
+        <persons>[Jenna]</persons>
+        <sender>Corciu Mihai &lt;free_roaming94@yahoo.com&gt;</sender>
+        <subject>Event::Demolition</subject>
+        <time>18:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Apr 16, 2016</dateCalendar>
+        <dates>2016-W19-WE***2016-04-16-WXX-7***P1M***</dates>
+        <location>[Pallas, Mall, Cinema, Bucharest]</location>
+        <persons>[Mike]</persons>
+        <sender>Corciu Mihai &lt;free_roaming94@yahoo.com&gt;</sender>
+        <subject>Event::Southpaw</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 06, 2016</dateCalendar>
+        <dates>2016-06-06***2016-05-11T19:30***PT20M***2015-05-11***</dates>
+        <location>[Iasi]</location>
+        <persons>[Ion, Sapdaru, Alina, Dinca, Puscasu, Natalia, Alexandra, Bandac, Cosmin, Maxim, Anne, Marie, Chert, Livia, Iorga, Date]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::"Freelancer story"</subject>
+        <time>19:30</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 27, 2016</dateCalendar>
+        <dates>2016-05-27-WXX-5T17:00***2016-05-11T09:00***(UNKNOWN,REF,P2Y)***</dates>
+        <location>[London, Cambridge, Theatre, Earth]</location>
+        <persons>[Dominic, Dromgoole, Bill, Buckhurst, Ladi, Emeruwa, Naeem, Hayat]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Hamlet</subject>
+        <time>17:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 08, 2016</dateCalendar>
+        <dates>P1Y***2016-05-08-WXX-7***2016-XX-XX***2016-05-11TEV***</dates>
+        <location>[Los, Angeles]</location>
+        <org>[Eastman, Music, Hall, Camden]</org>
+        <persons>[Cecil, Universityinvites]</persons>
+        <sender>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</sender>
+        <subject>Event::Concert Invitation</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 30, 2016</dateCalendar>
+        <dates>2016-05-30***2016-05-11T21:00***</dates>
+        <location>[Mashhadâ, City, Hall, Theater]</location>
+        <persons>[Yan, James]</persons>
+        <sender>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</sender>
+        <subject>Event::Yan James concert</subject>
+        <time>21:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 17, 2016</dateCalendar>
+        <dates>2016-05-17***2016-05-11T18:30***1871-12-24***2016-05-11***P1Y***1886-XX-XX***</dates>
+        <location>[Iasi, Egypt, Cairo, New, York, Metropolitan, Opera]</location>
+        <org>[Romanian, National, Opera, Verdi, Khedivial, House]</org>
+        <persons>[Giuseppe, Verdi, Antonio, Ghislanzoni, Giovanni, Bottesini, Aida, Auguste, Mariette, Mary, Jane, Phillips-Matz, Temistocle, Solera]</persons>
+        <sender>"Cosmin A." &lt;cosmin.2704@yahoo.com&gt;</sender>
+        <subject>Event::Aida</subject>
+        <time>18:30</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Apr 24, 2016</dateCalendar>
+        <dates>2016-04-24-WXX-7***2016-05-11TNI***</dates>
+        <org>[Bucharest, National, Opera, House]</org>
+        <persons>[William, Shakespeare, Julius, Caesar, Vincenzo, Bellini, Pascal, Bentoiu, Georg, Friedrich, Handel, Felix, Mendelssohn, Otto, Nicolai, Sergei, Prokofiev, Dmitri, Shostakovich, Giuseppe, Verdi, Vladimir, Lungu, Stelian, Olariu, Daniel, Jinga, Martiniana, Antonie, Marius, Vlad, Budoiu, Alexandru, Constantin, Ana, Cebotari, Iulia, Isaev, Andrei, Lazar, Madeleine, Pascu, George, Ionut, Virban]</persons>
+        <sender>"Cosmin A." &lt;cosmin.2704@yahoo.com&gt;</sender>
+        <subject>Event::Shakespeare and Music</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 09, 2016</dateCalendar>
+        <dates>PT1H***P1Y***P1Y***P1Y***P1Y***2016***P1Y***2016-05-09-WXX-1***2016-05-11TMO***2016-05-09-WXX-1***2016-05-10-WXX-2***2016-05-11-WXX-3***2016-05-12-WXX-4***2016-05-13-WXX-5***2016***2016***PTXH***2016-05-11-WXX-3 INTERSECT PT1H***PT1H***PTXH***PTXH***2016-05-11T09:52***2016-05-11TEV***2016-05-11T11:00***2016-05-11T16:00***PTXH***2016-05-W21***2016-10-05***</dates>
+        <org>[Special, Topics, in, Artificial, Intelligence, Laboratory]</org>
+        <persons>[Madalina, Lucanu, Victor, Lucasu, Victoras, Rusu, Costel, Negrus, Cristian, Viorel]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[Schedule]</subject>
+        <time>09:52</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Dec 18, 2016</dateCalendar>
+        <dates>2016-12-18***P100Y***P1D***</dates>
+        <location>[Cambridge, Theatre, London]</location>
+        <org>[The, Royal, Shakespeare, Company]</org>
+        <persons>[Roald, Dahl, Dennis, Kelly, Tim, Minchin, Matilda, Miss, Trunchbull]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::null</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Apr 27, 2016</dateCalendar>
+        <dates>2016-04-27-WXX-3T18:30***</dates>
+        <location>[Bulgaria, Belgrade, Floria, Tosca, Romanian, National, Opera, Cluj-Napoca, Nationala, Romana, Brasov]</location>
+        <org>[Iasi, Romanian, National, Opera]</org>
+        <persons>[Giacomo, Puccini, Luigi, Illica, Giuseppe, Giacosa, Victorien, Sardou, Ognian, Draganoff, Boris, Stoynov, Petkova, Dragana, Radakovic, Marius, Vlad, Budoiu, Mario, Cavaradossi, Victor, Dumanescu, Alexandru, Aghenie, Angelotti, Daniel, Mateianu, Spoletta, Andrei, Apreotesei, Sciarrone, Zaharia, Temnicerul, Ionut, Todica, Roberti, Traian, Hudumeac]</persons>
+        <sender>Clim Andrei &lt;andreiclim20@gmail.com&gt;</sender>
+        <subject>Event::„Tosca”</subject>
+        <time>18:30</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Oct 18, 2016</dateCalendar>
+        <dates>2016-10-18-WXX-7***</dates>
+        <location>[Great, Hall, Romanian, National, Opera, Cluj-Napoca, MANTUA]</location>
+        <org>[Iasi, Romanian, National, Opera, DUKE, Sparafucile]</org>
+        <persons>[Giuseppe, Verdi, Cristian, Mihailescu, Viorica, Perju, FLORIN, Guzga, GILDA, -, CRISTINA, GRIGORA, Teodor, BUSN, MADDALENA, MARIA, MACSIM, NICOAR, GIOVANNA, LAURA, SCRIPCARU]</persons>
+        <sender>Clim Andrei &lt;andreiclim20@gmail.com&gt;</sender>
+        <subject>Event::Rigoletto</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 21, 2016</dateCalendar>
+        <dates>2016-05-21***</dates>
+        <location>[London, Aegean, Mediterranean]</location>
+        <org>[New, Globe, Walk]</org>
+        <persons>[Sam, Wanamaker, Playhouse, Â, Shakespeare]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::"Pericles, Prince of Tyre"</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 18, 2016</dateCalendar>
+        <dates>2016-05-18***2016-05-11T14:00***2016-05-11T17:00***2016-05-11T20:00***1927-XX-XX***2016-08***2005-XX-XX***1984-XX-XX***</dates>
+        <location>[Lyttelton, London, Chicago, America]</location>
+        <org>[St, James, 's, Place]</org>
+        <persons>[Ma, Rainey, Sharon, D, Clarke, August, Wilson, Dominic, Cookeâ]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Ma Rainey’s Black Bottom</subject>
+        <time>14:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 28, 2016</dateCalendar>
+        <dates>2016-05-28***2016-05-11T19:00***</dates>
+        <location>[London]</location>
+        <org>[Charing, Cross, Rd]</org>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::"Red Velvet"</subject>
+        <time>19:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Mar 21, 2015</dateCalendar>
+        <dates>2015-03-21***2016-09-22***</dates>
+        <location>[London, Innogen, Britain]</location>
+        <org>[New, Globe, Walk]</org>
+        <persons>[Sam, Wanamaker, Playhouse, Juliet, Desdemona, Yates]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::"Cymbeline"</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 19, 2016</dateCalendar>
+        <dates>2016-05-19-W20-4***2016-05-11T15:00***2016-Q3***PT3H***</dates>
+        <persons>[Nadine, Thomas]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[Marketing team]</subject>
+        <time>15:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 11, 2016</dateCalendar>
+        <dates>PTXH***2016-05-11T12:00-1400***2016-05-11T14:00-1600***P1D***2016-05-09-WXX-1***2016-05-09-WXX-1***</dates>
+        <persons>[Gorun, John]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::null</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 14, 2016</dateCalendar>
+        <dates>2016-05-14-WXX-6***2016-12-15***2016-05-11T16:00***P1D***2016-05-14-WXX-6***2015-12-15***2016-05-11T16:00***P1D***2016-05-11T01:00***2016-05-11T13:00***</dates>
+        <persons>[John, Jenna, James, Cuddlesworth]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::null</subject>
+        <time>16:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>PT1H***1991-XX-XX***</dates>
+        <location>[Teatrul, NationalRadu, Stanca, Golgotha, Mountain, Sibiu, Luxembourg]</location>
+        <org>[Goldberg, Variations, Municipalde, la, Ville]</org>
+        <persons>[Charles, MullerCast, Johanna, Adam, Anca, Cipariu, Krista, Birkner, Ali, Deac, Daniel, Bucher, Plier, Valentin, Sp, Liviu, Vlad, Dorin, PitariuTaboriâ, Shakespeare, Milton, Tabori, Jay, Radu, Stancaâ]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::null</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>PT1H***1991-XX-XX***</dates>
+        <location>[Teatrul, NationalRadu, Stanca, Golgotha, Mountain, Sibiu, Luxembourg]</location>
+        <org>[Goldberg, Variations, Municipalde, la, Ville]</org>
+        <persons>[Charles, MullerCast, Johanna, Adam, Anca, Cipariu, Krista, Birkner, Ali, Deac, Daniel, Bucher, Plier, Valentin, Sp, Liviu, Vlad, Dorin, PitariuTaboriâ, Shakespeare, Milton, Tabori, Jay, Radu, Stancaâ]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Theatre</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2086-05-11***</dates>
+        <location>[Teatrul, Gong]</location>
+        <org>[Gestapo, Third, Arrangement, Theatre, Company]</org>
+        <persons>[Andrzej, Teresa, WelminskiTechnicaldirector, Sarah, Readman, Monica, Barrio, Andrew, Darren, Elkins, Kimberly, Emby, Jack, Owen, Gyll, Nicholas, Halliwell, Maiquez, Simon, Moore, Julia, Nicolau, Laura, Pau, Lawrence, Schulz, Teatru, Welminski, Anold, Josef, Ason, WelminskiFoundation, Instytut, Polski]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Sibiu</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2002-XX-XX***P30Y***P20Y***&gt;P20Y***</dates>
+        <location>[France, Brazil, Menton, Entierro, de, la, Sardina, Murcia]</location>
+        <org>[Strada, Nicolae, Flower, Parade, of, Sanremo]</org>
+        <persons>[Jean, Paul, NiggioArtisticdirector, Sandra, Calixto, de, BahiaCircusBrazil, Bahia, Gilberto, Gil, Jorge, Ben, Jor, Jean-Paul, Niggio]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Circus Fantasia Parade</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2002-XX-XX***P30Y***P20Y***&gt;P20Y***</dates>
+        <location>[France, Brazil, Menton, Entierro, de, la, Sardina, Murcia]</location>
+        <org>[Strada, Nicolae, Flower, Parade, of, Sanremo]</org>
+        <persons>[Jean, Paul, NiggioArtisticdirector, Sandra, Calixto, de, BahiaCircusBrazil, Bahia, Gilberto, Gil, Jorge, Ben, Jor, Jean-Paul, Niggio]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Circus</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2002-XX-XX***P30Y***P20Y***&gt;P20Y***</dates>
+        <location>[France, Brazil, Menton, Entierro, de, la, Sardina, Murcia]</location>
+        <org>[Strada, Nicolae, Flower, Parade, of, Sanremo]</org>
+        <persons>[Jean, Paul, NiggioArtisticdirector, Sandra, Calixto, de, BahiaCircusBrazil, Bahia, Gilberto, Gil, Jorge, Ben, Jor, Jean-Paul, Niggio]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Circus Fantasia Parade</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2002-XX-XX***P30Y***P20Y***&gt;P20Y***</dates>
+        <location>[France, Brazil, Menton, Entierro, de, la, Sardina, Murcia]</location>
+        <org>[Strada, Nicolae, Flower, Parade, of, Sanremo]</org>
+        <persons>[Jean, Paul, NiggioArtisticdirector, Sandra, Calixto, de, BahiaCircusBrazil, Bahia, Gilberto, Gil, Jorge, Ben, Jor, Jean-Paul, Niggio]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Circus on Street</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>PT1H***</dates>
+        <location>[Himalaya]</location>
+        <org>[Cosmin, Dominte]</org>
+        <persons>[Mathias, Malzieu, Chris, SimionStageversion, Simion, Irina, Strungareanu, Alexandru, Darie, Marius, Manole, Marian, R, Maia, Morgenstern, Corina, Moise, Dana, Rogoz, Bogdan, Teatrul, L.S.Bulandra]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::null</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates></dates>
+        <location>[Buenos, Aires]</location>
+        <org>[New, York, Times, Prodanza, Institute]</org>
+        <persons>[Brenda, AngielOriginalScore, Juan, Pablo, Arcangeli, Rodolfo, Aguirre, Santiago, Borda, Cano, Francisco, Bruzzo, Luis, Aparicio, Anibal, Corrado, Assistant, Cristina, Tziouras, Ignacio, Dimanttia, Daniel, Calvo, Lucas, Coria, Mauro, Dann, Viviana, Finkelstein, Iglesias, SilvanaRossi, Carolina, Tironi, Bilingua]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::null</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 14, 2016</dateCalendar>
+        <dates>2016-06-14***PT1H***</dates>
+        <location>[Cornercard, Lugano, Canton, Ticino]</location>
+        <org>[Firefly, Forest, Antonio, Vergamini, Costume, Helena, Bittencourt, &amp;, Goos, Meeuwsenâ, Teatro, Sociale, Bellinzona, -, Sintetica, Research]</org>
+        <persons>[Daniele, Finzi, PascaWriter, DanieleFinzi, Pasca, Julie, Hamelin, Maria, Bonzanigo, Scenographer, Giovanna, Buzzi, Alexis, Bowles, Roberto, Vitalini, Chiqui, Barb, Marzio, Picchetti]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Important</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 11, 2016</dateCalendar>
+        <dates>P600Y***2016-05-11TNI***PRESENT_REF***</dates>
+        <location>[Japan, Bucharest]</location>
+        <org>[IntangibleCultural, Heritage, Buddhist]</org>
+        <persons>[Yamamoto, Akihiro, Umewaka, Motonori, Moriya, Yoshinori, Adachi]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::null</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2004-XX-XX***PRESENT_REF***P1D***2012-XX-XX***2014-XX-XX***2013-XX-XX***2016-XX-XX***</dates>
+        <location>[London]</location>
+        <org>[Paolo, Colombo]</org>
+        <persons>[Nicolae, Balcescu, Graziella, CorboTriuggioMarching, Band]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Fanfare Parade</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>PT1H***2004-XX-XX***PRESENT_REF***P1D***2012-XX-XX***2014-XX-XX***2013-XX-XX***2016-XX-XX***</dates>
+        <location>[London]</location>
+        <org>[Paolo, Colombo]</org>
+        <persons>[Strada, Nicolae, Balcescu, Graziella, CorboTriuggioMarching, Band]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Fanfare Parade</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2004-XX-XX***PRESENT_REF***P1D***2012-XX-XX***2014-XX-XX***2013-XX-XX***2016-XX-XX***</dates>
+        <location>[London]</location>
+        <org>[Paolo, Colombo]</org>
+        <persons>[Strada, Nicolae, Balcescu, Graziella, CorboTriuggioMarching, Band]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Fanfare</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 06, 2016</dateCalendar>
+        <dates>2016-06-06***</dates>
+        <location>[Cinema, City, Iasi]</location>
+        <persons>[Mary]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Movie</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2016-05-W20***2016-05***</dates>
+        <location>[Vaslui]</location>
+        <persons>[Laura]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Party</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2016-06***2016-06***</dates>
+        <location>[Paris, Saint-Denis]</location>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::European Football Championship</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 29, 2016</dateCalendar>
+        <dates>2016-05-29-WXX-7***</dates>
+        <persons>[Mary]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Sunday</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 25, 2016</dateCalendar>
+        <dates>2016-05-25***</dates>
+        <location>[Copou, Park, Iasi]</location>
+        <persons>[John]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::The chess competion</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>P1Y***2007-XX-XX***</dates>
+        <persons>[Anthony, MissenMusic, Miguel, Marin, Kevin, Lennon, JohannSebastian, Bach, Wilson, Simonal, Yaron, Abulafia, Emma, Bailey, Gemma, Nixon, John, Slater, Taylor, Benjamin, Lee, Clayden, David, Colley, Theo, Fapohunda, Mbulelo, NdabeniManchesterâ, Missen, EdwardTurner]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Dance 2016</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 26, 2016</dateCalendar>
+        <dates>2016-05-26***</dates>
+        <persons>[Ioan, Cuzaâ, Mary]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::One problem</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2016-XX-XX***</dates>
+        <location>[Iulius, Mall]</location>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Film</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 23, 2016</dateCalendar>
+        <dates>2016-06-23***</dates>
+        <location>[Iasi, Cluj-Napoca, Gaston, Annina]</location>
+        <org>[La, Traviata, Verdi, Opera, Agency, Stal]</org>
+        <persons>[Germont, Martin, Grenville, -, Victor, Zaharia.The, Diana, Bucur, Violeta, Valery, Flora, Bervoix, Brandusa, Motoc, Ricardo, Clouds, Iulian, Ioan, Sandu, Baron, Douphol, Daniel, Mateianu, Traian, Hudumeac, Giuseppe, Ionut, Todic, Lacramioara, Proca, Sergiu, CotorobaiTickets]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::La Traviata</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 28, 2016</dateCalendar>
+        <dates>2016-05-28***2016-05-11T20:30***1871-12-24***2016-05-11***P1Y***1886-XX-XX***</dates>
+        <location>[Iasi, Egypt, Cairo, New, York, Metropolitan, Opera]</location>
+        <org>[Romanian, National, Opera, Khedivial, House]</org>
+        <persons>[Verdi, Giuseppe, Antonio, Ghislanzoni, Giovanni, Bottesini, Aida, Auguste, Mariette, Jane, Phillips-Matz, Temistocle, Solera]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Aida</subject>
+        <time>20:30</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 30, 2016</dateCalendar>
+        <dates>2016-05-30***XXXX-XX-XX***2015-XX-XX***PT2H***</dates>
+        <location>[London]</location>
+        <org>[CornleyPolytechnic, Drama, Society]</org>
+        <persons>[Catherine, Street]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Theatre</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 29, 2016</dateCalendar>
+        <dates>2016-05-29***XXXX-XX-XX***</dates>
+        <location>[London]</location>
+        <org>[Charing, Cross]</org>
+        <persons>[Ira, Aldridge, Garrick, Kenneth, Branaghâ, Adrian, Lester]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Garrick Theatre</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 25, 2016</dateCalendar>
+        <dates>2016-05-25***2016-05-26***2016-05-11T12:00***</dates>
+        <location>[London, Innogen, Britain]</location>
+        <org>[New, Globe, Walk]</org>
+        <persons>[Desdemona, Sam, Yates]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::London</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2016-06***</dates>
+        <location>[Iasi]</location>
+        <persons>[I., L., CaragialeTicket]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Theatre</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 09, 2016</dateCalendar>
+        <dates>2016-05-09-WXX-1***2016-05-30T14:00***2016-05-11T16:00***</dates>
+        <persons>[Grigorescu, Alina]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Meeting</subject>
+        <time>14:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 28, 2016</dateCalendar>
+        <dates>2016-05-28-WXX-6***</dates>
+        <persons>[Alexa, Vasile]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Important</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 29, 2016</dateCalendar>
+        <dates>2016-05-29-WXX-7***</dates>
+        <persons>[Corina]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Meeting at Silver Mall</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 19, 2016</dateCalendar>
+        <dates>2016-05-19***2016-05-11T15:00***2016-05-11T18:00***PTXM***PAST_REF***</dates>
+        <location>[Palas, Center]</location>
+        <org>[United, Business, Center, Building, no., Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Dear, Monica, Diana]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[Reply]</subject>
+        <time>15:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 19, 2016</dateCalendar>
+        <dates>2016-05-19***2016-05-11T12:00***2016-05-11T12:00***PTXM***PAST_REF***</dates>
+        <location>[Palas, Center]</location>
+        <org>[United, Business, Center, Building, no., Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Margareta-Diana, Aioanei, Diana]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[reply2]</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 29, 2016</dateCalendar>
+        <dates>2016-05-29***2016-05-11T15:00***2016-05-11T18:00***PTXM***PAST_REF***</dates>
+        <location>[Palas, Center]</location>
+        <org>[United, Business, Center, Building, no., Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Voiculescu, Diana]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[ Re -ply ]</subject>
+        <time>15:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 11, 2016</dateCalendar>
+        <dates>PTXM***PAST_REF***2016-05***2016-05-11T12:00***2016-05-11T12:00***</dates>
+        <location>[Palas, Center]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP, United, Business, Center, Building, no.]</org>
+        <persons>[Diana]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[reply4]</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 12, 2016</dateCalendar>
+        <dates>2016-05-12***2016-05-11T12:00***2016-05-11T12:00***PTXM***PAST_REF***</dates>
+        <location>[Palas, Center]</location>
+        <org>[United, Business, Center, Building, no., Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Vlad, Tomescu, Diana]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[good news]</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 19, 2016</dateCalendar>
+        <dates>2016-04***2016-05-19***2016-05-11T12:00***2016-05-11T12:00***PTXM***PAST_REF***</dates>
+        <location>[Palas, Center]</location>
+        <org>[United, Business, Center, Building, no., Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Diana]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[invitation]</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 19, 2016</dateCalendar>
+        <dates>2016-06-19***2016-05-11T12:00***2016-05-11T12:00***PTXM***PAST_REF***</dates>
+        <location>[Palas, Center]</location>
+        <org>[United, Business, Center, Building, no., Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Diana]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[Reply]</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 16, 2016</dateCalendar>
+        <dates>2016-05-16-WXX-1***2016-05-11T12:00***2016-05-11***PTXM***PAST_REF***</dates>
+        <location>[Palas, Center]</location>
+        <org>[United, Business, Center, Building, no., Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Diana]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[wrong destination]</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates></dates>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::null</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 13, 2016</dateCalendar>
+        <dates>2016-05-13-WXX-5***2016-05***</dates>
+        <persons>[Alice]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Meeting</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 02, 2016</dateCalendar>
+        <dates>2016-06-02***</dates>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::My bithday</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates></dates>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Museum</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 04, 2016</dateCalendar>
+        <dates>2016-06-04***</dates>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Something</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2016-05***</dates>
+        <location>[London]</location>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Club</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2016-06***</dates>
+        <persons>[Clare]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Clare birthday</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 04, 2016</dateCalendar>
+        <dates>2016-06-04***</dates>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::The trip</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 28, 2016</dateCalendar>
+        <dates>2016-05-28***P2D***</dates>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::Sinaia</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 10, 2016</dateCalendar>
+        <dates>P1W***2016-06***2016-06-10***</dates>
+        <location>[Iasi, Sala]</location>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::KASTA MORRELY</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 08, 2016</dateCalendar>
+        <dates>2016-06-08***</dates>
+        <location>[Sala, Polivalenta]</location>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::A fashion event</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 03, 2016</dateCalendar>
+        <dates>2016-06-03***</dates>
+        <persons>[Alice, Mike]</persons>
+        <sender>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</sender>
+        <subject>Event::The day for visit</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 01, 2016</dateCalendar>
+        <dates>2016-06-01***2016-05-11T15:00***PTXM***PAST_REF***</dates>
+        <location>[TUCSON, AZ, USA]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Georgescu, MARY, ROE]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M1]</subject>
+        <time>15:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 02, 2016</dateCalendar>
+        <dates>PT1S***2016-06-02***2016-05-11***PTXM***PAST_REF***</dates>
+        <location>[Taipei, Taiwan, TAIWAN]</location>
+        <org>[Philatelic, Department, Directorate, General, of, Posts, Chin, Shan, South, Road, Sec, Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Mrs, Georgescu, William, Shakspeare]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M2]</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 03, 2016</dateCalendar>
+        <dates>2016-06-03***PTXM***PAST_REF***</dates>
+        <location>[SEOUL, KOREA]</location>
+        <org>[Ministry, of, Information, Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Nasratullah, Khan]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M3]</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 05, 2016</dateCalendar>
+        <dates>83-XX-XX***2016-06-05***2016-05-11T12:00***PTXM***PAST_REF***</dates>
+        <location>[PRETORIA, SOUTH, AFRICA]</location>
+        <org>[Postal, Business, Block, SA, Post, Office, Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Corciu]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M4]</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 11, 2016</dateCalendar>
+        <dates>83-XX-XX***2016-06***2016-05-11T09:00***PTXM***PAST_REF***</dates>
+        <location>[Church, Street, Colloyn, PRETORIA, SOUTH, AFRICA]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[George, J., Public]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M5]</subject>
+        <time>09:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 16, 2016</dateCalendar>
+        <dates>2016-06-16***2016-05-11T07:15***PTXM***PAST_REF***</dates>
+        <location>[Rue, Yafo, JERUSALEM, ISRAEL]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[M., Ploni, Almoni, CHAN, Kwok-kwong]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M6]</subject>
+        <time>07:15</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 21, 2016</dateCalendar>
+        <dates>2016-06-21***PTXM***PAST_REF***</dates>
+        <location>[PAKISTAN]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Madam, Lavinia, M., Bernard]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M7]</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 11, 2016</dateCalendar>
+        <dates>2016-05-11T03:30***PTXM***PAST_REF***</dates>
+        <location>[ITALY]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Walter, C., Brown]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M8]</subject>
+        <time>03:30</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 24, 2016</dateCalendar>
+        <dates>2016-06-24***2016-05-11T10:00***PTXM***PAST_REF***</dates>
+        <location>[ISRAEL]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Papara, I., K., Taneja]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M9]</subject>
+        <time>10:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 12, 2016</dateCalendar>
+        <dates>2016-05-12***2016-05-11T12:00***PTXM***PAST_REF***</dates>
+        <location>[INDIA]</location>
+        <org>[Department, of, Posts, Business, Development, Directorate, Dak, Bhavan, Parliament, Street, NEW, DELHI, Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Eustache, JOHN, JONES]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M10]</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 11, 2016</dateCalendar>
+        <dates>2016-06***2016-05-11T12:00***PTXM***PAST_REF***</dates>
+        <location>[INDIA]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Sweetie, Susie, Madame, Duval]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M11]</subject>
+        <time>12:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 23, 2016</dateCalendar>
+        <dates>2016-06-23***2016-05-11T00:00***PTXM***PAST_REF***</dates>
+        <location>[CANADA]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Walter, C., Brown]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M12]</subject>
+        <time>00:00</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 09, 2016</dateCalendar>
+        <dates>2016-05-09-WXX-1***2016-05-11T04:18***PTXM***PAST_REF***</dates>
+        <location>[HONG, KONG]</location>
+        <org>[Golden, Industrial, Center, Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Buddy, Bob, Tai, Lin, Pai, Road, Kwai, Chung, Radu, Roman]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M13]</subject>
+        <time>04:18</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 11, 2016</dateCalendar>
+        <dates>2016-05-11T00:45***PTXM***PAST_REF***</dates>
+        <location>[Ardenham, Court, Oxford, Road, AYLESBURY]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Tom, Nildram, L.]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M14]</subject>
+        <time>00:45</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 11, 2016</dateCalendar>
+        <dates>2016-05-11T11:20***PTXM***PAST_REF***</dates>
+        <location>[Featherstone, Street, LONDON]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Sarah, J., K., Rowling, Honey, R., Vladimir]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M15]</subject>
+        <time>11:20</time>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>Jun 11, 2016</dateCalendar>
+        <dates>2016-06-11***PTXM***PAST_REF***</dates>
+        <location>[CABOURG, FRANCE]</location>
+        <org>[Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Lov, Lilian, Bud, India-Mariah]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M16]</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>2016-06***PTXM***PAST_REF***</dates>
+        <location>[FRANCE, Alteck]</location>
+        <org>[Google, Company, Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Elisabeth, R., Martin]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M17]</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>PTXM***PAST_REF***</dates>
+        <location>[INDIA]</location>
+        <org>[Steel, Authority, of, India, Ltd., Ispat, Bhavan, Lodhi, Road, NEW, DELHI, Data, structures, &amp;, Algorithms, OOP]</org>
+        <persons>[Capusneanu, Mihaela-Elisabeta]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M18]</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>PAST_REF***P19M***PRESENT_REF***P8M***PRESENT_REF***</dates>
+        <location>[U.S.]</location>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[W1]</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 14, 2016</dateCalendar>
+        <dates>2016-05-14-WXX-6TMO***2016***2016***P17Y***2016***2016***2016-05-11***2017***2016***2016***2016-05-W20***</dates>
+        <location>[Mills, Avenue, California, Jerusalem]</location>
+        <persons>[Cathy]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[W2]</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>PRESENT_REF***2016-WI***2016-SU***2016-SP***2016-WI***PRESENT_REF***</dates>
+        <location>[California]</location>
+        <persons>[SanctuaryDesign]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[W3]</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dates>PT1H***PT60M***1977-XX-XX***</dates>
+        <persons>[Jesus]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[W4]</subject>
+    </event>
+    <event xsi:type="event" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dateCalendar>May 11, 2016</dateCalendar>
+        <dates>2016-05-11T12:00***</dates>
+        <location>[Cheyenne, Iasi]</location>
+        <org>[Duane, &amp;, Valarie, Along]</org>
+        <persons>[Katherine, Elizabeth, Isabelle, Cuza, Voda]</persons>
+        <sender>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</sender>
+        <subject>Event::[M19]</subject>
+        <time>12:00</time>
+    </event>
+</events>

@@ -28,13 +28,7 @@ import parseXML.EmailXMLParser;
 
 public class emailController implements Initializable {
 	private Map<String, String> allEmails = new HashMap<>();
-
-	@FXML
-	private ToggleButton menu;
-	@FXML
-	private AnchorPane navList;
-	@FXML
-	private TextArea currentDate;
+	
 	@FXML
 	private Button exit;
 	@FXML
@@ -58,11 +52,7 @@ public class emailController implements Initializable {
 	}
 
 	private void prepareSlideMenuAnimation() {
-		TranslateTransition openNav = new TranslateTransition(new Duration(350), navList);
-		openNav.setToX(0);
-		TranslateTransition closeNav = new TranslateTransition(new Duration(350), navList);
-
-		currentDate.setText(getDate());
+	
 
 		EmailXMLParser emailParser = new EmailXMLParser();
 		emailParser.deserialise();
@@ -74,22 +64,14 @@ public class emailController implements Initializable {
 			leftEmailList.getChildren().add(text);
 		}
 		
-		menu.setOnAction((ActionEvent evt) -> {
-			if (navList.getTranslateX() != 0) {
-				openNav.play();
-			} else {
-				closeNav.setToX(-(navList.getWidth()));
-				closeNav.play();
-			}
-		});
 
 		exit.setOnAction((ActionEvent evt) -> {
 			System.exit(0);
 		});
 
 		settings.setOnAction((ActionEvent evt) -> {
-			Stage stage = (Stage) navList.getScene().getWindow();
-			Scene scene = navList.getScene();
+			Stage stage = (Stage) usernameEmail.getScene().getWindow();
+			Scene scene = usernameEmail.getScene();
 
 			AnchorPane root;
 			try {
@@ -104,8 +86,8 @@ public class emailController implements Initializable {
 		});
 
 		back.setOnAction((ActionEvent evt) -> {
-			Stage stage = (Stage) navList.getScene().getWindow();
-			Scene scene = navList.getScene();
+			Stage stage = (Stage) usernameEmail.getScene().getWindow();
+			Scene scene = usernameEmail.getScene();
 
 			AnchorPane root;
 			try {

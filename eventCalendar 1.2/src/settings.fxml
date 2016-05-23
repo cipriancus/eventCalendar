@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -20,13 +18,14 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
+<!-- Autor: Ilie Grosu -->
+
 <AnchorPane prefHeight="836.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="settings.settingsController">
 	<children>
 		<BorderPane layoutX="125.0" layoutY="92.0" prefHeight="691.0" prefWidth="1037.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
 			<top>
 				<HBox prefHeight="42.0" prefWidth="1220.0" style="-fx-background-color: #F5F5F5;" BorderPane.alignment="CENTER">
 					<children>
-						<ToggleButton id="top-menu-button" fx:id="menu" mnemonicParsing="false" prefHeight="41.0" prefWidth="40" />
 						<ToggleButton id="top-menu-back" fx:id="back" mnemonicParsing="false" prefHeight="41.0" prefWidth="40" />
 						<ImageView fitHeight="38.0" fitWidth="45.0">
 							<image>
@@ -36,32 +35,6 @@
 					</children>
 				</HBox>
 			</top>
-			<left>
-				<StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-					<children>
-						<VBox alignment="TOP_CENTER" prefHeight="794.0" prefWidth="211.0" style="-fx-background-color: #FFFAFA;">
-							<children>
-								<TextArea fx:id="currentDate" editable="false" prefHeight="200.0" prefWidth="200.0" text="   1&#10;  April&#10;  2016" wrapText="true">
-									<VBox.margin>
-										<Insets top="45.0" />
-									</VBox.margin>
-									<font>
-										<Font name="Kartika" size="29.0" />
-									</font>
-								</TextArea>
-								<TextArea prefHeight="200.0" prefWidth="200.0" text="To Do's:&#10; • Go to gym&#10; • Buy bread&#10; • Go to doctor">
-									<VBox.margin>
-										<Insets top="30.0" />
-									</VBox.margin>
-									<font>
-										<Font size="18.0" />
-									</font>
-								</TextArea>
-							</children>
-						</VBox>
-					</children>
-				</StackPane>
-			</left>
 			<center>
 				<GridPane BorderPane.alignment="CENTER">
 					<columnConstraints>
@@ -106,32 +79,26 @@
 					</children>
 				</GridPane>
 			</center>
+         <left>
+            <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="794.0" prefWidth="211.0" style="-fx-background-color: white;">
+                     <children>
+                        <Region prefHeight="12.0" prefWidth="200.0" />
+                        <ImageView fitHeight="175.0" fitWidth="184.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/LOGO.png" />
+                           </image>
+                        </ImageView>
+                        <Region prefHeight="95.0" prefWidth="200.0" />
+                        <Button fx:id="settings" mnemonicParsing="false" prefHeight="40.0" prefWidth="191.0" styleClass="menu-button" text="Settings" />
+                        <Button fx:id="email" mnemonicParsing="false" prefHeight="40.0" prefWidth="192.0" styleClass="menu-button" text="Email" />
+                        <Button fx:id="exit" mnemonicParsing="false" prefHeight="40.0" prefWidth="191.0" styleClass="menu-button" text="Exit" />
+                     </children>
+                  </VBox>
+               </children>
+            </StackPane>
+         </left>
 		</BorderPane>
-		<AnchorPane id="slide-panel" fx:id="navList" layoutY="41.0" prefHeight="814.0" prefWidth="205.0" style="-fx-background-color: #F5F5F5;">
-			<children>
-				<VBox layoutX="-3.0" prefHeight="814.0" prefWidth="178.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="0.0">
-					<children>
-						<Region prefHeight="30.0" prefWidth="202.0" />
-                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../resources/LOGO.png" />
-                     </image>
-                  </ImageView>
-						<Region prefHeight="302.0" prefWidth="147.0" />
-						<VBox prefHeight="77.0" prefWidth="187.0">
-							<children>
-								<Button fx:id="email" mnemonicParsing="false" prefHeight="25.0" prefWidth="227.0" styleClass="menu-button" text="Email">
-									<VBox.margin>
-										<Insets />
-									</VBox.margin>
-								</Button>
-								<Button fx:id="settings" mnemonicParsing="false" prefHeight="27.0" prefWidth="208.0" styleClass="menu-button" text="Settings" />
-								<Button fx:id="exit" mnemonicParsing="false" prefHeight="28.0" prefWidth="310.0" styleClass="menu-button" text="Exit" />
-							</children>
-						</VBox>
-					</children>
-				</VBox>
-			</children>
-		</AnchorPane>
 	</children>
 </AnchorPane>
