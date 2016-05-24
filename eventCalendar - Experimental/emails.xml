@@ -2,7 +2,155 @@
 <java version="1.8.0_73" class="java.beans.XMLDecoder">
  <object class="detect.EmailList">
   <void property="emails">
-   <object class="java.util.ArrayList"/>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Â Â Â Â Â Â Â Â The International Conference of Computational Intelligence and Intelligent Systems, organized by the International Association of Engineers will take place from 29th June to the 1st July 2016 at the South Kensington Campus in London, United Kingdom. The conference will cover areas like Knowledge Representation,Knowledge-based Systems,Qualitative Reasoning and Planning and Scheduling and many more.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 13:35:05 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>1</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>International Conference</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Â Â Â Â Â Â Â Â The International Conference of Computational Intelligence and Intelligent Systems, organized by the International Association of Engineers will take place from 29th June to the 1st July 2016 at the South Kensington Campus in London, United Kingdom. The conference will cover areas like Knowledge Representation,Knowledge-based Systems,Qualitative Reasoning and Planning and Scheduling and many more.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 13:37:09 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>2</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>International Conference</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Grown-ups try to make it workLive event with the authors of the Ladybird spoofs!&#13;
+Date: 30 June 2016Time: 7pm for wine and charcuterie. Â 7.30pm â 8.30pm talk. Â Then stay for supper â Albion are kindly offering everyone at the event 20% off supper or dinner.Location:Â Albion, 63 Clerkenwell Road,Â London EC1M 5NPJason Hazeley and Joel Morris are the comedy-writing team responsible for the million-selling âLadybird for Grown-upsâ series. Tonight theyâll be telling the story of how they created a publishing phenomenon, as well as providing a sneak preview of their new series.Come along, meet the authors, ask them questions and pick up some signed books after the event.&#13;
+Jason HazeleyÂ andÂ Joel MorrisÂ have been writing comedy together since they were spotty.Recent things includeÂ Charlie Brookerâs 2015 Wipe, Yonderland, Murder In Successville,Â and the outrageously everywhereÂ Ladybird Books For Grown-Ups.Â Less recent things includeÂ Paddington, A Touch Of Cloth, That Mitchell And Webb Look, Miranda, Strange Hill High, Itâs Kevin, Have I Got News For You,Â The Armstrong &amp; Miller Show, VizÂ andÂ The Framley Examiner.They divide their time between London and the pub.&#13;
+&#13;
+&#13;
+&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 13:40:32 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>3</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Meet authors event</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Cocktail at Richard Taittinger Gallery&#13;
+Richard Taittinger Gallery hosted a pre-fair cocktail reception for Obscura Contemporary African Art Fair on Thursday, 17-July, 2016, in New York starting at thirty minutes past 5 in the the evening.&#13;
+Richard Taittinger Gallery will be presenting a solo show by South African artist Frances Goodman at Obscura New York in July.</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 15:10:36 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>4</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>cocktail reception</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Â Â Â Â Come down and toast the latest issue of the Idler magazine on MondayÂ 01 August 2016Â Â at the Social in central London.Issue 49 of the Idler is here and we are celebrating with a launch party at the Social.Â Â Â Â Tickets for this are a mere Â£10 and that includes a copy of the mag (cover price Â£9). It doesnât take a maths whiz to see what a great deal that is! Tickets for these parties sell out fast so get one whilst you can as space is limited.Â Â Â Â Â The latest issue features an extended interview with the brilliant Cerys Matthews along with articles from Richard Godwin on automated utopia, Joel Morris who says Bollocks to the Box Set and Jules Evans in praise of LSD.Â Â Â Â Â Along with useful gardening tips from Alys Fowler, how to make punch with Alice Lascelles and the best in new music featuring Eleanor Friedberger, Parquet Courts and Thomas Cohen. Plus lots more besides.Â Â Â Â Â The Idler team will all be there along with a host of guests. We will be playing records with some exciting guest DJs, there will be a raffle, some poetry and Tom will make one of his legendary speeches. Come down and join us in launching the new Idler magazine! If you canât make it along be sure to subscribe to the magazine HERE and get a free online course PLUS free Academy Membership PLUS get every issue of the mag delivered straight to your door for FREE!&#13;
+Details:Benefits Â£10 entry includes magDate MondayÂ 01 August 2016Â Location The Soical, 5 Little Portland Street, W1W 7JDdoors-open 19.00&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 15:36:05 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>5</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Idle magazine event</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Â Book presentation and signing with Mickalene Thomas&#13;
+Saturday, Jul 4 &apos;16, 12:00â1:30 PMPioneer Works, 2nd floor.Entry is included in tickets to 1:54. RSVP at info@1-54.com&#13;
+1:54, in partnership with Aperture will host a conversation betweenÂ Mickalene Thomas and Lesley A. Martin (creative director of Aperture),Â followed by a signing of Mickalene Thomasâ recently published monographÂ Muse: Mickalene Thomas Photographs (Aperture, 2015) on Saturday,Â Jul 4 &apos;16Â at 1:54.Â &#13;
+Selected photographs from the monograph will be installed in the spaceÂ affording visitors the opportunity to meet the artist and view her worksÂ in print and in person.</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 15:42:08 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>6</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Book presentation and signing</string>
+      </void>
+     </object>
+    </void>
+   </object>
   </void>
  </object>
 </java>

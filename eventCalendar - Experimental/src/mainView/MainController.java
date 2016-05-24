@@ -23,6 +23,7 @@ import detect.GetEventsThread;
 import detect.GiveMeDateAndTime;
 import javafx.animation.TranslateTransition;
 import javafx.collections.ObservableList;
+import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -68,13 +69,12 @@ public class MainController implements Initializable {
 	private List<EventType> allEventTypes = new ArrayList<EventType>();
 	private EventType newEvent = new EventType();
 	private File uploadedFile;
+	private int threads = 1;
 
 	@FXML
 	private VBox allEventsFound;
 	@FXML
 	private Button exit;
-	@FXML
-	private Button settings;
 	@FXML
 	private Button email;
 	@FXML
@@ -89,6 +89,8 @@ public class MainController implements Initializable {
 	private Button chooseFile;
 	@FXML
 	private Text pathOfFile;
+	@FXML
+	private Button reparseButton;
 
 	@FXML
 	VBox currentEvent;
@@ -100,6 +102,8 @@ public class MainController implements Initializable {
 	VBox allEventTypesVBox;
 	@FXML
 	Text errorList;
+	@FXML
+	Text parseMessage;
 
 	@FXML
 	TextField eventName;
@@ -183,17 +187,37 @@ public class MainController implements Initializable {
 		emailParser.deserialise();
 		this.allEmails = emailParser.getEmails();
 
-		Thread detectThread = new Thread(new GetEventsThread(allEvents, allEmails, "date time", "location"));
-		detectThread.start();
+		
+		/*--------------------------PARSAREA MAIL-URILOR, APELARE DE DETECTION----------------------*/
+		Task<List<Event>> task = new Task<List<Event>>() {
 
+			@Override
+			protected List<Event> call() throws Exception {
+				threads = 0;
+				parseMessage.setText("Initial parsing has started, please wait");
+				GetEventsThread getEvents = new GetEventsThread(allEvents, allEmails, "date time", "location");
+				getEvents.run();
+				return getEvents.getEvents();
+			}
+
+		};
+
+		task.setOnSucceeded(e -> {
+			allEvents = task.getValue();
+			threads = 1;
+			parseMessage.setText("Initial parsing is finished");
+			refresh();//se face refresh cu noile evenimente
+		});
+		new Thread(task).start();
+		/*--------------------------------------------------------------------*/
+		
+		
 		AllEventsXMLParser eventParser = new AllEventsXMLParser();
 		eventParser.deserialise();
 		this.allEvents = eventParser.getEvents();
 
 		for (Event iterator : allEvents) {
-			Text text = new Text();
-			text.setText(iterator.toString());
-			leftAllEvents.getChildren().add(text);
+			leftAllEvents.getChildren().add(new Text(iterator.toString()));
 		}
 	}
 
@@ -257,13 +281,15 @@ public class MainController implements Initializable {
 				selected.append(selectedDate.substring(0, 12));
 			}
 			agenda.appointments().clear();
+			List<Event> insertedEv = new ArrayList<Event>();
 
 			agenda.setDisplayedLocalDateTime(time);
 			for (Event event1 : allEvents) {
 				if (equals(selected.toString(), event1.getDateCalendar()) == true) {
 					for (Event event2 : allEvents) {
-						if (event2.getDateCalendar() != null
-				&& event1.getDateCalendar().substring(0, 3).equals(date.getMonths()[viewCalendar.calendarProperty().getValue().getTime().getMonth()].substring(0, 3))){
+						if (insertedEv.contains(event2) == false && event2.getDateCalendar() != null
+								&& event1.getDateCalendar().substring(0, 3).equals(date.getMonths()[viewCalendar
+										.calendarProperty().getValue().getTime().getMonth()].substring(0, 3))) {
 							StringBuilder eventDate = new StringBuilder();
 
 							int hour;
@@ -298,10 +324,12 @@ public class MainController implements Initializable {
 
 									.withDescription(event2.getSubject() + " " + event2.getPersons());
 							agenda.appointments().add(lTestAppointments);
+							insertedEv.add(event2);
 						}
 					}
 				}
 			}
+			insertedEv.clear();
 		});
 
 		exit.setOnAction((ActionEvent evt) -> {
@@ -315,22 +343,6 @@ public class MainController implements Initializable {
 			AnchorPane root;
 			try {
 				root = FXMLLoader.load(getClass().getResource("../email.fxml"));
-				root.getStylesheets().add("MainView.css");
-				scene.setRoot(root);
-				stage.setScene(scene);
-				stage.show();
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		});
-
-		settings.setOnAction((ActionEvent evt) -> {
-			Stage stage = (Stage) calendarMenu.getScene().getWindow();
-			Scene scene = calendarMenu.getScene();
-
-			AnchorPane root;
-			try {
-				root = FXMLLoader.load(getClass().getResource("../settings.fxml"));
 				root.getStylesheets().add("MainView.css");
 				scene.setRoot(root);
 				stage.setScene(scene);
@@ -676,6 +688,33 @@ public class MainController implements Initializable {
 			pathOfFile.setText(uploadedFile.getPath());
 		});
 
+		reparseButton.setOnAction((ActionEvent evt) -> {
+			if (threads > 0) {
+				Task<List<Event>> task = new Task<List<Event>>() {
+
+					@Override
+					protected List<Event> call() throws Exception {
+						threads = 0;
+						parseMessage.setText("Parsing, please wait...");
+						GetEventsThread getEvents = new GetEventsThread(allEvents, allEmails, "date time", "location");
+						getEvents.run();
+						return getEvents.getEvents();
+					}
+
+				};
+
+				task.setOnSucceeded(e -> {
+					allEvents = task.getValue();
+					parseMessage.setText("DONE !");
+					refresh();//se face refresh cu noile evenimente
+					threads = 1;
+				});
+				new Thread(task).start();
+			}else{
+				parseMessage.setText("Please wait while other parsing is done");
+			}
+		});
+
 	}
 
 	private void getEventList() {
@@ -735,5 +774,14 @@ public class MainController implements Initializable {
 
 		mandatoryWordsList.clear();
 		percentageWords.clear();
+	}
+	
+	private void refresh(){
+		allEventsFound.getChildren().clear();
+		leftAllEvents.getChildren().clear();
+		for (Event iterator : allEvents) {
+			leftAllEvents.getChildren().add(new Text(iterator.toString()));
+			allEventsFound.getChildren().add(new Text(iterator.toStringFull()));
+		}
 	}
 }

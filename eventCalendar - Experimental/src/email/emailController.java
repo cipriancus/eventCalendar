@@ -41,8 +41,6 @@ public class emailController implements Initializable {
 	@FXML
 	private Button exit;
 	@FXML
-	private Button settings;
-	@FXML
 	private Button email;
 	@FXML
 	private ToggleButton back;
@@ -81,21 +79,6 @@ public class emailController implements Initializable {
 			System.exit(0);
 		});
 
-		settings.setOnAction((ActionEvent evt) -> {
-			Stage stage = (Stage) leftEmailList.getScene().getWindow();
-			Scene scene = leftEmailList.getScene();
-
-			AnchorPane root;
-			try {
-				root = FXMLLoader.load(getClass().getResource("../settings.fxml"));
-				root.getStylesheets().add("MainView.css");
-				scene.setRoot(root);
-				stage.setScene(scene);
-				stage.show();
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		});
 
 		back.setOnAction((ActionEvent evt) -> {
 			Stage stage = (Stage) leftEmailList.getScene().getWindow();
