@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<emails>
+    <email xsi:type="emailAddress" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <address>detectionApp@gmail.com</address>
+        <password>detection1234</password>
+        <read>1</read>
+    </email>
+</emails>

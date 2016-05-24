@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <eventType xsi:type="eventType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <allDates>
+            <importance>mandatory</importance>
+        </allDates>
+        <allLocations>
+            <importance>mandatory</importance>
+        </allLocations>
+        <allNames>
+            <importance>multiple</importance>
+        </allNames>
+        <allOrgs>
+            <importance>multiple</importance>
+        </allOrgs>
+        <allTimes>
+            <importance>mandatory</importance>
+        </allTimes>
+        <name>Theatre</name>
+    </eventType>
+</events>
