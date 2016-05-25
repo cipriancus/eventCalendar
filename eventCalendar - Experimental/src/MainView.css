@@ -9,7 +9,6 @@
 	-fx-font-weight: bold;
 	-fx-text-fill: white;
 	-fx-spacing: 10px;
-
 }
 
 .menu-button:hover {
@@ -17,7 +16,6 @@
 	-fx-background-radius: 3, 2, 2, 2;
 	-fx-opacity: 0.7;
 	-fx-padding: 16 34 16 34;
-	-fx-font-size: 16px;
 }
 
 .menu-button Text {
