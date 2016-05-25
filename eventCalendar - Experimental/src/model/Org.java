@@ -1,7 +1,11 @@
 package model;
 
 import java.util.StringTokenizer;
-
+/**
+ * 
+ * @author Grosu
+ *
+ */
 public class Org {
 	/**
 	 * Valori: list, mandatory, optional

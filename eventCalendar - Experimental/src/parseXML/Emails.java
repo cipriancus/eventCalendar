@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlSeeAlso;
 import model.EmailAddress;
 /**
  * Clasa pentru parsarea XML de email-uri
- * @author Ionut Predoaia
+ * @author Ilie Grosu
  *
  * @param <T>
  */

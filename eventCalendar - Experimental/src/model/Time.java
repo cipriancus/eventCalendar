@@ -1,5 +1,9 @@
 package model;
-
+/**
+ * 
+ * @author Magureanu
+ *
+ */
 public class Time {
 	/**
 	 * Valori: list, mandatory, optional,between

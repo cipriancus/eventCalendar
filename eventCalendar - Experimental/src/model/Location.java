@@ -1,7 +1,11 @@
 package model;
 
 import java.util.StringTokenizer;
-
+/**
+ * 
+ * @author Predoaia
+ *
+ */
 public class Location {
 	/**
 	 * Valori: list, mandatory, optional

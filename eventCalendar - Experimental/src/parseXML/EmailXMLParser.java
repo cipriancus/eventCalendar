@@ -17,7 +17,7 @@ import model.EmailAddress;
  * marshall si unmarshall a 
  * obiectelor de tip email 
  * luate din allEmails.xml
- * @author Ionut Predoaia
+ * @author Magureanu Andrei
  *
  * @param <T>
  */

@@ -23,11 +23,11 @@
 
 <AnchorPane prefHeight="836.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="email.emailController">
 	<children>
-		<BorderPane layoutX="125.0" layoutY="92.0" prefHeight="691.0" prefWidth="1037.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+		<BorderPane layoutX="125.0" layoutY="92.0" prefHeight="691.0" prefWidth="1037.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
 			<top>
-				<HBox prefHeight="42.0" prefWidth="1220.0" style="-fx-background-color: #F5F5F5;" BorderPane.alignment="CENTER">
+				<HBox prefHeight="42.0" prefWidth="1220.0" style="-fx-background-color: #55acee;" BorderPane.alignment="CENTER">
 					<children>
-						<ToggleButton id="top-menu-back" fx:id="back" mnemonicParsing="false" prefHeight="41.0" prefWidth="40" />
+						<ToggleButton id="top-menu-back" fx:id="back" mnemonicParsing="false" prefHeight="57.0" prefWidth="40" />
 						<ImageView fitHeight="39.0" fitWidth="47.0">
 							<image>
 								<Image url="@../resources/email.png" />
@@ -61,7 +61,7 @@
 								<Font size="20.0" />
 							</font>
 						</Text>
-						<Button id="settings-save-button" fx:id="saveButton" mnemonicParsing="false" text="Save" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+						<Button id="OtherButtons" fx:id="saveButton" mnemonicParsing="false" text="Save" GridPane.columnIndex="2" GridPane.rowIndex="7" />
 						<Text strokeType="OUTSIDE" strokeWidth="0.0" text="Add new email" textAlignment="CENTER" wrappingWidth="188.826171875" GridPane.rowIndex="1">
 							<font>
 								<Font size="20.0" />
@@ -77,8 +77,8 @@
 								<Font size="18.0" />
 							</font>
 						</Text>
-						<TextField fx:id="usernameEmail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-						<PasswordField fx:id="passwordEmail" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+						<TextField id="OtherButtons" fx:id="usernameEmail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+						<PasswordField id="OtherButtons" fx:id="passwordEmail" GridPane.columnIndex="1" GridPane.rowIndex="3" />
 						<CheckBox fx:id="unreadCheck" mnemonicParsing="false" text="Unread" GridPane.columnIndex="1" GridPane.rowIndex="4" />
 						<CheckBox fx:id="allEmailsCheck" mnemonicParsing="false" text="All emails" GridPane.columnIndex="2" GridPane.rowIndex="4" />
 						<Text strokeType="OUTSIDE" strokeWidth="0.0" text="Detect emails :" textAlignment="CENTER" wrappingWidth="185.826171875" GridPane.rowIndex="4">

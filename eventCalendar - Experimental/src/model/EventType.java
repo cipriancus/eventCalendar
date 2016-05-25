@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Defineste un eveniment creat de utilizator
  * 
- * @author Ciprian
+ * @author Predoaia
  *
  */
 public class EventType {

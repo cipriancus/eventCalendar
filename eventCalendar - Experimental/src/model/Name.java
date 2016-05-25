@@ -1,5 +1,9 @@
 package model;
-
+/**
+ * 
+ * @author Magureanu
+ *
+ */
 import java.util.StringTokenizer;
 
 /**

@@ -16,12 +16,12 @@
 	-fx-background-insets: 0, 1, 2, 3;
 	-fx-background-radius: 3, 2, 2, 2;
 	-fx-opacity: 0.7;
-	-fx-padding: 12 30 12 30;
+	-fx-padding: 16 34 16 34;
 	-fx-font-size: 16px;
 }
 
 .menu-button Text {
-    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+	-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
 }
 
 #top-menu-button{
@@ -37,7 +37,7 @@
 }
 
 #slide-panel{
--fx-background-color:#F5F5F5;
+-fx-background-color:white;
 -fx-min-height: 1920px;   
 }
 
@@ -70,4 +70,110 @@
 	-fx-background-image: url('../resources/plus-sign.png');
   	-fx-background-repeat: no-repeat;
   	-fx-background-position: center;
+}
+.scrollPaneEventDefinition{
+	
+	-fx-background: #ffffff;
+}
+
+
+.AnchorPaneEventDefinition{
+	
+	-fx-background-color: #ffffff;
+}
+
+.VboxEventDefinition{
+	
+	-fx-background-color: #ffffff;
+}
+
+
+
+.AnchorPaneUploadFile{
+	
+	-fx-background-color: #ffffff;
+}
+.ScrollPaneUploadEvent{
+	
+	-fx-background: #ffffff;
+}
+.ScrollPaneAllDEvents{
+	
+	-fx-background: #ffffff;
+}
+.AncorPaneAllDEvents{
+	
+	-fx-background-color: #ffffff;
+}
+.ScrollPaneAllFEvents{
+	
+	-fx-background: #ffffff;
+}
+.AncorPaneAllFEvents{
+	
+	-fx-background-color: #ffffff;
+}
+.ScrollPaneCallU{
+	
+	-fx-background: #ffffff;
+}
+.AncorPaneCallUR{
+	
+	-fx-background-color: #ffffff;
+}
+.ScrollPaneCallB{
+	
+	-fx-background: #ffffff;
+}
+.AncorPaneCallBR{
+	
+	-fx-background-color: #ffffff;
+}
+
+#OtherButtons{
+    -fx-background-color:  white;
+	-fx-border-color: #55acee;
+	-fx-border-width: 2;
+    -fx-border-radius: 10;
+	-fx-font-weight: bold;
+	-fx-text-fill: #55acee;
+	-fx-spacing: 10px;
+    -fx-focus-color: transparent;
+	-fx-padding: 12 30 12 30;
+}
+
+#OtherFields{
+    -fx-background-color:  white;
+	-fx-border-color: #55acee;
+	-fx-border-width: 2;
+    -fx-border-radius: 10;
+	-fx-font-weight: bold;
+	-fx-text-fill: #55acee;
+    -fx-focus-color: transparent;
+}
+
+#OtherButtons:hover {
+	-fx-text-fill: black;
+}
+#OtherButtons:pressed{
+    -fx-background-color:  #f5fafe;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+	-fx-border-color: #55acee;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+#TabButtons{
+    -fx-background-color:  white;
+	-fx-border-color: black;
+	-fx-border-width: 0 0 2 0;
+}
+#TabButtons:selected{
+	-fx-font-weight: bold;
+	-fx-border-color: #55acee;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #FFFFFF;
 }

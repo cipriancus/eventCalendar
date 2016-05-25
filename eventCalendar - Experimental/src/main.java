@@ -8,7 +8,6 @@ public class main {
  *
  */
 	public static void main(String[] args) {
-		 Loader.view(args);
-		 
+		 Loader.view(args);	 
 	}
 }

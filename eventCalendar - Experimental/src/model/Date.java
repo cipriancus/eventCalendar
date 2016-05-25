@@ -1,5 +1,9 @@
 package model;
-
+/**
+ * 
+ * @author Grosu
+ *
+ */
 public class Date {
 	/**
 	 * Valori: list, mandatory, optional,between

@@ -1,5 +1,9 @@
 package model;
-
+/**
+ * 
+ * @author Grosu
+ *
+ */
 public class EmailAddress {
 	private String address;
 	private String password;

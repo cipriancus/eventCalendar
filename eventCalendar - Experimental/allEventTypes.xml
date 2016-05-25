@@ -7,15 +7,9 @@
         <allLocations>
             <importance>mandatory</importance>
         </allLocations>
-        <allNames>
-            <importance>multiple</importance>
-        </allNames>
-        <allOrgs>
-            <importance>multiple</importance>
-        </allOrgs>
         <allTimes>
             <importance>mandatory</importance>
         </allTimes>
-        <name>Theatre</name>
+        <name>Eveniment</name>
     </eventType>
 </events>

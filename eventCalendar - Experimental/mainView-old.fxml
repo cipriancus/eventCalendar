@@ -19,24 +19,24 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="904.0" prefWidth="1295.0" stylesheets="@MainView.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainView.MainController">
+<AnchorPane prefHeight="904.0" prefWidth="1295.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainView.MainController">
 	<children>
 		<BorderPane layoutX="125.0" layoutY="92.0" prefHeight="691.0" prefWidth="1037.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
 			<center>
-				<TabPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+				<TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
 					<tabs>
-						<Tab id="TabButtons" text="Calendar">
+						<Tab id="calendar" text="Calendar">
 							<content>
 								<SplitPane dividerPositions="0.3" orientation="VERTICAL" prefHeight="797.0" prefWidth="1092.0">
 									<items>
 										<SplitPane dividerPositions="0.9" prefHeight="200.0" prefWidth="200.0">
 											<items>
-												<ScrollPane prefHeight="236.0" prefWidth="761.0" styleClass="ScrollPaneCallU">
+												<ScrollPane prefHeight="236.0" prefWidth="761.0">
 													<content>
 														<AnchorPane fx:id="calendarMenu" prefHeight="200.0" prefWidth="200.0" />
 													</content>
 												</ScrollPane>
-												<AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="AncorPaneCallUR">
+												<AnchorPane prefHeight="200.0" prefWidth="200.0">
 													<children>
 														<Text layoutX="5.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In the main interface of the application you can see all the events that the system found (below) and select with the calendar (on the right) the date that you want to see the events. All the events will be displayed in the agenda beneath the calendar. If you right click on the events you can see other details about it" textAlignment="CENTER" wrappingWidth="314.0" />
 													</children>
@@ -45,14 +45,14 @@
 										</SplitPane>
 										<SplitPane dividerPositions="0.8" prefHeight="200.0" prefWidth="200.0">
 											<items>
-												<ScrollPane prefHeight="200.0" prefWidth="200.0" styleClass="ScrollPaneCallB">
+												<ScrollPane prefHeight="200.0" prefWidth="200.0">
 													<content>
 														<AnchorPane fx:id="agendaDay" prefHeight="200.0" prefWidth="200.0" />
 													</content>
 												</ScrollPane>
 												<ScrollPane prefHeight="570.0" prefWidth="0.0">
 													<content>
-														<VBox fx:id="leftAllEvents" prefHeight="603.0" prefWidth="459.0" styleClass="AncorPaneCallBR" />
+														<VBox fx:id="leftAllEvents" prefHeight="603.0" prefWidth="459.0" />
 													</content>
 												</ScrollPane>
 											</items>
@@ -61,19 +61,19 @@
 								</SplitPane>
 							</content>
 						</Tab>
-						<Tab id="TabButtons" closable="false" text="Upload File">
+						<Tab closable="false" text="Upload File">
 							<content>
-                        <ScrollPane styleClass="ScrollPaneUploadEvent">
+                        <ScrollPane>
                            <content>
-      								<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="788.0" prefWidth="1071.0" styleClass="AnchorPaneUploadFile">
+      								<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="788.0" prefWidth="1071.0">
       									<children>
-      										<Button id="OtherButtons" fx:id="chooseFile" layoutX="34.0" layoutY="105.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="195.0" text="Select File" />
+      										<Button id="settings-save-button" fx:id="chooseFile" layoutX="34.0" layoutY="105.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="195.0" text="Select File" />
                                     <Text fx:id="pathOfFile" layoutX="32.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Path is not defined">
                                        <font>
                                           <Font size="25.0" />
                                        </font>
                                     </Text>
-                                    <Button id="OtherButtons" fx:id="parseFile" layoutX="267.0" layoutY="105.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="195.0" text="Parse file" />
+                                    <Button id="settings-save-button" fx:id="parseFile" layoutX="267.0" layoutY="105.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="195.0" text="Parse file" />
                                     <ScrollPane layoutX="32.0" layoutY="212.0" prefHeight="496.0" prefWidth="945.0">
                                        <content>
                                           <VBox prefHeight="481.0" prefWidth="911.0" />
@@ -84,39 +84,39 @@
                                           <Font size="24.0" />
                                        </font>
                                     </Text>
-                                    <Button id="OtherButtons" layoutX="548.0" layoutY="730.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="161.0" text="Save" />
+                                    <Button id="settings-save-button" layoutX="548.0" layoutY="730.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="161.0" text="Save" />
       									</children>
       								</AnchorPane>
                            </content>
                         </ScrollPane>
 							</content>
 						</Tab>
-						<Tab id="TabButtons" text="Event definition">
+						<Tab text="Event definition">
 							<content>
-                        <ScrollPane styleClass="scrollPaneEventDefinition">
+                        <ScrollPane style="-fx-background-color: white;">
                            <content>
-      								<AnchorPane prefHeight="779.0" prefWidth="1095.0" styleClass="AnchorPaneEventDefinition">
+      								<AnchorPane prefHeight="779.0" prefWidth="1063.0">
       									<children>
-      										<Button id="OtherButtons" fx:id="settings_save_button" layoutX="715.0" layoutY="693.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="148.0" text="Save" />
 
-      												<TextField id="OtherFields" fx:id="eventName" layoutX="25.0" layoutY="28.0" promptText="Event title" />
-												<ToggleButton fx:id="dateAddButton" layoutX="908.0" layoutY="90.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="38.0" styleClass="plus-sign" />
+      												<TextField fx:id="eventName" layoutX="25.0" layoutY="28.0" promptText="Event title" />
+												<Text layoutX="25.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atributes:" textAlignment="CENTER" wrappingWidth="70.19140625" />
+												<ToggleButton fx:id="dateAddButton" layoutX="862.0" layoutY="85.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="38.0" styleClass="plus-sign" />
 												<CheckBox fx:id="dateMandatory" layoutX="79.0" layoutY="92.0" mnemonicParsing="false" text="Mandatory" />
 												<CheckBox fx:id="dateMultiple" layoutX="179.0" layoutY="92.0" mnemonicParsing="false" text="Multiple" />
 												<CheckBox fx:id="dateOptional" layoutX="262.0" layoutY="92.0" mnemonicParsing="false" text="Optional" />
-												<TextField id="OtherFields" fx:id="timeBetweenStart" layoutX="433.0" layoutY="127.0" prefHeight="34.0" prefWidth="219.0" promptText="HH:MM" />
-												<ToggleButton fx:id="timeAddButton" layoutX="908.0" layoutY="129.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="38.0" styleClass="plus-sign" />
+												<TextField fx:id="timeBetweenStart" layoutX="427.0" layoutY="125.0" prefHeight="30.0" prefWidth="206.0" promptText="HH:MM" />
+												<ToggleButton fx:id="timeAddButton" layoutX="862.0" layoutY="125.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="38.0" styleClass="plus-sign" />
 												<CheckBox fx:id="timeMandatory" layoutX="79.0" layoutY="131.0" mnemonicParsing="false" text="Mandatory" />
 												<CheckBox fx:id="timeMultiple" layoutX="179.0" layoutY="131.0" mnemonicParsing="false" text="Multiple" />
 												<CheckBox fx:id="timeOptional" layoutX="262.0" layoutY="131.0" mnemonicParsing="false" text="Optional" />
-												<TextField id="OtherFields" fx:id="nameList" layoutX="434.0" layoutY="170.0" prefHeight="34.0" prefWidth="443.0" promptText="E.g: Sorin Iftene,Adrian Iftene,Lenuta Alboaie,Florin Iacob etc" />
-												<ToggleButton fx:id="nameAddButton" layoutX="908.0" layoutY="172.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="38.0" styleClass="plus-sign" />
-												<ScrollPane layoutX="25.0" layoutY="403.0" prefHeight="268.0" prefWidth="990.0" styleClass="scrollPaneSmallEventDefinition">
+												<TextField fx:id="nameList" layoutX="426.0" layoutY="170.0" prefHeight="30.0" prefWidth="418.0" promptText="E.g: Sorin Iftene,Adrian Iftene,Lenuta Alboaie,Florin Iacob etc" />
+												<ToggleButton fx:id="nameAddButton" layoutX="862.0" layoutY="171.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="38.0" styleClass="plus-sign" />
+												<ScrollPane layoutX="25.0" layoutY="403.0" prefHeight="268.0" prefWidth="990.0">
 													<content>
-														<VBox fx:id="currentEvent" prefHeight="266.0" prefWidth="988.0" styleClass="VboxEventDefinition" />
+														<VBox fx:id="currentEvent" prefHeight="192.0" prefWidth="522.0" />
 													</content>
 												</ScrollPane>
-												<Text layoutX="236.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E.G: Theatre, Faculty, Meeting etc" textAlignment="CENTER">
+												<Text layoutX="210.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E.G: Theatre, Faculty, Meeting etc" textAlignment="CENTER">
 													<font>
 														<Font size="18.0" />
 													</font>
@@ -127,15 +127,15 @@
 													</font>
 												</Text>
 												<CheckBox fx:id="dateBetween" layoutX="349.0" layoutY="93.0" mnemonicParsing="false" text="Between" />
-												<DatePicker id="OtherFields" fx:id="dateBetweenStart" layoutX="431.0" layoutY="88.0" promptText="Start Date" />
-												<DatePicker id="OtherFields" fx:id="dateBetweenFinish" layoutX="658.0" layoutY="88.0" promptText="Finish Date" />
+												<DatePicker fx:id="dateBetweenStart" layoutX="427.0" layoutY="88.0" promptText="Start Date" />
+												<DatePicker fx:id="dateBetweenFinish" layoutX="640.0" layoutY="88.0" promptText="Finish Date" />
 												<Text layoutX="25.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time:">
 													<font>
 														<Font size="18.0" />
 													</font>
 												</Text>
 												<CheckBox fx:id="timeBetween" layoutX="349.0" layoutY="131.0" mnemonicParsing="false" text="Between" />
-												<TextField id="OtherFields" fx:id="timeBetweenFinish" layoutX="661.0" layoutY="128.0" prefHeight="34.0" prefWidth="216.0" promptText="HH:MM" />
+												<TextField fx:id="timeBetweenFinish" layoutX="640.0" layoutY="125.0" prefHeight="30.0" prefWidth="205.0" promptText="HH:MM" />
 												<Text layoutX="25.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
 													<font>
 														<Font size="18.0" />
@@ -144,7 +144,7 @@
 												<CheckBox fx:id="nameMandatory" layoutX="79.0" layoutY="176.0" mnemonicParsing="false" text="Mandatory" />
 												<CheckBox fx:id="nameMultiple" layoutX="181.0" layoutY="176.0" mnemonicParsing="false" text="Multiple" />
 												<CheckBox fx:id="nameOptional" layoutX="262.0" layoutY="176.0" mnemonicParsing="false" text="Optional" />
-												<Text layoutX="31.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Org :">
+												<Text layoutX="24.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Org. :">
 													<font>
 														<Font size="18.0" />
 													</font>
@@ -152,9 +152,9 @@
 												<CheckBox fx:id="orgMandatory" layoutX="78.0" layoutY="219.0" mnemonicParsing="false" text="Mandatory" />
 												<CheckBox fx:id="orgMultiple" layoutX="180.0" layoutY="219.0" mnemonicParsing="false" text="Multiple" />
 												<CheckBox fx:id="orgOptional" layoutX="261.0" layoutY="219.0" mnemonicParsing="false" text="Optional" />
-												<TextField id="OtherFields" fx:id="orgList" layoutX="435.0" layoutY="214.0" prefHeight="34.0" prefWidth="444.0" promptText="E.g: Google,Oracle etc" />
-												<ToggleButton fx:id="orgAddButton" layoutX="908.0" layoutY="215.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="38.0" styleClass="plus-sign" />
-												<Text layoutX="2.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location:">
+												<TextField fx:id="orgList" layoutX="426.0" layoutY="214.0" prefHeight="30.0" prefWidth="418.0" promptText="E.g: Google,Oracle etc" />
+												<ToggleButton fx:id="orgAddButton" layoutX="862.0" layoutY="212.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="38.0" styleClass="plus-sign" />
+												<Text layoutX="2.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location">
 													<font>
 														<Font size="18.0" />
 													</font>
@@ -164,32 +164,33 @@
 														<Font size="18.0" />
 													</font>
 												</Text>
-												<TextField id="OtherFields" fx:id="mandatoryWordsList" layoutX="263.0" layoutY="322.0" prefHeight="30.0" prefWidth="418.0" promptText="E.g: " />
+												<TextField fx:id="mandatoryWordsList" layoutX="263.0" layoutY="322.0" prefHeight="30.0" prefWidth="418.0" promptText="E.g: " />
 												<ToggleButton fx:id="mandatoryWordsAddButton" layoutX="688.0" layoutY="322.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="38.0" styleClass="plus-sign" />
 												<Text layoutX="764.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Procent:">
 													<font>
 														<Font size="18.0" />
 													</font>
 												</Text>
-												<TextField id="OtherFields" fx:id="percentageWords" layoutX="837.0" layoutY="323.0" prefHeight="30.0" prefWidth="51.0" promptText="72%" />
+												<TextField fx:id="percentageWords" layoutX="837.0" layoutY="323.0" prefHeight="30.0" prefWidth="51.0" promptText="72%" />
 												<Text fx:id="errorList" layoutX="263.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" />
-      										<ToggleButton fx:id="locationAddButton" layoutX="908.0" layoutY="257.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="38.0" styleClass="plus-sign" />
       										<CheckBox fx:id="locationMandatory" layoutX="79.0" layoutY="260.0" mnemonicParsing="false" text="Mandatory" />
       										<CheckBox fx:id="locationMultiple" layoutX="181.0" layoutY="260.0" mnemonicParsing="false" text="Multiple" />
       										<CheckBox fx:id="locationOptional" layoutX="262.0" layoutY="260.0" mnemonicParsing="false" text="Optional" />
-      										<TextField id="OtherFields" fx:id="locationList" layoutX="436.0" layoutY="255.0" prefHeight="34.0" prefWidth="442.0" promptText="E.g: Iasi,Bucuresti,Poland etc" />
-      										<Button id="OtherButtons" fx:id="clear_all" layoutX="481.0" layoutY="693.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="148.0" text="Clear all" />
+      										<TextField fx:id="locationList" layoutX="427.0" layoutY="255.0" prefHeight="30.0" prefWidth="418.0" promptText="E.g: Iasi,Bucuresti,Poland etc" />
+      										<ToggleButton fx:id="locationAddButton" layoutX="862.0" layoutY="255.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="38.0" styleClass="plus-sign" />
+      										<Button id="settings-save-button" fx:id="clear_all" layoutX="481.0" layoutY="693.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="148.0" text="Clear all" />
+      										<Button id="settings-save-button" fx:id="settings_save_button" layoutX="715.0" layoutY="693.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="148.0" text="Save" />
       									</children>
       								</AnchorPane>
                            </content>
                         </ScrollPane>
 							</content>
 						</Tab>
-						<Tab id="TabButtons" text="All Defined Events">
+						<Tab text="All Defined Events">
 							<content>
-                        <ScrollPane styleClass="ScrollPaneAllDEvents">
+                        <ScrollPane>
                            <content>
-      								<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="784.0" prefWidth="1082.0" styleClass="AncorPaneAllDEvents">
+      								<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="784.0" prefWidth="1082.0">
       									<children>
       										<ScrollPane layoutX="44.0" layoutY="38.0" prefHeight="733.0" prefWidth="1022.0">
       											<content>
@@ -202,18 +203,18 @@
                         </ScrollPane>
 							</content>
 						</Tab>
-                  <Tab id="TabButtons" text="All events found">
+                  <Tab text="All events found">
                     <content>
-                        <ScrollPane styleClass="ScrollPaneAllFEvents">
+                        <ScrollPane>
                            <content>
-                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="866.0" prefWidth="1072.0" styleClass="AncorPaneAllFEvents">
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="866.0" prefWidth="1072.0">
                                  <children>
                                     <ScrollPane layoutX="14.0" layoutY="46.0" prefHeight="707.0" prefWidth="1029.0">
                                        <content>
                                           <VBox fx:id="allEventsFound" prefHeight="701.0" prefWidth="1022.0" />
                                        </content>
                                     </ScrollPane>
-                                    <Button id="OtherButtons" fx:id="reparseButton" layoutX="37.0" layoutY="789.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="250.0" text="Reparse &amp; Check mail" />
+                                    <Button id="settings-save-button" fx:id="reparseButton" layoutX="37.0" layoutY="789.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="250.0" text="Reparse &amp; Check mail" />
                                     <Text fx:id="parseMessage" layoutX="350.0" layoutY="817.0" strokeType="OUTSIDE" strokeWidth="0.0" />
                                  </children>
                               </AnchorPane>
@@ -236,8 +237,8 @@
 									</image>
 								</ImageView>
 								<Region prefHeight="95.0" prefWidth="200.0" />
-								<Button id="menu-button" fx:id="email" mnemonicParsing="false" prefHeight="40.0" prefWidth="192.0" styleClass="menu-button" text="Email" />
-								<Button id="menu-button" fx:id="exit" mnemonicParsing="false" prefHeight="40.0" prefWidth="191.0" styleClass="menu-button" text="Exit" />
+								<Button fx:id="email" mnemonicParsing="false" prefHeight="40.0" prefWidth="192.0" styleClass="menu-button" text="Email" />
+								<Button fx:id="exit" mnemonicParsing="false" prefHeight="40.0" prefWidth="191.0" styleClass="menu-button" text="Exit" />
 							</children>
 						</VBox>
 					</children>
