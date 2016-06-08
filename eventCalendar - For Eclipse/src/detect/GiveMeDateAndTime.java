@@ -1,0 +1,85 @@
+package detect;
+//Autor:Popovici
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
+import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.pipeline.AnnotationPipeline;
+import edu.stanford.nlp.pipeline.POSTaggerAnnotator;
+import edu.stanford.nlp.pipeline.TokenizerAnnotator;
+import edu.stanford.nlp.pipeline.WordsToSentencesAnnotator;
+import edu.stanford.nlp.time.TimeAnnotations;
+import edu.stanford.nlp.time.TimeAnnotator;
+import edu.stanford.nlp.time.TimeExpression;
+import edu.stanford.nlp.util.CoreMap;
+
+public class GiveMeDateAndTime {
+
+	
+	public String giveMeDate(String words,String conectionDate) {
+	    Properties props = new Properties();
+	    AnnotationPipeline pipeline = new AnnotationPipeline();
+	    pipeline.addAnnotator(new TokenizerAnnotator(false));
+	    pipeline.addAnnotator(new WordsToSentencesAnnotator(false));
+	    pipeline.addAnnotator(new POSTaggerAnnotator(false));
+	    pipeline.addAnnotator(new TimeAnnotator("sutime", props));
+	    ArrayList<String> DatesFound = new ArrayList<String>();
+	      Annotation annotation = new Annotation(words);
+	      annotation.set(CoreAnnotations.DocDateAnnotation.class, conectionDate);
+	      pipeline.annotate(annotation);
+	     // System.out.println(annotation.get(CoreAnnotations.TextAnnotation.class));
+	      List<CoreMap> timexAnnsAll = annotation.get(TimeAnnotations.TimexAnnotations.class);
+	     String Dates="";
+	      for (CoreMap cm : timexAnnsAll) {
+	        List<CoreLabel> tokens = cm.get(CoreAnnotations.TokensAnnotation.class);
+	        DatesFound.add(cm.get(TimeExpression.Annotation.class).getTemporal().toString());//put all the dates found into an array
+	        Dates=Dates+(cm.get(TimeExpression.Annotation.class).getTemporal().toString())+"***";
+	      
+	    }
+	        	//System.out.println(DatesFound);
+	        	return(Dates);
+
+	        	
+	  }
+
+	public String giveMeDateForCalendar(String dates,int i) {
+		String Regex1="20[1-5][0-9]-[0-2][0-9]-[0-3][0-9]";
+		Pattern r = Pattern.compile(Regex1);
+		Matcher m = r.matcher(dates);
+		Date date = null ;
+		if (m.find()) {
+			SimpleDateFormat format1 = new SimpleDateFormat("yyyy-MM-dd");
+		    SimpleDateFormat format2 = new SimpleDateFormat("MMM dd, yyyy");
+		    try {
+		    	if(m.group(i)!=null)
+		    		date = format1.parse(m.group(i));
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return format2.format(date);
+
+		}
+		else return null;
+	}
+	public String giveMeTimeForCalendar(String dates) {
+		String Regex1="[0-9][0-9]:[0-9][0-9]";
+		Pattern r = Pattern.compile(Regex1);
+		Matcher m = r.matcher(dates);
+		Date date = null ;
+		if (m.find()) {
+			return m.group(0);
+		}
+		else return null;
+	}
+}

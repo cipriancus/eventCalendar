@@ -1,0 +1,221 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package detect;
+
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import javax.mail.Address;
+import javax.mail.Flags;
+import javax.mail.Folder;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Multipart;
+import javax.mail.NoSuchProviderException;
+import javax.mail.Part;
+import javax.mail.Session;
+import javax.mail.Store;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.search.FlagTerm;
+import org.apache.tika.exception.TikaException;
+import org.apache.tika.metadata.Metadata;
+import org.apache.tika.parser.AutoDetectParser;
+import org.apache.tika.parser.ParseContext;
+import org.apache.tika.parser.Parser;
+import org.apache.tika.sax.BodyContentHandler;
+import org.xml.sax.ContentHandler;
+import org.xml.sax.SAXException;
+import java.util.*;
+
+/**
+ *
+ * @author Teo
+ */
+public class AttachmentsDetection {
+    public List<Fisier> lista=new ArrayList<>();
+    /**
+     * Sets the directory where attached files will be stored.
+     * @param dir absolute path of the directory
+     */
+
+    String getText(String filename) throws TikaException, FileNotFoundException, IOException{
+        ContentHandler handler=null;
+        try {
+            InputStream is = null;
+
+
+            is = new BufferedInputStream(
+                    new FileInputStream(new java.io.File(filename)));
+
+            Parser parser = new AutoDetectParser();
+            handler = new BodyContentHandler();
+
+            Metadata metadata = new Metadata();
+
+            parser.parse(is, handler, metadata, new ParseContext());
+            System.out.println("expce");
+            System.out.println(handler.toString());
+
+
+        } catch (SAXException ex) {
+            Logger.getLogger(AttachmentsDetection.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return handler.toString();
+    }
+    /**
+     * Downloads new messages and saves attachments to disk if any.
+     * @param host
+     * @param port
+     * @param userName
+     * @param password
+     */
+    public void downloadEmailAttachments( String userName, String password,int option) throws TikaException, NoSuchProviderException, MessagingException, IOException {
+       Properties properties = new Properties();
+
+  String host = "pop.gmail.com";
+        String port = "995";
+        // server setting
+        properties.put("mail.pop3.host", host);
+        properties.put("mail.pop3.port", port);
+
+        // SSL setting
+        properties.setProperty("mail.pop3.socketFactory.class",
+                "javax.net.ssl.SSLSocketFactory");
+        properties.setProperty("mail.pop3.socketFactory.fallback", "false");
+        properties.setProperty("mail.pop3.socketFactory.port",
+                String.valueOf(port));
+
+        Session session = Session.getDefaultInstance(properties);
+
+
+            // connects to the message store
+            Store store = session.getStore("pop3");
+            store.connect(userName, password);
+
+            // opens the inbox folder
+            Folder folderInbox = store.getFolder("INBOX");
+            folderInbox.open(Folder.READ_ONLY);
+
+            // fetches new messages from server
+            Message[] arrayMessages = folderInbox.getMessages();
+
+             if(option==1){
+			  arrayMessages = folderInbox.search(new FlagTerm(new Flags(Flags.Flag.SEEN), false));
+			 }
+			 else
+			 {
+				  arrayMessages = folderInbox.search(new FlagTerm(new Flags(Flags.Flag.USER), false));
+                         }
+        Folder inbox;
+            /* Set the mail properties */
+        Properties props = System.getProperties();
+        props.setProperty("mail.store.protocol", "imaps");
+
+			/* Create the session and get the store for read the mail. */
+        session = Session.getDefaultInstance(props, null);
+        store = session.getStore("imaps");
+        store.connect("imap.gmail.com", userName, password);
+
+			/* Mention the folder name which you want to read. */
+        inbox = store.getFolder("Inbox");
+			/*
+			 * if(option==1) System.out.println("No of Unread Messages : " +
+			 * inbox.getUnreadMessageCount()); else System.out.println(
+			 * "No of Total Messages : " + inbox.getMessageCount()); /*Open the
+			 * inbox using store.
+			 */
+        inbox.open(Folder.READ_ONLY);
+
+			/* Get the messages which is unread in the Inbox */
+        // Message messages[] = inbox.search(new FlagTerm(new
+        // Flags(Flag.SEEN), false));
+        if (option == 1) {
+            arrayMessages = inbox.search(new FlagTerm(new Flags(Flags.Flag.SEEN), false));
+        } else {
+            arrayMessages = inbox.search(new FlagTerm(new Flags(Flags.Flag.USER), false));
+        }
+
+        System.out.println(arrayMessages.length);
+        for (int i = 0; i < arrayMessages.length; i++) {
+            Message message = arrayMessages[i];
+            Address[] fromAddress = message.getFrom();
+            String from = fromAddress[0].toString();
+            String subject = message.getSubject();
+            String sentDate = message.getSentDate().toString();
+
+            String contentType = message.getContentType();
+            String messageContent = "";
+
+            // store attachment file name, separated by comma
+            String attachFiles = "";
+
+            if (contentType.contains("multipart")) {
+                // content may contain attachments
+                Multipart multiPart = (Multipart) message.getContent();
+                int numberOfParts = multiPart.getCount();
+                for (int partCount = 0; partCount < numberOfParts; partCount++) {
+                    MimeBodyPart part = (MimeBodyPart) multiPart.getBodyPart(partCount);
+                    if (Part.ATTACHMENT.equalsIgnoreCase(part.getDisposition())) {
+                        // this part is attachment
+                        String fileName = part.getFileName();
+
+                        attachFiles += fileName + ", ";
+                        part.saveFile("."+ File.separator + fileName);
+                        Fisier f=new Fisier();
+                        f.setData(sentDate);
+                        f.setNume(fileName);
+                        f.setSubiect(subject);
+                        String txt=getText(fileName);
+                        System.out.println(txt);
+                        f.setText(txt);
+
+                        lista.add(f);
+
+                    } else {
+                        // this part may be the message content
+                        messageContent = part.getContent().toString();
+                    }
+                }
+
+                if (attachFiles.length() > 1) {
+                    attachFiles = attachFiles.substring(0, attachFiles.length() - 2);
+                }
+            } else if (contentType.contains("text/plain")
+                    || contentType.contains("text/html")) {
+                Object content = message.getContent();
+                if (content != null) {
+                    messageContent = content.toString();
+                }
+            }
+
+              /*  // print out details of each message
+                System.out.println("Message #" + (i + 1) + ":");
+                System.out.println("\t From: " + from);
+                System.out.println("\t Subject: " + subject);
+                System.out.println("\t Sent Date: " + sentDate);
+           //     System.out.println("\t Message: " + messageContent);
+                System.out.println("\t Attachments: " + attachFiles);*/
+        }
+
+        // disconnect
+        inbox.close(false);
+        store.close();
+        FetchAttachments serializare=new FetchAttachments(lista);
+
+    }
+
+    /**
+     * Runs this program with Gmail POP3 server
+     */
+
+}

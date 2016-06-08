@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_73" class="java.beans.XMLDecoder">
+ <object class="detect.EmailList">
+  <void property="emails">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>&quot;Getting Ready for our May 29, 2016 Concert â Etobicoke band&quot; We are working hard to prepare for the final formal concert of our 18th Anniversary Season. This show âKiwanis Rocksâ is a tribute to our friends at the Kiwanis Club Kingsway Humber who have been great supporter of the Band for the past 18 years. Our special guest is Matisse Blundell, trumpet who placed 3rd. at the Kiwanis International Music Festival. She will be playing the âConcerto for Trumpetâ (aka Haydnâs Trumpet Concerto).Â  Please join us on Friday, May 29, 2016 , 8:00 pm at Emeriko Collegiate, 86 Montgomery. Ticket prices are $15.00, children under 12 are Free. You can purchase tickets through our Box Office by calling 416-410-1570 or by mail etobicoke.band@gmail.com.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 20:27:49 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>1</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp2@gmail.com&quot; &lt;detectionapp2@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Concert – Etobicoke band</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>1. I have the machine learning (ML) in the third year, plus 4 seminar&#13;
+groups:&#13;
+&#13;
+- I would like the course to precede my seminars ;&#13;
+&#13;
+- I would like very much to not take hours Mondays and Tuesdays (when&#13;
+preparing the course of that week;&#13;
+&#13;
+- I can not keep hours in the morning from 8 to 10 (morning revives me hard&#13;
+... I got older);&#13;
+&#13;
+- I&apos;d rather have the afternoon and evening hours;&#13;
+&#13;
+- Obviously I prefer that the hours be grouped if possible four in a row&#13;
+(courses to the 2 Half-year to be one after another (or at least in the&#13;
+same day), and seminars will be grouped 2 in a row, so I will have &quot;to work&#13;
+4 hours in a row when coming to FII).&#13;
+&#13;
+&#13;
+2. In regards to my collaborators, ie people who will hold seminars on this&#13;
+subject:&#13;
+&#13;
+&#13;
+Stefan A. Pantiru (computer, external collaborator)&#13;
+&#13;
+- Has 4 seminar groups and wants to have classes grouped (2 each seminar,&#13;
+so 4 hours) or morning between 8-12, or in the evening between the hours of&#13;
+16 to 20;&#13;
+&#13;
+- NOT hold classes on Wednesdays.&#13;
+&#13;
+&#13;
+B. Tiberius Dumitru (assistant, PhD., UT &quot;Gh.&quot;)&#13;
+&#13;
+- Has 2 seminar groups; He wants to keep his classes Friday evening&#13;
+(16-20); has a very busy schedule at UT &quot;Gh.,&quot; very much so please try to&#13;
+keep in mind his option.&#13;
+&#13;
+&#13;
+C. There are 5 more seminar groups; it will be all hold by freelancers, so&#13;
+you should put all them in the morning (4 hours) or evening (4 hours).&#13;
+Later today or tomorrow I will indicate the names of these employees (I am&#13;
+negotiating with them, but I did not take the final decision yet).&#13;
+&#13;
+&#13;
+3. The problem of a &quot;special seminar&quot; on the machine learning to come to&#13;
+the best students in the third year.&#13;
+&#13;
+I guess the lack of resources (time available halls and timetable) such a&#13;
+seminar can not be put in zone sometime else than Saturday or another day&#13;
+but only in the evening after 20 o&apos;clock ,so I should discuss with students&#13;
+at the course in the first week and decide. For now you can pass it on&#13;
+Saturday mornings (but not at 8).&#13;
+&#13;
+&#13;
+IMPORTANT:&#13;
+&#13;
+I prefer courses room 309 and possibly 112.&#13;
+&#13;
+Also prefer special seminar room 309.&#13;
+&#13;
+In general, for my seminars I prefer rooms with two tables, but they are&#13;
+few, far as I know ... I do not know how occupied is the room 2010, but I&apos;d&#13;
+probably like to hold seminars there.&#13;
+&#13;
+&#13;
+I (LC): 3 groups + &quot;special seminar&quot;&#13;
+&#13;
+Restrictions: Do not months, Tuesday, and in the other day from 8 am NOT.&#13;
+&#13;
+Preferences: my seminars to be made after the course (in the same week)&#13;
+&#13;
+&quot;Special Seminar&quot; can be placed between the hours 20-21: 40&#13;
+(Wednesday-Friday) or Saturday from 10am. I urge C309. (Of course, if you&#13;
+can put sometime Wednesday-Friday between 10 to 20 I will not refuse.)&#13;
+&#13;
+*Liviu Ciortuz*&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 20:39:59 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>2</int>
+      </void>
+      <void property="reciver">
+       <string>detectionapp@yahoo.com</string>
+      </void>
+      <void property="sender">
+       <string>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>[O4]</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Catalin Barjoveanu&#13;
+&#13;
+In semester 1 , I have:&#13;
+1 course at MSI2 Security Software + MISS2 (preferably seminar room&#13;
+C901 or C909 with laptop + video because there is better seen in video)&#13;
+1 Security Software Laboratory in MSI2 (room laboratory&#13;
+laptop + video)&#13;
+1 Security Software Laboratory in MISS2 (room laboratory&#13;
+laptop + video)&#13;
+2 laboratories of Information Security at Year 3 (laboratory room)&#13;
+-------------------------------------------------- -------------------&#13;
+&#13;
+That restriction, masks COURSE I want to be preferable from Tuesday&#13;
+8-10; if you can not Tuesday at 8, then Tuesday 10-12 or 16-18.&#13;
+&#13;
+2 LABORATORIES masks: if the course is set in the morning (8-10 or 10-12),&#13;
+laboratories I want to be grouped in one day on 16-20. If&#13;
+the course is set at 16, I&apos;d like a laboratory after class and one in a&#13;
+8 morning.&#13;
+&#13;
+2 LABORATORIES information security from 3rd year I want to be made&#13;
+grouped as possible with the other hours.&#13;
+&#13;
+I do not want hours after 16:00 but only once a week.&#13;
+&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 20:46:07 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>3</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Catalin Barjoveanu</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Hey Dan. &#13;
+My father bought 4 tickets for a theater show called &apos;War Horse&apos; for 29th of May, at 19:15, at the Great Hall of the National Theatre Iasi.Gabriel and Daniel are coming too.&#13;
+Let me know if you want to go with us.</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:25:15 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>4</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Theater invitation 4</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Hey Andrew.I&apos;ve heard about a theatre show called &apos;Phantom Of The Opera&apos; taking place at the National Theatre, Lyttelton on Sunday, May 29, starting at 18:30. &#13;
+If you are interested, give me a response by replying to this mail or by calling me.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:25:20 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>5</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Theater invitation 5</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Dear Customer,We are sending you this message to inform you about an upcoming event, a theater show known as &apos;Peter Pan&apos; that is taking place on 25/05/2016, at the National Theater in Iasi. The event starts at 15:20.Have a nice day!&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:26:49 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>6</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Theater invitation 10</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Vasile Alaiba:&#13;
+I have 5 groups for Logics for Computer Science this semester. You can put them in any day from Monday to Friday between the hours 8-14.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:27:13 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>7</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Orar 4</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Razvan Benchea:&#13;
+4 laboratories of Computer Architecture and Operating Systems.&#13;
+&#13;
+I do not want hours on Friday or Saturday.&#13;
+&#13;
+Ideal version:&#13;
+Â Â Â Â Â Â Â  One laboratory every day, from 08:00&#13;
+Â Â Â Â Â Â Â  (I know there are courses in the morning on Monday and Tuesday, so it&apos;s probably difficult to satisfy this constraint)&#13;
+Optimal version:&#13;
+Â Â Â Â Â Â Â  Hours from 8:00 or 18:00, but the priority is from 08:00.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:27:25 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>8</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Orar 1</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Dear Customer,We are sending you this message to inform you about an upcoming event, a theater show known as &apos;The Italian Straw Hat&apos; that is taking place on 26th of May, at the National Theater in Iasi. The event starts at 19:20.Have a nice day!</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:34:42 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>9</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Theater 14</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Good evening Michael, Daniel and Paul. I&apos;m sending you this mail to inform you about a great opera event that&apos;s taking place at Iasi Romanian National Opera, called &apos;CARMEN&apos;. The show is on 20/05/2016 and it starts at 6 o&apos;clock. &#13;
+Let me know if you are interested, so I can buy some tickets!</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:53:55 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>10</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Opera 16</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email" id="Email0">
+      <void property="content">
+       <string>PNG&#13;
+<char code="#1a"/>
+<char code="#0"/><char code="#0"/><char code="#0"/>&#13;IHDR<char code="#0"/><char code="#0"/><char code="#1"/>x<char code="#0"/><char code="#0"/><char code="#0"/><char code="#8"/><char code="#6"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#1"/>+rf<char code="#0"/><char code="#0"/> :IDATxÚìÝ{TU<char code="#1c"/><char code="#7"/>ð£»³&gt;R¤7fùê:3ë²sÏYSZµZVúÄê<char code="#2"/>Q¨?$<char code="#1a"/>Ù{îú(&#13;I$¥?Ìr¢²ÝU#
+24H©Ä5í¡9<char code="#1e"/>î½gÜîíüD<char code="#10"/>Á¬½swæû<char code="#1f"/>3ëì÷|÷pæwÏa<char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/>ù#dæ<char code="#16"/>!Õ<char code="#1c"/>a©<char code="#17"/>¸t^<char code="#17"/>½Ë0ÕweÐ¯9Â´»õ£«_ïÑ¯eôó´®ÂT_êÇíÂr<char code="#1a"/>T£«ÔÙ<char code="#1b"/>z0<char code="#0"/><char code="#0"/>(ÈªÑÂÊ&lt;%LµCHû7
+ï|aÙ]:ð¿â³:j:Fp³<char code="#1b"/>`<char code="#0"/><char code="#0"/>Ð¸yz,·Ôº<char code="#e"/>R<char code="#10"/>{U©NsioåjV}[Æ<char code="#0"/><char code="#0"/> ïhö,,çQ<char code="#1d"/>²{(l<char code="#b"/>_öÏúqE´±}<char code="#14"/><char code="#3"/><char code="#0"/>ìÕ¼Ü{<char code="#e"/>öç²Y~ñvVï(!Õú¸s=<char code="#3"/><char code="#0"/>O<char code="#5"/>·?²-ônUí¨[È °êãn<char code="#e"/>öå¥¹¯÷AÏ-gemÜ<char code="#1d"/>Î<char code="#0"/><char code="#0"/><char code="#1"/><char code="#f"/><char code="#17"/>mTµÜRG²<char code="#8"/>X<char code="#1f"/><char code="#5"/>½ý!3ó<char code="#19"/><char code="#0"/> àá¢û¥ºKõ<char code="#1e"/><char code="#5"/>å@/nªw°&gt;<char code="#f"/><char code="#7"/>Íva©?)<char code="#1c"/>¥¨÷Ú+<char code="#19"/><char code="#0"/> àKQ$î<char code="#e"/><char code="#15"/>ÒÙâYðz<char code="#1f"/>òç¸TÏ3×<char code="#1d"/>Ä<char code="#0"/><char code="#0"/><char code="#1"/>_*fgnÕ<char code="#1"/>x°Ø[j<char code="#1b"/>î<char code="#5"/>@ÀÌ´OQøJ<char code="#19"/>¦ú&quot;<char code="#12"/>ÿû<char code="#1a"/><char code="#6"/><char code="#0"/><char code="#8"/>øbeXNÚ
+=
+Õ?ô÷Û§ë<char code="#3"/>Z
+¢ua9k¹¥ÖéçèPý|¯0ã´Òï?t¾ÇÝÁ<char code="#c"/><char code="#0"/><char code="#10"/>ðÅÆêAÚã¥_ÂÓ´{&#13;i¥cÑ÷ÑA~<char code="#3"/>ËBÕºÞaÑÆLØÎ2.<char code="#f"/>is²&lt;ßýÚAÛ<char code="#1c"/>0<char code="#0"/>@À<char code="#17"/>aûìþ<char code="#8"/>w.ío¹å,¥6KG´f.df®°T<char code="#13"/>í&gt;p<char code="#7"/>@Àep³½B.³u
+^£13y ²VÝ(¤cÒc<char code="#8"/>w<char code="#0"/><char code="#4"/>&lt;\À<char code="#1b"/>ÚÇçµÇ]:<char code="#1f"/>ñ<char code="#6"/>çnV<char code="#0"/>³â§¯¥5|ÚW<char code="#1e"/>á<char code="#e"/>/i±Õ]M<char code="#7"/>jä§ÕÐ9æ°Ôw©<char code="#13"/>¦ú<char code="#1c"/>á<char code="#e"/>/M®;fÛù¹;igIæ#Ô&#13;-çYÍ#Ü<char code="#1"/><char code="#10"/>ð%ºQòp&apos;hö÷ù1´1Â<char code="#1d"/><char code="#0"/><char code="#1"/>_<char code="#12"/>h¼Ï<char code="#1d"/>3t#TSÙ<char code="#0"/>@<char code="#1f"/>ÂR&amp;Â<char code="#1d"/><char code="#0"/><char code="#1"/>_ìûËSØõ­KÆ9^cv<char code="#19"/>XÿîäÌT1<char code="#0"/>@À<char code="#17"/>+:¨£¯{ªÇV¹<char code="#1"/><char code="#0"/> àý®£^ñ¾l-<char code="#10"/>kh¿<char code="#1"/><char code="#0"/> àýKµ±<char code="#f"/>7/uÇL{<char code="#6"/><char code="#3"/><char code="#0"/>@Àû<char code="#b"/>­SH÷¡Ï})<char code="#3"/><char code="#0"/>@Àû<char code="#f"/>õªç<char code="#1c"/>îÒù<char code="#4"/>b<char code="#0"/><char code="#0"/><char code="#2"/>Þ¯m¦Ýãºûéó<char code="#1b"/><char code="#1"/><char code="#0"/> àý[ÎÊÜûÝ3O3<char code="#0"/><char code="#0"/><char code="#4"/>¼ÿ<char code="#4"/>7»<char code="#1"/>CÚ&apos;sû`U<char code="#1d"/>ªorË<char code="#18"/><char code="#0"/><char code="#0"/><char code="#2"/>ÞxäÜ<char code="#16"/>)3ó<char code="#19"/><char code="#0"/><char code="#0"/><char code="#2"/>Þ©ÞÎñ êø`<char code="#15"/><char code="#0"/><char code="#10"/>ð&gt;E§<char code="#1e"/>åz¾*ê	<char code="#6"/>¾å<char code="#6"/>ddÊÉàôd,ü@2<char code="#1a"/>ªKÊú4<char code="#f"/>ÍKñðÌT4&lt;î×ªªa¬H¹{ÙÐÎqÝ»Ëgö´TÌ?Û<char code="#1c"/>X@EÏé5ú3ú<char code="#1a"/>Vª×¤GF¤|áèËÂROòFõ¸!í::¼ge_Ï[__ö;r;§´<char code="#8"/>Í¥±<char code="#17"/>$¢ÁùÉXpÆ©Ê1n$RÎü6ÖÊmHÕ^<char code="#1b"/>w3ð<char code="#5"/>±AèÔ{&quot;´$!;tx·é<char code="#b"/>¯G?ºWªD4Ü«þ§T4Ô<char code="#12"/>¡gNÕî¡÷<char code="#1a"/>x;[³A­<char code="#15"/>º[ËëÚÑÓ\v´«9ÐÛÓ<char code="#1a"/>p¯Tç¿¦¥¬þNwKù²Îæô^<char code="#3"/>ï8ÍöQ\ªEÂ²ß<char code="#14"/>¦jû;½ Cëu<char code="#6"/>&lt;Fç&gt; à/®®<char code="#1e"/><char code="#10"/>áõ8ÙöëqÒù_ã)É]zL<char code="#1d"/>ÐÏ_ÓU{&lt;<char code="#12"/>)ì<char code="#4"/>B<char code="#7"/>õ«9ö½¿Á àÒ³<char code="#13"/>t¨úb:ªËÍKñà1<char code="#1d"/>ø«Ó&lt;4ù\Çî!c{Z<char code="#2"/>B<char code="#2"/>;?UvD?6t´<char code="#c"/>¹ù<char code="#18"/>57ðÆÌ&lt;a9;&#13;Ó&gt;Ûç3¥½õßNZ®RShÌgS<char code="#3"/>1àÝ8<char code="#1b"/>¬&apos;:sR&quot;üþÅ@Ï½ô$ËNàv_<char code="#2"/>Þ&gt;Ë<char code="#5"/>-u<char code="#b"/>;[OJ®g
+ÑEÔÏÕæÂo³z½ÄRÝÕ<char code="#1a"/>Øyqÿ¢÷Ö³ú»Ë«ü<char code="#16"/>ìBªÅÜRG.ÉüÌMõVlMææKoÌ&lt;í{&#13;¤§¥d´r<char code="#1e"/>Sûk,%Dh&apos;<char code="#5"/>½§Ûãê?ýMª»<char code="#15"/><char code="#c"/>&lt;w~<char code="#19"/>÷Ò<char code="#5"/>ãeéõû=ÉðdV`»*&amp;P°S<char code="#0"/>{Y<char code="#14"/>ô´fÏ
+L×<char code="#8"/>µ&amp;g<char code="#1d"/>Ü9Ü¼H<char code="#7"/>õBÀ§b¡±<char code="#1f"/>òb<char code="#1c"/>%xø<char code="#e"/>ú&#13;ÉÈ¤<char code="#11"/>^\,Ós&lt;ÈãS<char code="#6"/>:Y<char code="#1b"/><char code="#1c"/>N<char code="#17"/><char code="#6"/>] Þû¥<char code="#17"/>gR×ÓÏÂ&lt;æ6±
+½<char code="#14"/>³RÏª»)p<char code="#b"/>Qú<char code="#17"/>K^«ÉÝÏ<char code="#2"/>ÌctÜ¥j<char code="#13"/>?/ê<char code="#15"/>:Ú²<char code="#18"/><char code="#3"/>®ã<char code="#8"/>m*ÐxjKóiÁþÞ{fIÿñ+<char code="#18"/>x;k<char code="#6"/>¿§<char code="#b"/><char code="#f"/><char code="#10"/>á<char code="#1f"/>égb<char code="#1e"/>¡µp<char code="#1d"/>îû)d}QÍ}<char code="#1d"/>{f<char code="#1e"/>5Ø<char code="#13"/>¹¥~ ±WâÒù½k<char code="#1"/>¢º¢7Ý<char code="#14"/>j<char code="#19"/>5<char code="#15"/>Å_Å<char code="#19"/><char code="#12"/>50Ý³`$ã|vÙ$(
+<char code="#1a"/>S<char code="#11"/>SÆOÔ<char code="#2"/>#<char code="#1a"/>5J&amp;2»,J<char code="#10"/>41±J1þ!ÑHüÀ®@J<char code="#4"/>A£1øQTvY<char code="#16"/>eEÖ%÷(Ö¤`fgú¾×ýº9U¯
+íîÙé&gt;}ß½ç{+w«ZM<char code="#4"/>¿.Ñp¤ég
+9~<char code="#e"/>ÚÜ+<char code="#18"/>sDps-ÿîo|&quot;múpCøk6sñètr<char code="#19"/>[<char code="#c"/>qÔ¾A@ÄnGóë97<char code="#1f"/>ñDåÊgñÜ\Y\-<char code="#4"/>ÏòÆ±kßàg	éÏ+È&#13;À<char code="#1"/>Ròe£<char code="#0"/>C5¸<char code="#e"/>þò&apos;CÆÀÇk2¹<char code="#4"/>hÖÜ·Pý¸&gt;M<char code="#17"/>Õî^<char code="#0"/>Àê­xæü±Oð,!nôcÀÄ}*Wnp!å%A}s­{Õ}dböT|ñAX¸Víä¾¤î<char code="#7"/><char code="#1c"/>%<char code="#c"/>&quot;õóÂ5âED¤Ï<char code="#4"/><char code="#10"/>5×CðhFÂÎÓ·ÏRÂ&gt;tBb0<char code="#6"/>i<char code="#16"/>ù<char code="#0"/><char code="#2"/>Ý¯ç<char code="#b"/>öË(P	¶çâ<char code="#b"/><char code="#f"/>Ö²´u5³¦½³<char code="#1f"/><char code="#4"/><char code="#1a"/>õé.cH#iB&lt;;ñ³Á;5×CðÈ¹s³R¡®h¨<char code="#1f"/>ògÒ<char code="#5"/><char code="#10"/>@&quot;¹²Fð¬<char code="#f"/>t<char code="#14"/>¹ÇC&apos;Ê2æoNÈÍH<char code="#11"/>è$eÂÌ	Öt$¿I2ÞÖw<char code="#18"/>çÜ{pïÔ<char code="#8"/>^<char code="#f"/>ÁC-#AY1{Ýºq£Ôgk Í&quot;ìx[T#x<char code="#7"/>/Ä<char code="#19"/>½&#13;T!Ò<char code="#11"/>{8o!»´î&apos;<char code="#11"/>õP:n_ÇòÆsÒ	k|W,|
+ÿ÷$%?ùÑÐz}ª<char code="#0"/>+Í<char code="#1c"/>ûoÉ´<char code="#1b"/>GÂ«5<char code="#17"/>B<char code="#1f"/>´±¿£n<char code="#12"/>çËOÁÂùï¼þº¥£®Gc<char code="#7"/>ì¿<char code="#6"/>VÒ0<char code="#15"/>_(î&amp;}Aka<char code="#14"/>F-ù+yÞYèz¶fÇ³äñ<char code="#2"/>ÞÏf<char code="#15"/>Ý
+¤ªàa5 çy
+måØ£üìLIG­ã3<char code="#7"/>ÀÎ`mó7¾<char code="#c"/>U<char code="#19"/>ÿý]²Êl­ânx±rc!<char code="#1a"/>d<char code="#1e"/>4¹5¯|á¡ª´;<char code="#15"/>_¬<char code="#16"/>­zÔ¾¿+aÇaT<char code="#12"/>:Uá_ÕÑ­&apos;½9$oÖ<char code="#13"/>gR_À^4qÖÎ<char code="#f"/>©Àl(Ò+ÜÈô ¦®Ø<char code="#1b"/><char code="#15"/>ªmÊ<char code="#1"/>Ekv<char code="#b"/><char code="#13"/>÷&lt;Þ9+©ÁtSB1ñ¯©F©@ÉÖÙ8fßJ»b¡0XzN¤i|Hg¯Ö<char code="#8"/>¾òòÊ¢<char code="#c"/>ë<char code="#c"/>õ<char code="#1b"/>Ñ~<char code="#14"/><char code="#e"/>$<char code="#4"/>¼gtØ<char code="#1f"/> !`<char code="#1d"/>£J°üóí0<char code="#1c"/>#!øçáµT½M<char code="#e"/><char code="#1"/>¯<char code="#17"/>&#13;÷ôühjóWÄ»ÖüUHÛV<char code="#b"/>ÁhyGüÊ½<char code="#c"/><char code="#1f"/>M£÷¹O¨çg¡Mr^ì¬q^¥<char code="#14"/>&#13;|&apos;<char code="#4"/>EÖ<char code="#1a"/>Á;!øÜ%<char code="#15"/>ºÖ­UÑ¤#í¢/<char code="#6"/>ÇàíçqL­ì{È{:1xbr|^!jÿÓ-<char code="#17"/>èpÄ1øX<char code="#17"/>+vÌ®Äq=ù§äÅü\<char code="#1e"/>¶<char code="#2"/>¤<char code="#1"/>ñé¹cøoU<char code="#3"/>Á£ð¯b<char code="#12"/>ÆK0ÌHhé¹¤<char code="#2"/><char code="#f"/>|öù<char code="#1a"/>Á;j
+»ÊóãW*<char code="#15"/>eâÖHÒLÂ¶pl/7Øý4y<char code="#3"/>ÇH3à<char code="#17"/>Â©äëO¦
+4&lt;%O÷4<char code="#2"/>i<char code="#1b"/>~Î_<char code="#c"/>2Á#z&#13;¶ôÒí»ÄÇá&lt;··¬o²<char code="#e"/>&amp;)øK|Çy<char code="#4"/>]S#øÊ<char code="#17"/>
+\4<char code="#8"/>0p<char code="#3"/>ÅIé6®;<char code="#16"/><char code="#1e"/>A.<char code="#1"/>ÞðÈ?J<char code="#1f"/><char code="#12"/>xaW<char code="#12"/>1s¾|Ü³o·\s¬\:´I¾WjgÏVQôÞýp<char code="#1e"/>rO¤5÷ur<char code="#1"/> yøÊ<char code="#7"/>àáã.¶÷#Í@º<char code="#6"/>/<char code="#1c"/>/£xèà<char code="#13"/>h»û#ÉmCk<char code="#4"/>_éÊM<char code="#1d"/>\<char code="#16"/>i/%¢å\<char code="#6"/>t¹(¾ºT(Bîý<char code="#4"/>¹&apos;ÌïºnÐ^?^Ár<char code="#c"/>A4ý°úq47&lt;<char code="#1a"/><char code="#1b"/>Hðû^$ôY:ÕE{ïUkÊu7÷<char code="#14"/>Z<char code="#15"/>ä<char code="#17"/>H¾8<char code="#1e"/>sTàµäà!áZ!LLóÎ<char code="#f"/>Çþ°Øú4<char code="#1"/>ç»ï<char code="#14"/><char code="#12"/>èlò<char code="#8"/>|®[²ÉyåwÑù{÷U&lt;<char code="#0"/>çÒ <char code="#11"/>&lt;tä² $t<char code="#7"/>iDO&quot;ôE.Ò^Â5­Õæ~<char code="#17"/>J½h®<char code="#17"/>jáO¯<char code="#11"/>|¥/ü¤Ä<char code="#19"/><char code="#1d"/>u¸ÔÍ<char code="#11"/>óVÉ#`{É;×%×Ú<char code="#19"/>i8d°©H³8%N~)¬<char code="#19"/>XL»G<char code="#18"/>xöäëì<char code="#14"/><char code="#14"/>7Âæx°¹©¤$HÍ¼	Õ<char code="#b"/>y<char code="#0"/>ìÖù¯<char code="#4"/>à<char code="#11"/>üTàì<char code="#c"/>Rû«}+©Go¯Fðg<char code="#b"/><char code="#1b"/>(fÕ<char code="#8"/>^]<char code="#7"/>ÏoöËyÂïÇ®W<char code="#18"/>ÅO<char code="#19"/>Ä)ò;¢Ü{G×ÞJºHr­Y<char code="#18"/>póÑDQÐÊA<char code="#1e"/><char code="#2"/>¦g&quot;ø¨õ7çõ,k¶r<char code="#1d"/>NQ{¹<char code="#1b"/><char code="#1d"/>®<char code="#10"/>=8&apos;ø¶üqÂíá3d<char code="#16"/>ð²Á<char code="#f"/>ÈL/<char code="#17"/>³-ÕÙÉ
+Ýºàmþ<char code="#1a"/>dä1pN<char code="#c"/>)hóK«gêæ
+
+«ÉK<char code="#14"/>v<char code="#1b"/><char code="#19"/>Ç<char code="#4"/>ßQ7k<char code="#10"/>¿¹È!÷6Fö@<char code="#14"/><char code="#1f"/><char code="#14"/>»`4îñnsc&lt;<char code="#4"/>Ê<char code="#15"/>c-<char code="#2"/>¡ûÅV4;q±¦WRàiJnÜv-À?ÿF§¿«¦ÔæKÉ¸P±È<char code="#f"/>&#13;zÓ_-è¬ÝXê$Ô¾ß@<char code="#6"/> |!a¬C¬<char code="#5"/>ª¬kL<char code="#5"/>TA x¨Ê<char code="#4"/>÷è<char code="#b"/>N<char code="#1d"/>V%`õá²o<char code="#14"/>Ò±gÉØ!<char code="#8"/>¿¸ü<char code="#12"/>I<char code="#14"/>ô<char code="#e"/>íbà<char code="#8"/>¾Ýa­bk©h«;ÑðUqNÛ<char code="#10"/>Ð%+¹f8ùÑ<char code="#e"/>ÀØ;4<char code="#13"/>	òïa2<char code="#4"/>&gt;÷XI<char code="#13"/><char code="#16"/>ì<char code="#10"/>É<char code="#10"/>$pÀN4<char code="#8"/><char code="#4"/>4@Ò[QÐ°!rÜ^|üKÔ£¤RMøçtFí¯*¨§	eZÑ.<char code="#4"/>èà»<char code="#1d"/><char code="#16"/>^¥<char code="#12"/>@<char code="#1e"/>Ýy!(ô6i¼ËÕ~Wô<char code="#c"/>®¦&amp;øË!à¥ÄwzÝÅ\&amp;ÙÓ).(¿+Å ³Øó3ÁË<char code="#15"/>_Ö 5&#13;4<char code="#12"/>òîõ6×½ä£öËXè<char code="#2"/>t¶ëL;êp<char code="#b"/>V¸Õ<char code="#f"/>DNßÓ5<char code="#16"/>X»×<char code="#7"/>S¦<char code="#16"/><char code="#8"/>nÞËt<char code="#14"/>X\ àëX.Ðë£<char code="#1d"/><char code="#0"/>GG×<char code="#c"/><char code="#19"/><char code="#4"/>Û,÷;ÁCêè&lt;<char code="#1f"/>5v<char code="#0"/>ô0/<char code="#15"/>R_w£uû£tÌº<char code="#7"/>H<char code="#10"/>@¹<char code="#13"/>¶fß<char code="#17"/>6ñLßuòï½<char code="#17"/>ê<char code="#1c"/>NÎd=G@ð×a  $¨<char code="#1b"/>üv<char code="#0"/>õ¹|ö-d<char code="#18"/>LÖ·<char code="#b"/>^Lç<char code="#14"/>Q¦¤<char code="#4"/>FF¿&gt;ÿí~&apos;xY^wlô´<char code="#1d"/>Hn7<char code="#8"/>Ë¸IìØ	£¦<char code="#5"/>{mÏi5°;U?PdzDð<char code="#2"/>l<char code="#1c"/>(o<char code="#13"/>ä
+B¦ ×<char code="#18"/>cý¡ìð
+Aþý<char code="#17"/>d<char code="#16"/>(´^&apos;èh½¬Hæ÷<char code="#2"/>«Ñï<char code="#1f"/>/<char code="#18"/>ßGðÑÐJ§÷&apos;üÜù¾n¼Òõ<char code="#19"/>ÈÑÐãu2Ô&gt;ä<char code="#15"/>&quot;-½XçÝ¿ª<char code="#1c"/>ä½à³í´À<char code="#1a"/>I¦÷ <char code="#12"/>g»È×02qû,ÁÎã¾&quot;<char code="#4"/>?M@ða¬<char code="#5"/>×}ÍÎdý£@&lt;Áp35<char code="#0"/><char code="#11"/>ü*f¤¾}¨Î,46<char code="#1a"/>+ bÔð¨Ú%ÑÞóu6ähü/<char code="#2"/>oj£<char code="#1d"/>Ärßzk~<char code="#11"/>EJR<char code="#10"/>	_Dfë&quot; ø_îìA¿K`ô7Þ0ÁOñ¿&amp;ô¢Fð=Ï¡ oHL¸n¡jDÁíï<char code="#2"/>ßükË!Ýé&lt;<char code="#12"/><char code="#e"/><char code="#1b"/>¦Â+^p£ßU$<char code="#12"/>¾Z@SÉ$ä×}e<char code="#11"/>²&apos;hr:<char code="#c"/><char code="#2"/>Î¨<char code="#1"/>PÑ&lt;kÔ1Áº=<char code="#13"/>m<char code="#8"/>0zöÀ0Æ×É¢øì@4µéøêTÏä%¿<char code="#13"/>t	ë<char code="#13"/>Ùf	Nî]ÿÛ&quot;ðÅ®Ð&gt;ÈÁÏ<char code="#11"/><char code="#10"/>ü;çàós<char code="#1c"/>ï
+[r&#13;Gð7ø_Ec·<char code="#1b"/><char code="#1a"/>:ÿ<char code="#6"/>4ò<char code="#1b"/>O8aoò+ úFñ0@BÎª<char code="#8"/>hRBêJ<char code="#10"/>½¯.§WfiTJÿ<char code="#1d"/><char code="#19"/><char code="#6"/>F	®;I; Iý<char code="#4"/>§DY«&gt;à<char code="#17"/>:½n<char code="#c"/>4)&quot;9¼JPïk<char code="#1f"/>æûà!9ôÔÑÅ<char code="#1a"/>z<char code="#10"/>]­<char code="#2"/>û<char code="#10"/>oQp·Ëg$<char code="#f"/>b»<char code="#1b"/>Ä¶K#ñ ^Met <char code="#2"/>¿Ò|Æ~NPdT$<char code="#f"/>;&apos;Ê!oaÀÉRðb²Dg
+¯ed<char code="#10"/><char code="#8"/>\<char code="#2"/>ÐÉÚæA<char code="#1a"/>¦<char code="#13"/>åîHø 
+<char code="#18"/>àñ3<char code="#15"/>÷DLh§*@cªïPÞFo<char code="#12"/>¤«&gt;Ü<char code="#1f"/>NeÐ<char code="#8"/>4Et6<char code="#1e"/>kLÁ<char code="#3"/><char code="#18"/>4âØ^áÄQ&#13;EÌ»ö¸3<char code="#e"/>&lt;1ÌXs]ß²/<char code="#1c"/>&quot;¹fØ&#13;<char code="#17"/>!øc<char code="#5"/>Í½°	&amp;<char code="#3"/><char code="#2"/>©Ø<char code="#0"/>äà&apos;¹¨]_ÆCl&amp;Àª;¸iä¶znÉ]Jð¸	xRÔi<char code="#14"/>` <char code="#1e"/>¡0FíJ<char code="#1"/>@s+QÒ<char code="#4"/>IA<char code="#17"/>B©<char code="#12"/>G¶ïHòÙ<char code="#6"/>Ó3<char code="#5"/>vÁÿ)ýe?<char code="#14"/>há¿M<char code="#6"/> Øq<char code="#18"/>!xÌRuÁ<char code="#17"/>æ701«<char code="#1e"/>S­ü8(<char code="#1e"/>q<char code="#14"/>&apos;)ç<char code="#6"/>7t&lt;¤0¢ïXª<char code="#10"/>p±<char code="#13"/>¤;<char code="#1e"/>&amp;CàÖíG4<char code="#e"/>+<char code="#0"/>Áß&apos;¥©à~)vÞ5yÝ{Ì]<char code="#5"/> <char code="#10"/>&lt;\Zõ<char code="#c"/>Ú°^/L:2b*mÍÏþIäÙoã<char code="#14"/>
+<char code="#10"/>`Ì<char code="#11"/>ø<char code="#3"/>ÒÏÀ¡äp¶0<char code="#7"/><char code="#4"/>ÞÕÊÈ4Æ¹u:õ±yØyÂY§6y
+ùìXØ<char code="#14"/>è4úC
+Ðk<char code="#f"/>¨ÈÌÞÐ¸ç/Ø<char code="#15"/><char code="#8"/>S0[¸)én~.<char code="#17"/>øÂ<char code="#4"/><char code="#b"/>È¹qªå<char code="#3"/>Eÿ<char code="#18"/>3I}_x-O[$þ¬<char code="#18"/>FÞ=<char code="#1c"/><char code="#0"/>ÕwÉ<char code="#8"/>¥÷Ñ{è<char code="#1"/>U°<char code="#15"/>¡<char code="#12"/>@&gt;]H¼m ÏñËh©Àýrk&#13;õ<char code="#f"/>ÜÉ{ª¦z&apos;P<char code="#13"/>bÖÅÒÙ§&amp;<char code="#1c"/>ZMê^£ÂÊÊÍ;)¹m7ò)âm}ñvù%ÅÏy<char code="#13"/>9<char code="#4"/>ü(ø¦Z+&amp;NcRµ<char code="#1"/>&gt;c<char code="#19"/>]ùS²Qxõí<char code="#e"/>ûÛë&amp;
+_DËÊ6Ñµæ_<char code="#4"/>Nñ¶üHò<char code="#0"/>éÄ®!H<char code="#4"/>I&lt;<char code="#0"/><char code="#12"/>F<char code="#1"/>Ø<char code="#7"/>&apos;vóî¹²¾·}èþQ&amp;»×:f2þ<char code="#1b"/>ÖÄä3  <char code="#c"/>»<char code="#5"/>ÏqfØ<char code="#1"/><char code="#0"/>pZºÑa<char code="#0"/><char code="#1"/>¹÷ãöä^<char code="#1d"/>ÖõT<char code="#6"/>p<char code="#14"/>gzàqÚ\ÆÀ²a<char code="#7"/>ñ¹º%×ØßQ7Ê :#¹ð¾{<char code="#5"/>AÛ} :q<char code="#7"/>`ê%<char code="#1c"/>7Ü<char code="#7"/>vïñêÙ<char code="#1e"/><char code="#8"/>õÁR<char code="#1b"/>Á<char code="#10"/>ydrÛç9Íò°<char code="#1e"/>Ïöc`ws²{Oã2Èdn_<char code="#14"/>¬4|.HC<char code="#13"/>$<char code="#4"/><char code="#c"/>Äc¿¢vQ^¢AÂü<char code="#2"/>Z&quot;m<char code="#2"/>él<char code="#c"/><char code="#1f"/>Z@<char code="#17"/>Óî&lt;D»<char code="#7"/>(XOo[H®<char code="#1c"/>®M8V<char code="#10"/>é<char code="#c"/>®­T(äÂ¾ûñ|<char code="#1a"/><char code="#18"/>Óç{c£´Àu=hÙ¯<char code="#16"/>9·h<char code="#1e"/>Ñi¡£SK4ßÜ¼	M/ìá©QÐ¸«-¼°H<char code="#0"/>}Ýw¡<char code="#7"/>ßh&gt;Bûï<char code="#11"/>ÇÄ±q<char code="#e"/>·ë<char code="#4"/>LÓAÅ/Å R7È#÷<char code="#e"/>CX<char code="#8"/>¾ÖA<char code="#3"/>ÑlÂþ­ y<char code="#17"/>v¶<char code="#17"/>áøA%xtr±tµðþÍe<char code="#12"/>¶E.<char code="#0"/>ÖÄ¥ÔsF£ù±-ùýc©Üu&lt;<char code="#16"/>¸hÙÆ|J<char code="#f"/>ê	ûAµÀÄÖuý|í<char code="#1d"/>U&quot;0{<char code="#11"/><char code="#11"/>¯J<char code="#3"/>ÎÁ<char code="#1"/>8<char code="#16"/>o<char code="#1f"/>TÐ<char code="#e"/>ou<char code="#12"/>l[N{c<char code="#1c"/><char code="#1f"/>Q´Úë<char code="#1d"/>h<char code="#1f"/>vÎ´4rÇBJ<char code="#7"/>ÍMv©|VÁ²{.<char code="#10"/>Ô<char code="#5"/><char code="#4"/>%<char code="#6"/><char code="#8"/>ÞYß@­¶Æ<char code="#14"/>¥ç0¿Yâæ£ytw&quot;ß¬ä<char code="#b"/>Ò/H<char code="#c"/>ÑL<char code="#1"/>ïuJ Îqþ+,,-ó×<char code="#14"/>p|<char code="#1a"/>ó<char code="#14"/>§¯¯M&apos;¬ñ*Uyü,ÁQDRÇ_Ü«b+Mô?Qw&amp;<char code="#14"/>/*j<char code="#19"/>Îÿ	z½ì:ä¶Æ|Oý\ñ~|S=ßT&#13;â
+éØà<char code="#13"/>&lt;îgXöªÓÁj4Ý<char code="#4"/><char code="#14"/>:Rí-sNóÑ|dÆÆ#0ü·ü<char code="#17"/>,ÏÓK<char code="#1d"/>Îul0y<char code="#4"/>:KËE<char code="#1d"/> Ûø^Ó/ç@ÑÂ7ûª<char code="#2"/>HïÂN<char code="#6"/>ZdÝ6<char code="#0"/>E<char code="#14"/>5²h&gt;aÇ<char code="#10"/>=þ-~<char code="#6"/>?«¡óï=|<char code="#16"/>r<char code="#6"/>X<char code="#17"/><char code="#c"/>åqx«@k9Ï{mÂCåä<char code="#1"/>dfÞ	¬P=?v<char code="#13"/><char code="#18"/><char code="#c"/>.éÁÐ äÂ<char code="#f"/>ù¥Ó6üÜ\#H[úà<char code="#b"/>­<char code="#5"/>{&#13;ÙÚR9	÷@%wª<char code="#6"/>ú<char code="#15"/><char code="#11"/>ëmãC*ÿªèG(Ý¸üfâS$/ó<char code="#10"/>5²&quot;Ü#m}¸4<char code="#e"/>¯Ycõ[P±¤<char code="#13"/>ö¸tÄ<char code="#1e"/>þÿ?w6Ù7<char code="#1d"/>&#13;7ñ¿YjÛ(iÂú<char code="#1f"/>{ç<char code="#1a"/>&quot;U<char code="#19"/>ÆñlÅ/<char code="#11"/>Yt5ýd<char code="#12"/>V¤ë®&quot;ÁîìúA(Ä¨ èÐ ÖÙõRh(<char code="#16"/>!å<char code="#7"/>K²¬¨ÔØÍÐ<char code="#f"/><char code="#15"/>}<char code="#12"/>Ó<char code="#14"/>²<char code="#8"/>uÕ<char code="#15"/>/sYo¸öüØ<char code="#11"/>µØóÎ9çÌþð2³»3<char code="#7"/>ö=Ï&lt;ç¹ü<char code="#1f"/>jû&apos;g;ëÆ&apos;~º&lt;#[<char code="#8"/>°×¥<char code="#c"/>¼¶xúÍzö¼çw<char code="#18"/>u±c÷ñví½g¶<char code="#e"/>¿Ûya¦A0¤ðç/Þ!ãM<char code="#e"/>íòê<char code="#18"/>JÑ§ÐÀ<char code="#1c"/>¡Þ<char code="#0"/>çN<char code="#7"/>ÁB<char code="#1a"/>··Æ=îSÂ;QüL&amp;IZÈíá çgE¯&quot;ÇlF·ä<char code="#10"/>YÄÜ÷¥2½c¢<char code="#1d"/>jí?ÀV7®ô¨<char code="#18"/>îâÚ<char code="#7"/><char code="#1e"/>Ý­&gt;qñ¢I#<char code="#1c"/>`ñ¾BñLùb¹<char code="#17"/>+´O<char code="#10"/>^µÕíQ×h<char code="#3"/>|A)§<char code="#14"/>Þâ&gt;¢\<char code="#19"/>-xJ¹ÇÂþ<char code="#c"/>»î_ñÞ#<char code="#13"/>&amp;cÓP0îxD¾Éàà±á¨Çùhä<char code="#15"/>+4c¹
+¨õ}Ý»áM<char code="#10"/>Ë¿<char code="#1f"/>Á<char code="#1e"/>¯Y<char code="#3"/><char code="#f"/>&lt;Åb<char code="#13"/>tO<char code="#11"/>î&lt;p¬eÊ<char code="#1d"/>.j¬<char code="#e"/>|¶ýCóµjÜQ¬f&apos;.Ýtæ<char code="#1d"/>lOÌfliØ<char code="#11"/>f<char code="#7"/> ñxKºnLq&apos;©º¸{HVtðµ<char code="#c"/>|x<char code="#6"/><char code="#1e"/>¨Vc<char code="#0"/>v2û¤ãÝÓ&amp;Ý<char code="#13"/>+ýt<char code="#b"/>al¯%N&lt;AQhéÐ¥Ê$<char code="#18"/>wª.dÌ`<char code="#e"/>7#¿)<char code="#1"/>Æýs®µ<char code="#12"/>ÕÖ{ò<char code="#c"/>|x<char code="#6"/><char code="#1e"/>Zê íê±ÜØX¸38§TÓèµ+ji<char code="#5"/>¦±Û?ú<char code="#18"/><char code="#1b"/>÷MÔîÀ·Dè<char code="#7"/>±5ð[ëVs®BÐ<char code="#8"/>Ê<char code="#14"/>ÖËÀgà<char code="#1"/>Ïj¯xÞWõFÍ8<char code="#17"/>gÒK·[~m27fî4ú;ä<char code="#17"/>\<char code="#c"/> ®Mò²$Õ<char code="#1b"/>ýâZ¨L l¬<char code="#1a"/>JÔÈ[òõ|\<char code="#c"/>»]Ë9smÕ
+±{iAÔù&apos;ïðt­<char code="#18"/>x8:câm&lt;}ÆÉ¸#<char code="#b"/>B§«K
+(ÞÑd Xû§@º<char code="#18"/>ÒÓÒ&quot;é<char code="#12"/>õ&amp;¤Z<char code="#0"/>uÉ<char code="#8"/>ôØ<char code="#1b"/>¬qoô<char code="#6"/>~Øs]uõQ<char code="#c"/>áAâ£ê÷D6ÿ<char code="#13"/><char code="#15"/>sÌv¨%<char code="#3"/><char code="#f"/>Þ3G¥½ÔE<char code="#1e"/>Á*u~¿3çHS¶8	a$b<char code="#18"/>g¿`¯<char code="#5"/>i<char code="#e"/>r&amp;*u¸tØE±	´4,ë:õ:<char code="#17"/>&#13;lF [cåg&quot;ðÚO[¥Ì<char code="#2"/>®!2©ãÔÕ|2fþ¿Å<char code="#5"/>É0ðþqùÒ0ùê.òlÖíI&gt;éÅ½£	:a£[hÒ òDK<char code="#18"/>Äèls¬óèÐóRdÊÍÑôä±.&amp;ôu<char code="#18"/>Cl¾<char code="#1a"/>aþÏ<char code="#18"/>¶¦oó;]Lhî(N¶½ûC<char code="#5"/>
+<char code="#f"/>ÓEî<char code="#0"/>¼<char code="#c"/>|î|R<char code="#c"/>&lt;<char code="#10"/>n4c;Ëî©½U
+sþ~4ÝðxMN&quot;®Îä<char code="#1e"/>0c¿ÂKÀÌõ0|Ä<char code="#1e"/>wgRæ<char code="#12"/>Î¡Ô1ý£©<char code="#2"/>É<char code="#1e"/>ôhÞFò×Å<char code="#14"/>DÁÌ«n·xøÁ°&#13;;&#13;Qvî,S§\Lá<char code="#1e"/>âé<char code="#13"/>c<char code="#1a"/>b·øt¾^¥<char code="#1"/>ëÑOÆÅ8<char code="#18"/>x¿!&lt;<char code="#f"/>[÷èæ°ó^<char code="#f"/>oÎÀpcGjá©qÈRon:4)+@\Ýêô_mÊ<char code="#16"/>î¯vvôØ©K+m<char code="#3"/>í,C°lmì<char code="#15"/>èÒÐpå<char code="#12"/><char code="#2"/>5èæÑ7ÓldÒ<char code="#4"/>¿ùWÅ<char code="#c"/>Ûe¯ËÌ¸7yÔµG;Ûêµln<char code="#b"/>E<char code="#2"/><char code="#1"/>þz©¹§åÿ4Rü¬2ÚÝ.á ;Àø¿Æ¼o·«UÂm±ûjÞ±¦ÆQNôëÏó<char code="#18"/>:°©^ÇÓG3¼oíµz{<char code="#1e"/>Qû7t~<char code="#13"/>qI;f½o<char code="#1b"/>õÔ¢b=çpCÓ§ÄH£`6;¦¥ï²ßmcÙÏëm-·Mø2ú1<char code="#c"/>!p5Bßf7Òu«%fçÑ_n<char code="#1e"/>þ&apos;èÆÛû<char code="#1f"/>Y¼7#¾¿q<char code="#c"/>Ç&quot;YìM©»&lt;[lLeÏ!ØÓD==²&quot;È[ãñ[xr%ó<char code="#18"/>x<char code="#2"/>0¹ëAå<char code="#14"/>ì/<char code="#4"/>,XØSkNÔáÖ÷ö´6Ì6cÝf÷Ñ<char code="#3"/>÷T&apos;M<char code="#8"/>õÙÏ_ÙïZ»ß2GZ<char code="#1b"/>BèD®<char code="#13"/>B8c^þ[<char code="#1"/>=]N<char code="#8"/>!Dü¡¢&amp;P<char code="#5"/>N¦°Î	!?Hs<char code="#7"/>Á<char code="#17"/>Ú<char code="#10"/>Bx@<char code="#10"/>úE<char code="#2"/>yðY
+!<char code="#18"/>ÌÔ|Ù«©ùñ®Ê`¬V°¥<char code="#17"/><char code="#1a"/>ë<char code="#10"/>BüWcàñëÍ¸Î¥&quot;åRéjWe¨T<char code="#b"/>ZOïP`<char code="#15"/>B<char code="#8"/>qA½ÏªVV[OHáêñíb£«<char code="#12"/>h3<char code="#5"/><char code="#18"/>a¾<char code="#13"/>B<char code="#8"/>q40}<char code="#1f"/>ÂAhÄìäxW<char code="#5"/>èü<char code="#e"/>ÞdX|Þ	!ÄP<char code="#7"/><char code="#1"/>1óxÛÑF
+hHWUC
+!x÷x®<char code="#f"/>¹p&apos;<char code="#10"/>C¦¶ÜMÈ<char code="#b"/>xJù¾â*<char code="#4"/>ó½D<char code="#1"/>3mN<char code="#8"/>!D?Hqøk.åçnÜ<char code="#17"/>¼!<char code="#1f"/>&gt;×¦<char code="#13"/>B<char code="#8"/>ÑOÓÒÂ­$Týr<char code="#14"/>ÞCSÆ<char code="#0"/>Â<char code="#16"/>ãßí9&#13;í<char code="#10"/>¹<char code="#1"/>&apos;<char code="#10"/>¢<char code="#4"/>¢ze<char code="#e"/>çØmÞs³ó/<char code="#8"/>;ÏkÈüñ41ß	!¸R<char code="#5"/>²$<char code="#7"/>PÖê´2ÊGð¤<char code="#7"/>ä½<char code="#b"/>Y<char code="#1"/>ä}ËûÉýÜ°<char code="#13"/>B<char code="#8"/>q%4<char code="#f"/>úl8;ò<char code="#5"/>ä´­Bg	³<char code="#16"/>ý$ï-9±c6;l&apos;÷<char code="#13"/>B<char code="#8"/>á¡»<char code="#1e"/>ã:W<char code="#10"/>b<char code="#10"/>º3$McàsMo;9Ò	!<char code="#18"/>TÂóZ3ò<char code="#1b"/>ãnÜ	<char code="#3"/>µ.*LpB<char code="#8"/>!%]Ñt¯qÏ±þ4&apos;<char code="#10"/>ÂÓoÏ¯¥çÉ§<char code="#10"/>BrcòùLãå\<char code="#1c"/>;7Tû8!<char code="#10"/>aP<char code="#16"/>ëK<char code="#1d"/>¦Ñ,´èîä<char code="#10"/>B/)LÇ«·¬ì¾æla¦<char code="#13"/>B<char code="#8"/>Qqö[RÂ;f|ó<char code="#15"/>öØ$õlýuN<char code="#8"/>!DuGú±ÓÜÿ9D~Â:`?¶s¶¶µ]¼Æ	!¦ÅÅQxÛÖxô½î<char code="#1a"/>LRÖd<char code="#11"/>.4µ$î~<char code="#18"/>ð!o]<char code="#8"/>!<char code="#12"/>Pb^Ü;º¹£8Ùâç3R<char code="#1d"/>ÅL<char code="#6"/>áÁTGa:¿cÖª¤}<char code="#10"/>B<char code="#8"/>ñO{p@<char code="#2"/><char code="#0"/><char code="#0"/><char code="#0"/> èÿëv<char code="#4"/>*<char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/>L<char code="#4"/>âPé!<char code="#f"/>PFÊ<char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/>IEND®B`</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 11:24:00 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>11</int>
+      </void>
+      <void property="reciver">
+       <string>detectionapp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Google &lt;no-reply@accounts.google.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Access for less secure apps has been turned on</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object idref="Email0"/>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>--94eb2c05f77aa88a3605342942f4&#13;
+Content-Type: text/plain; charset=UTF-8&#13;
+&#13;
+---------- Forwarded message ----------&#13;
+From: Teofil Ursan &lt;teofil.ursan@gmail.com&gt;&#13;
+Date: Mon, May 23, 2016 at 12:30 PM&#13;
+Subject: Fwd:&#13;
+To: detectionApp@gmail.com&#13;
+&#13;
+&#13;
+&#13;
+---------- Forwarded message ----------&#13;
+From: Teofil Ursan &lt;teofil.ursan@gmail.com&gt;&#13;
+Date: Thu, Apr 28, 2016 at 8:13 PM&#13;
+Subject:&#13;
+To: detectionApp@gmail.com&#13;
+&#13;
+--94eb2c05f77aa88a3605342942f4&#13;
+Content-Type: text/html; charset=UTF-8&#13;
+Content-Transfer-Encoding: quoted-printable&#13;
+&#13;
+&lt;div dir=3D&quot;ltr&quot;&gt;&lt;br&gt;&lt;div class=3D&quot;gmail_quote&quot;&gt;---------- Forwarded messag=&#13;
+e ----------&lt;br&gt;From: &lt;b class=3D&quot;gmail_sendername&quot;&gt;Teofil Ursan&lt;/b&gt; &lt;span =&#13;
+dir=3D&quot;ltr&quot;&gt;&amp;lt;&lt;a href=3D&quot;mailto:teofil.ursan@gmail.com&quot;&gt;teofil.ursan@gmai=&#13;
+l.com&lt;/a&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;Date: Mon, May 23, 2016 at 12:30 PM&lt;br&gt;Subject: Fwd=&#13;
+:&lt;br&gt;To: &lt;a href=3D&quot;mailto:detectionApp@gmail.com&quot;&gt;detectionApp@gmail.com&lt;/=&#13;
+a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div dir=3D&quot;ltr&quot;&gt;&lt;br&gt;&lt;div class=3D&quot;gmail_quote&quot;&gt;---------- Fo=&#13;
+rwarded message ----------&lt;br&gt;From: &lt;b class=3D&quot;gmail_sendername&quot;&gt;Teofil Ur=&#13;
+san&lt;/b&gt; &lt;span dir=3D&quot;ltr&quot;&gt;&amp;lt;&lt;a href=3D&quot;mailto:teofil.ursan@gmail.com&quot; tar=&#13;
+get=3D&quot;_blank&quot;&gt;teofil.ursan@gmail.com&lt;/a&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;Date: Thu, Apr 28, =&#13;
+2016 at 8:13 PM&lt;br&gt;Subject: &lt;br&gt;To: &lt;a href=3D&quot;mailto:detectionApp@gmail.co=&#13;
+m&quot; target=3D&quot;_blank&quot;&gt;detectionApp@gmail.com&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div dir=3D&quot;ltr&quot;=&#13;
+&gt;&lt;br&gt;&lt;/div&gt;&#13;
+&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&#13;
+&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&#13;
+&#13;
+--94eb2c05f77aa88a3605342942f4--</string>
+      </void>
+      <void property="date">
+       <string>Tue May 31 23:31:40 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>12</int>
+      </void>
+      <void property="reciver">
+       <string>detectionApp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Teofil Ursan &lt;teofil.ursan@gmail.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Fwd:</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Pe 31 mai 2016 23:31, &quot;Teofil Ursan&quot; &lt;teofil.ursan@gmail.com&gt; a scris:&#13;
+&#13;
+&gt;&#13;
+&gt; ---------- Forwarded message ----------&#13;
+&gt; From: Teofil Ursan &lt;teofil.ursan@gmail.com&gt;&#13;
+&gt; Date: Mon, May 23, 2016 at 12:30 PM&#13;
+&gt; Subject: Fwd:&#13;
+&gt; To: detectionApp@gmail.com&#13;
+&gt;&#13;
+&gt;&#13;
+&gt;&#13;
+&gt; ---------- Forwarded message ----------&#13;
+&gt; From: Teofil Ursan &lt;teofil.ursan@gmail.com&gt;&#13;
+&gt; Date: Thu, Apr 28, 2016 at 8:13 PM&#13;
+&gt; Subject:&#13;
+&gt; To: detectionApp@gmail.com&#13;
+&gt;&#13;
+&gt;&#13;
+&gt;&#13;
+&gt;&#13;
+&gt;&#13;
+&gt;&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Thu Jun 02 18:41:58 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>13</int>
+      </void>
+      <void property="reciver">
+       <string>detectionApp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Teofil Ursan &lt;teofil.ursan@gmail.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Re: Fwd:</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>&quot;Getting Ready for our May 29, 2016 Concert â Etobicoke band&quot; We are working hard to prepare for the final formal concert of our 18th Anniversary Season. This show âKiwanis Rocksâ is a tribute to our friends at the Kiwanis Club Kingsway Humber who have been great supporter of the Band for the past 18 years. Our special guest is Matisse Blundell, trumpet who placed 3rd. at the Kiwanis International Music Festival. She will be playing the âConcerto for Trumpetâ (aka Haydnâs Trumpet Concerto).Â  Please join us on Friday, May 29, 2016 , 8:00 pm at Emeriko Collegiate, 86 Montgomery. Ticket prices are $15.00, children under 12 are Free. You can purchase tickets through our Box Office by calling 416-410-1570 or by mail etobicoke.band@gmail.com.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 20:27:49 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>1</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp2@gmail.com&quot; &lt;detectionapp2@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>Luci Antonia &lt;luciana_1000@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Concert – Etobicoke band</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>1. I have the machine learning (ML) in the third year, plus 4 seminar&#13;
+groups:&#13;
+&#13;
+- I would like the course to precede my seminars ;&#13;
+&#13;
+- I would like very much to not take hours Mondays and Tuesdays (when&#13;
+preparing the course of that week;&#13;
+&#13;
+- I can not keep hours in the morning from 8 to 10 (morning revives me hard&#13;
+... I got older);&#13;
+&#13;
+- I&apos;d rather have the afternoon and evening hours;&#13;
+&#13;
+- Obviously I prefer that the hours be grouped if possible four in a row&#13;
+(courses to the 2 Half-year to be one after another (or at least in the&#13;
+same day), and seminars will be grouped 2 in a row, so I will have &quot;to work&#13;
+4 hours in a row when coming to FII).&#13;
+&#13;
+&#13;
+2. In regards to my collaborators, ie people who will hold seminars on this&#13;
+subject:&#13;
+&#13;
+&#13;
+Stefan A. Pantiru (computer, external collaborator)&#13;
+&#13;
+- Has 4 seminar groups and wants to have classes grouped (2 each seminar,&#13;
+so 4 hours) or morning between 8-12, or in the evening between the hours of&#13;
+16 to 20;&#13;
+&#13;
+- NOT hold classes on Wednesdays.&#13;
+&#13;
+&#13;
+B. Tiberius Dumitru (assistant, PhD., UT &quot;Gh.&quot;)&#13;
+&#13;
+- Has 2 seminar groups; He wants to keep his classes Friday evening&#13;
+(16-20); has a very busy schedule at UT &quot;Gh.,&quot; very much so please try to&#13;
+keep in mind his option.&#13;
+&#13;
+&#13;
+C. There are 5 more seminar groups; it will be all hold by freelancers, so&#13;
+you should put all them in the morning (4 hours) or evening (4 hours).&#13;
+Later today or tomorrow I will indicate the names of these employees (I am&#13;
+negotiating with them, but I did not take the final decision yet).&#13;
+&#13;
+&#13;
+3. The problem of a &quot;special seminar&quot; on the machine learning to come to&#13;
+the best students in the third year.&#13;
+&#13;
+I guess the lack of resources (time available halls and timetable) such a&#13;
+seminar can not be put in zone sometime else than Saturday or another day&#13;
+but only in the evening after 20 o&apos;clock ,so I should discuss with students&#13;
+at the course in the first week and decide. For now you can pass it on&#13;
+Saturday mornings (but not at 8).&#13;
+&#13;
+&#13;
+IMPORTANT:&#13;
+&#13;
+I prefer courses room 309 and possibly 112.&#13;
+&#13;
+Also prefer special seminar room 309.&#13;
+&#13;
+In general, for my seminars I prefer rooms with two tables, but they are&#13;
+few, far as I know ... I do not know how occupied is the room 2010, but I&apos;d&#13;
+probably like to hold seminars there.&#13;
+&#13;
+&#13;
+I (LC): 3 groups + &quot;special seminar&quot;&#13;
+&#13;
+Restrictions: Do not months, Tuesday, and in the other day from 8 am NOT.&#13;
+&#13;
+Preferences: my seminars to be made after the course (in the same week)&#13;
+&#13;
+&quot;Special Seminar&quot; can be placed between the hours 20-21: 40&#13;
+(Wednesday-Friday) or Saturday from 10am. I urge C309. (Of course, if you&#13;
+can put sometime Wednesday-Friday between 10 to 20 I will not refuse.)&#13;
+&#13;
+*Liviu Ciortuz*&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 20:39:59 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>2</int>
+      </void>
+      <void property="reciver">
+       <string>detectionapp@yahoo.com</string>
+      </void>
+      <void property="sender">
+       <string>Andro Andreea &lt;andreeaandro19@gmail.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>[O4]</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Catalin Barjoveanu&#13;
+&#13;
+In semester 1 , I have:&#13;
+1 course at MSI2 Security Software + MISS2 (preferably seminar room&#13;
+C901 or C909 with laptop + video because there is better seen in video)&#13;
+1 Security Software Laboratory in MSI2 (room laboratory&#13;
+laptop + video)&#13;
+1 Security Software Laboratory in MISS2 (room laboratory&#13;
+laptop + video)&#13;
+2 laboratories of Information Security at Year 3 (laboratory room)&#13;
+-------------------------------------------------- -------------------&#13;
+&#13;
+That restriction, masks COURSE I want to be preferable from Tuesday&#13;
+8-10; if you can not Tuesday at 8, then Tuesday 10-12 or 16-18.&#13;
+&#13;
+2 LABORATORIES masks: if the course is set in the morning (8-10 or 10-12),&#13;
+laboratories I want to be grouped in one day on 16-20. If&#13;
+the course is set at 16, I&apos;d like a laboratory after class and one in a&#13;
+8 morning.&#13;
+&#13;
+2 LABORATORIES information security from 3rd year I want to be made&#13;
+grouped as possible with the other hours.&#13;
+&#13;
+I do not want hours after 16:00 but only once a week.&#13;
+&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Tue May 24 20:46:07 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>3</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>capusneanu mihaela &lt;mihaela_603@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Catalin Barjoveanu</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Hey Dan. &#13;
+My father bought 4 tickets for a theater show called &apos;War Horse&apos; for 29th of May, at 19:15, at the Great Hall of the National Theatre Iasi.Gabriel and Daniel are coming too.&#13;
+Let me know if you want to go with us.</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:25:15 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>4</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Theater invitation 4</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Hey Andrew.I&apos;ve heard about a theatre show called &apos;Phantom Of The Opera&apos; taking place at the National Theatre, Lyttelton on Sunday, May 29, starting at 18:30. &#13;
+If you are interested, give me a response by replying to this mail or by calling me.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:25:20 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>5</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Theater invitation 5</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Dear Customer,We are sending you this message to inform you about an upcoming event, a theater show known as &apos;Peter Pan&apos; that is taking place on 25/05/2016, at the National Theater in Iasi. The event starts at 15:20.Have a nice day!&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:26:49 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>6</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Theater invitation 10</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Vasile Alaiba:&#13;
+I have 5 groups for Logics for Computer Science this semester. You can put them in any day from Monday to Friday between the hours 8-14.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:27:13 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>7</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Orar 4</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Razvan Benchea:&#13;
+4 laboratories of Computer Architecture and Operating Systems.&#13;
+&#13;
+I do not want hours on Friday or Saturday.&#13;
+&#13;
+Ideal version:&#13;
+Â Â Â Â Â Â Â  One laboratory every day, from 08:00&#13;
+Â Â Â Â Â Â Â  (I know there are courses in the morning on Monday and Tuesday, so it&apos;s probably difficult to satisfy this constraint)&#13;
+Optimal version:&#13;
+Â Â Â Â Â Â Â  Hours from 8:00 or 18:00, but the priority is from 08:00.&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:27:25 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>8</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Orar 1</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Dear Customer,We are sending you this message to inform you about an upcoming event, a theater show known as &apos;The Italian Straw Hat&apos; that is taking place on 26th of May, at the National Theater in Iasi. The event starts at 19:20.Have a nice day!</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:34:42 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>9</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Theater 14</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Good evening Michael, Daniel and Paul. I&apos;m sending you this mail to inform you about a great opera event that&apos;s taking place at Iasi Romanian National Opera, called &apos;CARMEN&apos;. The show is on 20/05/2016 and it starts at 6 o&apos;clock. &#13;
+Let me know if you are interested, so I can buy some tickets!</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 09:53:55 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>10</int>
+      </void>
+      <void property="reciver">
+       <string>&quot;detectionapp@gmail.com&quot; &lt;detectionapp@gmail.com&gt;</string>
+      </void>
+      <void property="sender">
+       <string>&quot;Cosmin A.&quot; &lt;cosmin.2704@yahoo.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Opera 16</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email" id="Email1">
+      <void property="content">
+       <string>PNG&#13;
+<char code="#1a"/>
+<char code="#0"/><char code="#0"/><char code="#0"/>&#13;IHDR<char code="#0"/><char code="#0"/><char code="#1"/>x<char code="#0"/><char code="#0"/><char code="#0"/><char code="#8"/><char code="#6"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#1"/>+rf<char code="#0"/><char code="#0"/> :IDATxÚìÝ{TU<char code="#1c"/><char code="#7"/>ð£»³&gt;R¤7fùê:3ë²sÏYSZµZVúÄê<char code="#2"/>Q¨?$<char code="#1a"/>Ù{îú(&#13;I$¥?Ìr¢²ÝU#
+24H©Ä5í¡9<char code="#1e"/>î½gÜîíüD<char code="#10"/>Á¬½swæû<char code="#1f"/>3ëì÷|÷pæwÏa<char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/>ù#dæ<char code="#16"/>!Õ<char code="#1c"/>a©<char code="#17"/>¸t^<char code="#17"/>½Ë0ÕweÐ¯9Â´»õ£«_ïÑ¯eôó´®ÂT_êÇíÂr<char code="#1a"/>T£«ÔÙ<char code="#1b"/>z0<char code="#0"/><char code="#0"/>(ÈªÑÂÊ&lt;%LµCHû7
+ï|aÙ]:ð¿â³:j:Fp³<char code="#1b"/>`<char code="#0"/><char code="#0"/>Ð¸yz,·Ôº<char code="#e"/>R<char code="#10"/>{U©NsioåjV}[Æ<char code="#0"/><char code="#0"/> ïhö,,çQ<char code="#1d"/>²{(l<char code="#b"/>_öÏúqE´±}<char code="#14"/><char code="#3"/><char code="#0"/>ìÕ¼Ü{<char code="#e"/>öç²Y~ñvVï(!Õú¸s=<char code="#3"/><char code="#0"/>O<char code="#5"/>·?²-ônUí¨[È °êãn<char code="#e"/>öå¥¹¯÷AÏ-gemÜ<char code="#1d"/>Î<char code="#0"/><char code="#0"/><char code="#1"/><char code="#f"/><char code="#17"/>mTµÜRG²<char code="#8"/>X<char code="#1f"/><char code="#5"/>½ý!3ó<char code="#19"/><char code="#0"/> àá¢û¥ºKõ<char code="#1e"/><char code="#5"/>å@/nªw°&gt;<char code="#f"/><char code="#7"/>Íva©?)<char code="#1c"/>¥¨÷Ú+<char code="#19"/><char code="#0"/> àKQ$î<char code="#e"/><char code="#15"/>ÒÙâYðz<char code="#1f"/>òç¸TÏ3×<char code="#1d"/>Ä<char code="#0"/><char code="#0"/><char code="#1"/>_*fgnÕ<char code="#1"/>x°Ø[j<char code="#1b"/>î<char code="#5"/>@ÀÌ´OQøJ<char code="#19"/>¦ú&quot;<char code="#12"/>ÿû<char code="#1a"/><char code="#6"/><char code="#0"/><char code="#8"/>øbeXNÚ
+=
+Õ?ô÷Û§ë<char code="#3"/>Z
+¢ua9k¹¥ÖéçèPý|¯0ã´Òï?t¾ÇÝÁ<char code="#c"/><char code="#0"/><char code="#10"/>ðÅÆêAÚã¥_ÂÓ´{&#13;i¥cÑ÷ÑA~<char code="#3"/>ËBÕºÞaÑÆLØÎ2.<char code="#f"/>is²&lt;ßýÚAÛ<char code="#1c"/>0<char code="#0"/>@À<char code="#17"/>aûìþ<char code="#8"/>w.ío¹å,¥6KG´f.df®°T<char code="#13"/>í&gt;p<char code="#7"/>@Àep³½B.³u
+^£13y ²VÝ(¤cÒc<char code="#8"/>w<char code="#0"/><char code="#4"/>&lt;\À<char code="#1b"/>ÚÇçµÇ]:<char code="#1f"/>ñ<char code="#6"/>çnV<char code="#0"/>³â§¯¥5|ÚW<char code="#1e"/>á<char code="#e"/>/i±Õ]M<char code="#7"/>jä§ÕÐ9æ°Ôw©<char code="#13"/>¦ú<char code="#1c"/>á<char code="#e"/>/M®;fÛù¹;igIæ#Ô&#13;-çYÍ#Ü<char code="#1"/><char code="#10"/>ð%ºQòp&apos;hö÷ù1´1Â<char code="#1d"/><char code="#0"/><char code="#1"/>_<char code="#12"/>h¼Ï<char code="#1d"/>3t#TSÙ<char code="#0"/>@<char code="#1f"/>ÂR&amp;Â<char code="#1d"/><char code="#0"/><char code="#1"/>_ìûËSØõ­KÆ9^cv<char code="#19"/>XÿîäÌT1<char code="#0"/>@À<char code="#17"/>+:¨£¯{ªÇV¹<char code="#1"/><char code="#0"/> àý®£^ñ¾l-<char code="#10"/>kh¿<char code="#1"/><char code="#0"/> àýKµ±<char code="#f"/>7/uÇL{<char code="#6"/><char code="#3"/><char code="#0"/>@Àû<char code="#b"/>­SH÷¡Ï})<char code="#3"/><char code="#0"/>@Àû<char code="#f"/>õªç<char code="#1c"/>îÒù<char code="#4"/>b<char code="#0"/><char code="#0"/><char code="#2"/>Þ¯m¦Ýãºûéó<char code="#1b"/><char code="#1"/><char code="#0"/> àý[ÎÊÜûÝ3O3<char code="#0"/><char code="#0"/><char code="#4"/>¼ÿ<char code="#4"/>7»<char code="#1"/>CÚ&apos;sû`U<char code="#1d"/>ªorË<char code="#18"/><char code="#0"/><char code="#0"/><char code="#2"/>ÞxäÜ<char code="#16"/>)3ó<char code="#19"/><char code="#0"/><char code="#0"/><char code="#2"/>Þ©ÞÎñ êø`<char code="#15"/><char code="#0"/><char code="#10"/>ð&gt;E§<char code="#1e"/>åz¾*ê	<char code="#6"/>¾å<char code="#6"/>ddÊÉàôd,ü@2<char code="#1a"/>ªKÊú4<char code="#f"/>ÍKñðÌT4&lt;î×ªªa¬H¹{ÙÐÎqÝ»Ëgö´TÌ?Û<char code="#1c"/>X@EÏé5ú3ú<char code="#1a"/>Vª×¤GF¤|áèËÂROòFõ¸!í::¼ge_Ï[__ö;r;§´<char code="#8"/>Í¥±<char code="#17"/>$¢ÁùÉXpÆ©Ê1n$RÎü6ÖÊmHÕ^<char code="#1b"/>w3ð<char code="#5"/>±AèÔ{&quot;´$!;tx·é<char code="#b"/>¯G?ºWªD4Ü«þ§T4Ô<char code="#12"/>¡gNÕî¡÷<char code="#1a"/>x;[³A­<char code="#15"/>º[ËëÚÑÓ\v´«9ÐÛÓ<char code="#1a"/>p¯Tç¿¦¥¬þNwKù²Îæô^<char code="#3"/>ï8ÍöQ\ªEÂ²ß<char code="#14"/>¦jû;½ Cëu<char code="#6"/>&lt;Fç&gt; à/®®<char code="#1e"/><char code="#10"/>áõ8ÙöëqÒù_ã)É]zL<char code="#1d"/>ÐÏ_ÓU{&lt;<char code="#12"/>)ì<char code="#4"/>B<char code="#7"/>õ«9ö½¿Á àÒ³<char code="#13"/>t¨úb:ªËÍKñà1<char code="#1d"/>ø«Ó&lt;4ù\Çî!c{Z<char code="#2"/>B<char code="#2"/>;?UvD?6t´<char code="#c"/>¹ù<char code="#18"/>57ðÆÌ&lt;a9;&#13;Ó&gt;Ûç3¥½õßNZ®RShÌgS<char code="#3"/>1àÝ8<char code="#1b"/>¬&apos;:sR&quot;üþÅ@Ï½ô$ËNàv_<char code="#2"/>Þ&gt;Ë<char code="#5"/>-u<char code="#b"/>;[OJ®g
+ÑEÔÏÕæÂo³z½ÄRÝÕ<char code="#1a"/>Øyqÿ¢÷Ö³ú»Ë«ü<char code="#16"/>ìBªÅÜRG.ÉüÌMõVlMææKoÌ&lt;í{&#13;¤§¥d´r<char code="#1e"/>Sûk,%Dh&apos;<char code="#5"/>½§Ûãê?ýMª»<char code="#15"/><char code="#c"/>&lt;w~<char code="#19"/>÷Ò<char code="#5"/>ãeéõû=ÉðdV`»*&amp;P°S<char code="#0"/>{Y<char code="#14"/>ô´fÏ
+L×<char code="#8"/>µ&amp;g<char code="#1d"/>Ü9Ü¼H<char code="#7"/>õBÀ§b¡±<char code="#1f"/>òb<char code="#1c"/>%xø<char code="#e"/>ú&#13;ÉÈ¤<char code="#11"/>^\,Ós&lt;ÈãS<char code="#6"/>:Y<char code="#1b"/><char code="#1c"/>N<char code="#17"/><char code="#6"/>] Þû¥<char code="#17"/>gR×ÓÏÂ&lt;æ6±
+½<char code="#14"/>³RÏª»)p<char code="#b"/>Qú<char code="#17"/>K^«ÉÝÏ<char code="#2"/>ÌctÜ¥j<char code="#13"/>?/ê<char code="#15"/>:Ú²<char code="#18"/><char code="#3"/>®ã<char code="#8"/>m*ÐxjKóiÁþÞ{fIÿñ+<char code="#18"/>x;k<char code="#6"/>¿§<char code="#b"/><char code="#f"/><char code="#10"/>á<char code="#1f"/>égb<char code="#1e"/>¡µp<char code="#1d"/>îû)d}QÍ}<char code="#1d"/>{f<char code="#1e"/>5Ø<char code="#13"/>¹¥~ ±WâÒù½k<char code="#1"/>¢º¢7Ý<char code="#14"/>j<char code="#19"/>5<char code="#15"/>Å_Å<char code="#19"/><char code="#12"/>50Ý³`$ã|vÙ$(
+<char code="#1a"/>S<char code="#11"/>SÆOÔ<char code="#2"/>#<char code="#1a"/>5J&amp;2»,J<char code="#10"/>41±J1þ!ÑHüÀ®@J<char code="#4"/>A£1øQTvY<char code="#16"/>eEÖ%÷(Ö¤`fgú¾×ýº9U¯
+íîÙé&gt;}ß½ç{+w«ZM<char code="#4"/>¿.Ñp¤ég
+9~<char code="#e"/>ÚÜ+<char code="#18"/>sDps-ÿîo|&quot;múpCøk6sñètr<char code="#19"/>[<char code="#c"/>qÔ¾A@ÄnGóë97<char code="#1f"/>ñDåÊgñÜ\Y\-<char code="#4"/>ÏòÆ±kßàg	éÏ+È&#13;À<char code="#1"/>Ròe£<char code="#0"/>C5¸<char code="#e"/>þò&apos;CÆÀÇk2¹<char code="#4"/>hÖÜ·Pý¸&gt;M<char code="#17"/>Õî^<char code="#0"/>Àê­xæü±Oð,!nôcÀÄ}*Wnp!å%A}s­{Õ}dböT|ñAX¸Víä¾¤î<char code="#7"/><char code="#1c"/>%<char code="#c"/>&quot;õóÂ5âED¤Ï<char code="#4"/><char code="#10"/>5×CðhFÂÎÓ·ÏRÂ&gt;tBb0<char code="#6"/>i<char code="#16"/>ù<char code="#0"/><char code="#2"/>Ý¯ç<char code="#b"/>öË(P	¶çâ<char code="#b"/><char code="#f"/>Ö²´u5³¦½³<char code="#1f"/><char code="#4"/><char code="#1a"/>õé.cH#iB&lt;;ñ³Á;5×CðÈ¹s³R¡®h¨<char code="#1f"/>ògÒ<char code="#5"/><char code="#10"/>@&quot;¹²Fð¬<char code="#f"/>t<char code="#14"/>¹ÇC&apos;Ê2æoNÈÍH<char code="#11"/>è$eÂÌ	Öt$¿I2ÞÖw<char code="#18"/>çÜ{pïÔ<char code="#8"/>^<char code="#f"/>ÁC-#AY1{Ýºq£Ôgk Í&quot;ìx[T#x<char code="#7"/>/Ä<char code="#19"/>½&#13;T!Ò<char code="#11"/>{8o!»´î&apos;<char code="#11"/>õP:n_ÇòÆsÒ	k|W,|
+ÿ÷$%?ùÑÐz}ª<char code="#0"/>+Í<char code="#1c"/>ûoÉ´<char code="#1b"/>GÂ«5<char code="#17"/>B<char code="#1f"/>´±¿£n<char code="#12"/>çËOÁÂùï¼þº¥£®Gc<char code="#7"/>ì¿<char code="#6"/>VÒ0<char code="#15"/>_(î&amp;}Aka<char code="#14"/>F-ù+yÞYèz¶fÇ³äñ<char code="#2"/>ÞÏf<char code="#15"/>Ý
+¤ªàa5 çy
+måØ£üìLIG­ã3<char code="#7"/>ÀÎ`mó7¾<char code="#c"/>U<char code="#19"/>ÿý]²Êl­ânx±rc!<char code="#1a"/>d<char code="#1e"/>4¹5¯|á¡ª´;<char code="#15"/>_¬<char code="#16"/>­zÔ¾¿+aÇaT<char code="#12"/>:Uá_ÕÑ­&apos;½9$oÖ<char code="#13"/>gR_À^4qÖÎ<char code="#f"/>©Àl(Ò+ÜÈô ¦®Ø<char code="#1b"/><char code="#15"/>ªmÊ<char code="#1"/>Ekv<char code="#b"/><char code="#13"/>÷&lt;Þ9+©ÁtSB1ñ¯©F©@ÉÖÙ8fßJ»b¡0XzN¤i|Hg¯Ö<char code="#8"/>¾òòÊ¢<char code="#c"/>ë<char code="#c"/>õ<char code="#1b"/>Ñ~<char code="#14"/><char code="#e"/>$<char code="#4"/>¼gtØ<char code="#1f"/> !`<char code="#1d"/>£J°üóí0<char code="#1c"/>#!øçáµT½M<char code="#e"/><char code="#1"/>¯<char code="#17"/>&#13;÷ôühjóWÄ»ÖüUHÛV<char code="#b"/>ÁhyGüÊ½<char code="#c"/><char code="#1f"/>M£÷¹O¨çg¡Mr^ì¬q^¥<char code="#14"/>&#13;|&apos;<char code="#4"/>EÖ<char code="#1a"/>Á;!øÜ%<char code="#15"/>ºÖ­UÑ¤#í¢/<char code="#6"/>ÇàíçqL­ì{È{:1xbr|^!jÿÓ-<char code="#17"/>èpÄ1øX<char code="#17"/>+vÌ®Äq=ù§äÅü\<char code="#1e"/>¶<char code="#2"/>¤<char code="#1"/>ñé¹cøoU<char code="#3"/>Á£ð¯b<char code="#12"/>ÆK0ÌHhé¹¤<char code="#2"/><char code="#f"/>|öù<char code="#1a"/>Á;j
+»ÊóãW*<char code="#15"/>eâÖHÒLÂ¶pl/7Øý4y<char code="#3"/>ÇH3à<char code="#17"/>Â©äëO¦
+4&lt;%O÷4<char code="#2"/>i<char code="#1b"/>~Î_<char code="#c"/>2Á#z&#13;¶ôÒí»ÄÇá&lt;··¬o²<char code="#e"/>&amp;)øK|Çy<char code="#4"/>]S#øÊ<char code="#17"/>
+\4<char code="#8"/>0p<char code="#3"/>ÅIé6®;<char code="#16"/><char code="#1e"/>A.<char code="#1"/>ÞðÈ?J<char code="#1f"/><char code="#12"/>xaW<char code="#12"/>1s¾|Ü³o·\s¬\:´I¾WjgÏVQôÞýp<char code="#1e"/>rO¤5÷ur<char code="#1"/> yøÊ<char code="#7"/>àáã.¶÷#Í@º<char code="#6"/>/<char code="#1c"/>/£xèà<char code="#13"/>h»û#ÉmCk<char code="#4"/>_éÊM<char code="#1d"/>\<char code="#16"/>i/%¢å\<char code="#6"/>t¹(¾ºT(Bîý<char code="#4"/>¹&apos;ÌïºnÐ^?^Ár<char code="#c"/>A4ý°úq47&lt;<char code="#1a"/><char code="#1b"/>Hðû^$ôY:ÕE{ïUkÊu7÷<char code="#14"/>Z<char code="#15"/>ä<char code="#17"/>H¾8<char code="#1e"/>sTàµäà!áZ!LLóÎ<char code="#f"/>Çþ°Øú4<char code="#1"/>ç»ï<char code="#14"/><char code="#12"/>èlò<char code="#8"/>|®[²ÉyåwÑù{÷U&lt;<char code="#0"/>çÒ <char code="#11"/>&lt;tä² $t<char code="#7"/>iDO&quot;ôE.Ò^Â5­Õæ~<char code="#17"/>J½h®<char code="#17"/>jáO¯<char code="#11"/>|¥/ü¤Ä<char code="#19"/><char code="#1d"/>u¸ÔÍ<char code="#11"/>óVÉ#`{É;×%×Ú<char code="#19"/>i8d°©H³8%N~)¬<char code="#19"/>XL»G<char code="#18"/>xöäëì<char code="#14"/><char code="#14"/>7Âæx°¹©¤$HÍ¼	Õ<char code="#b"/>y<char code="#0"/>ìÖù¯<char code="#4"/>à<char code="#11"/>üTàì<char code="#c"/>Rû«}+©Go¯Fðg<char code="#b"/><char code="#1b"/>(fÕ<char code="#8"/>^]<char code="#7"/>ÏoöËyÂïÇ®W<char code="#18"/>ÅO<char code="#19"/>Ä)ò;¢Ü{G×ÞJºHr­Y<char code="#18"/>póÑDQÐÊA<char code="#1e"/><char code="#2"/>¦g&quot;ø¨õ7çõ,k¶r<char code="#1d"/>NQ{¹<char code="#1b"/><char code="#1d"/>®<char code="#10"/>=8&apos;ø¶üqÂíá3d<char code="#16"/>ð²Á<char code="#f"/>ÈL/<char code="#17"/>³-ÕÙÉ
+Ýºàmþ<char code="#1a"/>dä1pN<char code="#c"/>)hóK«gêæ
+
+«ÉK<char code="#14"/>v<char code="#1b"/><char code="#19"/>Ç<char code="#4"/>ßQ7k<char code="#10"/>¿¹È!÷6Fö@<char code="#14"/><char code="#1f"/><char code="#14"/>»`4îñnsc&lt;<char code="#4"/>Ê<char code="#15"/>c-<char code="#2"/>¡ûÅV4;q±¦WRàiJnÜv-À?ÿF§¿«¦ÔæKÉ¸P±È<char code="#f"/>&#13;zÓ_-è¬ÝXê$Ô¾ß@<char code="#6"/> |!a¬C¬<char code="#5"/>ª¬kL<char code="#5"/>TA x¨Ê<char code="#4"/>÷è<char code="#b"/>N<char code="#1d"/>V%`õá²o<char code="#14"/>Ò±gÉØ!<char code="#8"/>¿¸ü<char code="#12"/>I<char code="#14"/>ô<char code="#e"/>íbà<char code="#8"/>¾Ýa­bk©h«;ÑðUqNÛ<char code="#10"/>Ð%+¹f8ùÑ<char code="#e"/>ÀØ;4<char code="#13"/>	òïa2<char code="#4"/>&gt;÷XI<char code="#13"/><char code="#16"/>ì<char code="#10"/>É<char code="#10"/>$pÀN4<char code="#8"/><char code="#4"/>4@Ò[QÐ°!rÜ^|üKÔ£¤RMøçtFí¯*¨§	eZÑ.<char code="#4"/>èà»<char code="#1d"/><char code="#16"/>^¥<char code="#12"/>@<char code="#1e"/>Ýy!(ô6i¼ËÕ~Wô<char code="#c"/>®¦&amp;øË!à¥ÄwzÝÅ\&amp;ÙÓ).(¿+Å ³Øó3ÁË<char code="#15"/>_Ö 5&#13;4<char code="#12"/>òîõ6×½ä£öËXè<char code="#2"/>t¶ëL;êp<char code="#b"/>V¸Õ<char code="#f"/>DNßÓ5<char code="#16"/>X»×<char code="#7"/>S¦<char code="#16"/><char code="#8"/>nÞËt<char code="#14"/>X\ àëX.Ðë£<char code="#1d"/><char code="#0"/>GG×<char code="#c"/><char code="#19"/><char code="#4"/>Û,÷;ÁCêè&lt;<char code="#1f"/>5v<char code="#0"/>ô0/<char code="#15"/>R_w£uû£tÌº<char code="#7"/>H<char code="#10"/>@¹<char code="#13"/>¶fß<char code="#17"/>6ñLßuòï½<char code="#17"/>ê<char code="#1c"/>NÎd=G@ð×a  $¨<char code="#1b"/>üv<char code="#0"/>õ¹|ö-d<char code="#18"/>LÖ·<char code="#b"/>^Lç<char code="#14"/>Q¦¤<char code="#4"/>FF¿&gt;ÿí~&apos;xY^wlô´<char code="#1d"/>Hn7<char code="#8"/>Ë¸IìØ	£¦<char code="#5"/>{mÏi5°;U?PdzDð<char code="#2"/>l<char code="#1c"/>(o<char code="#13"/>ä
+B¦ ×<char code="#18"/>cý¡ìð
+Aþý<char code="#17"/>d<char code="#16"/>(´^&apos;èh½¬Hæ÷<char code="#2"/>«Ñï<char code="#1f"/>/<char code="#18"/>ßGðÑÐJ§÷&apos;üÜù¾n¼Òõ<char code="#19"/>ÈÑÐãu2Ô&gt;ä<char code="#15"/>&quot;-½XçÝ¿ª<char code="#1c"/>ä½à³í´À<char code="#1a"/>I¦÷ <char code="#12"/>g»È×02qû,ÁÎã¾&quot;<char code="#4"/>?M@ða¬<char code="#5"/>×}ÍÎdý£@&lt;Áp35<char code="#0"/><char code="#11"/>ü*f¤¾}¨Î,46<char code="#1a"/>+ bÔð¨Ú%ÑÞóu6ähü/<char code="#2"/>oj£<char code="#1d"/>Ärßzk~<char code="#11"/>EJR<char code="#10"/>	_Dfë&quot; ø_îìA¿K`ô7Þ0ÁOñ¿&amp;ô¢Fð=Ï¡ oHL¸n¡jDÁíï<char code="#2"/>ßükË!Ýé&lt;<char code="#12"/><char code="#e"/><char code="#1b"/>¦Â+^p£ßU$<char code="#12"/>¾Z@SÉ$ä×}e<char code="#11"/>²&apos;hr:<char code="#c"/><char code="#2"/>Î¨<char code="#1"/>PÑ&lt;kÔ1Áº=<char code="#13"/>m<char code="#8"/>0zöÀ0Æ×É¢øì@4µéøêTÏä%¿<char code="#13"/>t	ë<char code="#13"/>Ùf	Nî]ÿÛ&quot;ðÅ®Ð&gt;ÈÁÏ<char code="#11"/><char code="#10"/>ü;çàós<char code="#1c"/>ï
+[r&#13;Gð7ø_Ec·<char code="#1b"/><char code="#1a"/>:ÿ<char code="#6"/>4ò<char code="#1b"/>O8aoò+ úFñ0@BÎª<char code="#8"/>hRBêJ<char code="#10"/>½¯.§WfiTJÿ<char code="#1d"/><char code="#19"/><char code="#6"/>F	®;I; Iý<char code="#4"/>§DY«&gt;à<char code="#17"/>:½n<char code="#c"/>4)&quot;9¼JPïk<char code="#1f"/>æûà!9ôÔÑÅ<char code="#1a"/>z<char code="#10"/>]­<char code="#2"/>û<char code="#10"/>oQp·Ëg$<char code="#f"/>b»<char code="#1b"/>Ä¶K#ñ ^Met <char code="#2"/>¿Ò|Æ~NPdT$<char code="#f"/>;&apos;Ê!oaÀÉRðb²Dg
+¯ed<char code="#10"/><char code="#8"/>\<char code="#2"/>ÐÉÚæA<char code="#1a"/>¦<char code="#13"/>åîHø 
+<char code="#18"/>àñ3<char code="#15"/>÷DLh§*@cªïPÞFo<char code="#12"/>¤«&gt;Ü<char code="#1f"/>NeÐ<char code="#8"/>4Et6<char code="#1e"/>kLÁ<char code="#3"/><char code="#18"/>4âØ^áÄQ&#13;EÌ»ö¸3<char code="#e"/>&lt;1ÌXs]ß²/<char code="#1c"/>&quot;¹fØ&#13;<char code="#17"/>!øc<char code="#5"/>Í½°	&amp;<char code="#3"/><char code="#2"/>©Ø<char code="#0"/>äà&apos;¹¨]_ÆCl&amp;Àª;¸iä¶znÉ]Jð¸	xRÔi<char code="#14"/>` <char code="#1e"/>¡0FíJ<char code="#1"/>@s+QÒ<char code="#4"/>IA<char code="#17"/>B©<char code="#12"/>G¶ïHòÙ<char code="#6"/>Ó3<char code="#5"/>vÁÿ)ýe?<char code="#14"/>há¿M<char code="#6"/> Øq<char code="#18"/>!xÌRuÁ<char code="#17"/>æ701«<char code="#1e"/>S­ü8(<char code="#1e"/>q<char code="#14"/>&apos;)ç<char code="#6"/>7t&lt;¤0¢ïXª<char code="#10"/>p±<char code="#13"/>¤;<char code="#1e"/>&amp;CàÖíG4<char code="#e"/>+<char code="#0"/>Áß&apos;¥©à~)vÞ5yÝ{Ì]<char code="#5"/> <char code="#10"/>&lt;\Zõ<char code="#c"/>Ú°^/L:2b*mÍÏþIäÙoã<char code="#14"/>
+<char code="#10"/>`Ì<char code="#11"/>ø<char code="#3"/>ÒÏÀ¡äp¶0<char code="#7"/><char code="#4"/>ÞÕÊÈ4Æ¹u:õ±yØyÂY§6y
+ùìXØ<char code="#14"/>è4úC
+Ðk<char code="#f"/>¨ÈÌÞÐ¸ç/Ø<char code="#15"/><char code="#8"/>S0[¸)én~.<char code="#17"/>øÂ<char code="#4"/><char code="#b"/>È¹qªå<char code="#3"/>Eÿ<char code="#18"/>3I}_x-O[$þ¬<char code="#18"/>FÞ=<char code="#1c"/><char code="#0"/>ÕwÉ<char code="#8"/>¥÷Ñ{è<char code="#1"/>U°<char code="#15"/>¡<char code="#12"/>@&gt;]H¼m ÏñËh©Àýrk&#13;õ<char code="#f"/>ÜÉ{ª¦z&apos;P<char code="#13"/>bÖÅÒÙ§&amp;<char code="#1c"/>ZMê^£ÂÊÊÍ;)¹m7ò)âm}ñvù%ÅÏy<char code="#13"/>9<char code="#4"/>ü(ø¦Z+&amp;NcRµ<char code="#1"/>&gt;c<char code="#19"/>]ùS²Qxõí<char code="#e"/>ûÛë&amp;
+_DËÊ6Ñµæ_<char code="#4"/>Nñ¶üHò<char code="#0"/>éÄ®!H<char code="#4"/>I&lt;<char code="#0"/><char code="#12"/>F<char code="#1"/>Ø<char code="#7"/>&apos;vóî¹²¾·}èþQ&amp;»×:f2þ<char code="#1b"/>ÖÄä3  <char code="#c"/>»<char code="#5"/>ÏqfØ<char code="#1"/><char code="#0"/>pZºÑa<char code="#0"/><char code="#1"/>¹÷ãöä^<char code="#1d"/>ÖõT<char code="#6"/>p<char code="#14"/>gzàqÚ\ÆÀ²a<char code="#7"/>ñ¹º%×ØßQ7Ê :#¹ð¾{<char code="#5"/>AÛ} :q<char code="#7"/>`ê%<char code="#1c"/>7Ü<char code="#7"/>vïñêÙ<char code="#1e"/><char code="#8"/>õÁR<char code="#1b"/>Á<char code="#10"/>ydrÛç9Íò°<char code="#1e"/>Ïöc`ws²{Oã2Èdn_<char code="#14"/>¬4|.HC<char code="#13"/>$<char code="#4"/><char code="#c"/>Äc¿¢vQ^¢AÂü<char code="#2"/>Z&quot;m<char code="#2"/>él<char code="#c"/><char code="#1f"/>Z@<char code="#17"/>Óî&lt;D»<char code="#7"/>(XOo[H®<char code="#1c"/>®M8V<char code="#10"/>é<char code="#c"/>®­T(äÂ¾ûñ|<char code="#1a"/><char code="#18"/>Óç{c£´Àu=hÙ¯<char code="#16"/>9·h<char code="#1e"/>Ñi¡£SK4ßÜ¼	M/ìá©QÐ¸«-¼°H<char code="#0"/>}Ýw¡<char code="#7"/>ßh&gt;Bûï<char code="#11"/>ÇÄ±q<char code="#e"/>·ë<char code="#4"/>LÓAÅ/Å R7È#÷<char code="#e"/>CX<char code="#8"/>¾ÖA<char code="#3"/>ÑlÂþ­ y<char code="#17"/>v¶<char code="#17"/>áøA%xtr±tµðþÍe<char code="#12"/>¶E.<char code="#0"/>ÖÄ¥ÔsF£ù±-ùýc©Üu&lt;<char code="#16"/>¸hÙÆ|J<char code="#f"/>ê	ûAµÀÄÖuý|í<char code="#1d"/>U&quot;0{<char code="#11"/><char code="#11"/>¯J<char code="#3"/>ÎÁ<char code="#1"/>8<char code="#16"/>o<char code="#1f"/>TÐ<char code="#e"/>ou<char code="#12"/>l[N{c<char code="#1c"/><char code="#1f"/>Q´Úë<char code="#1d"/>h<char code="#1f"/>vÎ´4rÇBJ<char code="#7"/>ÍMv©|VÁ²{.<char code="#10"/>Ô<char code="#5"/><char code="#4"/>%<char code="#6"/><char code="#8"/>ÞYß@­¶Æ<char code="#14"/>¥ç0¿Yâæ£ytw&quot;ß¬ä<char code="#b"/>Ò/H<char code="#c"/>ÑL<char code="#1"/>ïuJ Îqþ+,,-ó×<char code="#14"/>p|<char code="#1a"/>ó<char code="#14"/>§¯¯M&apos;¬ñ*Uyü,ÁQDRÇ_Ü«b+Mô?Qw&amp;<char code="#14"/>/*j<char code="#19"/>Îÿ	z½ì:ä¶Æ|Oý\ñ~|S=ßT&#13;â
+éØà<char code="#13"/>&lt;îgXöªÓÁj4Ý<char code="#4"/><char code="#14"/>:Rí-sNóÑ|dÆÆ#0ü·ü<char code="#17"/>,ÏÓK<char code="#1d"/>Îul0y<char code="#4"/>:KËE<char code="#1d"/> Ûø^Ó/ç@ÑÂ7ûª<char code="#2"/>HïÂN<char code="#6"/>ZdÝ6<char code="#0"/>E<char code="#14"/>5²h&gt;aÇ<char code="#10"/>=þ-~<char code="#6"/>?«¡óï=|<char code="#16"/>r<char code="#6"/>X<char code="#17"/><char code="#c"/>åqx«@k9Ï{mÂCåä<char code="#1"/>dfÞ	¬P=?v<char code="#13"/><char code="#18"/><char code="#c"/>.éÁÐ äÂ<char code="#f"/>ù¥Ó6üÜ\#H[úà<char code="#b"/>­<char code="#5"/>{&#13;ÙÚR9	÷@%wª<char code="#6"/>ú<char code="#15"/><char code="#11"/>ëmãC*ÿªèG(Ý¸üfâS$/ó<char code="#10"/>5²&quot;Ü#m}¸4<char code="#e"/>¯Ycõ[P±¤<char code="#13"/>ö¸tÄ<char code="#1e"/>þÿ?w6Ù7<char code="#1d"/>&#13;7ñ¿YjÛ(iÂú<char code="#1f"/>{ç<char code="#1a"/>&quot;U<char code="#19"/>ÆñlÅ/<char code="#11"/>Yt5ýd<char code="#12"/>V¤ë®&quot;ÁîìúA(Ä¨ èÐ ÖÙõRh(<char code="#16"/>!å<char code="#7"/>K²¬¨ÔØÍÐ<char code="#f"/><char code="#15"/>}<char code="#12"/>Ó<char code="#14"/>²<char code="#8"/>uÕ<char code="#15"/>/sYo¸öüØ<char code="#11"/>µØóÎ9çÌþð2³»3<char code="#7"/>ö=Ï&lt;ç¹ü<char code="#1f"/>jû&apos;g;ëÆ&apos;~º&lt;#[<char code="#8"/>°×¥<char code="#c"/>¼¶xúÍzö¼çw<char code="#18"/>u±c÷ñví½g¶<char code="#e"/>¿Ûya¦A0¤ðç/Þ!ãM<char code="#e"/>íòê<char code="#18"/>JÑ§ÐÀ<char code="#1c"/>¡Þ<char code="#0"/>çN<char code="#7"/>ÁB<char code="#1a"/>··Æ=îSÂ;QüL&amp;IZÈíá çgE¯&quot;ÇlF·ä<char code="#10"/>YÄÜ÷¥2½c¢<char code="#1d"/>jí?ÀV7®ô¨<char code="#18"/>îâÚ<char code="#7"/><char code="#1e"/>Ý­&gt;qñ¢I#<char code="#1c"/>`ñ¾BñLùb¹<char code="#17"/>+´O<char code="#10"/>^µÕíQ×h<char code="#3"/>|A)§<char code="#14"/>Þâ&gt;¢\<char code="#19"/>-xJ¹ÇÂþ<char code="#c"/>»î_ñÞ#<char code="#13"/>&amp;cÓP0îxD¾Éàà±á¨Çùhä<char code="#15"/>+4c¹
+¨õ}Ý»áM<char code="#10"/>Ë¿<char code="#1f"/>Á<char code="#1e"/>¯Y<char code="#3"/><char code="#f"/>&lt;Åb<char code="#13"/>tO<char code="#11"/>î&lt;p¬eÊ<char code="#1d"/>.j¬<char code="#e"/>|¶ýCóµjÜQ¬f&apos;.Ýtæ<char code="#1d"/>lOÌfliØ<char code="#11"/>f<char code="#7"/> ñxKºnLq&apos;©º¸{HVtðµ<char code="#c"/>|x<char code="#6"/><char code="#1e"/>¨Vc<char code="#0"/>v2û¤ãÝÓ&amp;Ý<char code="#13"/>+ýt<char code="#b"/>al¯%N&lt;AQhéÐ¥Ê$<char code="#18"/>wª.dÌ`<char code="#e"/>7#¿)<char code="#1"/>Æýs®µ<char code="#12"/>ÕÖ{ò<char code="#c"/>|x<char code="#6"/><char code="#1e"/>Zê íê±ÜØX¸38§TÓèµ+ji<char code="#5"/>¦±Û?ú<char code="#18"/><char code="#1b"/>÷MÔîÀ·Dè<char code="#7"/>±5ð[ëVs®BÐ<char code="#8"/>Ê<char code="#14"/>ÖËÀgà<char code="#1"/>Ïj¯xÞWõFÍ8<char code="#17"/>gÒK·[~m27fî4ú;ä<char code="#17"/>\<char code="#c"/> ®Mò²$Õ<char code="#1b"/>ýâZ¨L l¬<char code="#1a"/>JÔÈ[òõ|\<char code="#c"/>»]Ë9smÕ
+±{iAÔù&apos;ïðt­<char code="#18"/>x8:câm&lt;}ÆÉ¸#<char code="#b"/>B§«K
+(ÞÑd Xû§@º<char code="#18"/>ÒÓÒ&quot;é<char code="#12"/>õ&amp;¤Z<char code="#0"/>uÉ<char code="#8"/>ôØ<char code="#1b"/>¬qoô<char code="#6"/>~Øs]uõQ<char code="#c"/>áAâ£ê÷D6ÿ<char code="#13"/><char code="#15"/>sÌv¨%<char code="#3"/><char code="#f"/>Þ3G¥½ÔE<char code="#1e"/>Á*u~¿3çHS¶8	a$b<char code="#18"/>g¿`¯<char code="#5"/>i<char code="#e"/>r&amp;*u¸tØE±	´4,ë:õ:<char code="#17"/>&#13;lF [cåg&quot;ðÚO[¥Ì<char code="#2"/>®!2©ãÔÕ|2fþ¿Å<char code="#5"/>É0ðþqùÒ0ùê.òlÖíI&gt;éÅ½£	:a£[hÒ òDK<char code="#18"/>Äèls¬óèÐóRdÊÍÑôä±.&amp;ôu<char code="#18"/>Cl¾<char code="#1a"/>aþÏ<char code="#18"/>¶¦oó;]Lhî(N¶½ûC<char code="#5"/>
+<char code="#f"/>ÓEî<char code="#0"/>¼<char code="#c"/>|î|R<char code="#c"/>&lt;<char code="#10"/>n4c;Ëî©½U
+sþ~4ÝðxMN&quot;®Îä<char code="#1e"/>0c¿ÂKÀÌõ0|Ä<char code="#1e"/>wgRæ<char code="#12"/>Î¡Ô1ý£©<char code="#2"/>É<char code="#1e"/>ôhÞFò×Å<char code="#14"/>DÁÌ«n·xøÁ°&#13;;&#13;Qvî,S§\Lá<char code="#1e"/>âé<char code="#13"/>c<char code="#1a"/>b·øt¾^¥<char code="#1"/>ëÑOÆÅ8<char code="#18"/>x¿!&lt;<char code="#f"/>[÷èæ°ó^<char code="#f"/>oÎÀpcGjá©qÈRon:4)+@\Ýêô_mÊ<char code="#16"/>î¯vvôØ©K+m<char code="#3"/>í,C°lmì<char code="#15"/>èÒÐpå<char code="#12"/><char code="#2"/>5èæÑ7ÓldÒ<char code="#4"/>¿ùWÅ<char code="#c"/>Ûe¯ËÌ¸7yÔµG;Ûêµln<char code="#b"/>E<char code="#2"/><char code="#1"/>þz©¹§åÿ4Rü¬2ÚÝ.á ;Àø¿Æ¼o·«UÂm±ûjÞ±¦ÆQNôëÏó<char code="#18"/>:°©^ÇÓG3¼oíµz{<char code="#1e"/>Qû7t~<char code="#13"/>qI;f½o<char code="#1b"/>õÔ¢b=çpCÓ§ÄH£`6;¦¥ï²ßmcÙÏëm-·Mø2ú1<char code="#c"/>!p5Bßf7Òu«%fçÑ_n<char code="#1e"/>þ&apos;èÆÛû<char code="#1f"/>Y¼7#¾¿q<char code="#c"/>Ç&quot;YìM©»&lt;[lLeÏ!ØÓD==²&quot;È[ãñ[xr%ó<char code="#18"/>x<char code="#2"/>0¹ëAå<char code="#14"/>ì/<char code="#4"/>,XØSkNÔáÖ÷ö´6Ì6cÝf÷Ñ<char code="#3"/>÷T&apos;M<char code="#8"/>õÙÏ_ÙïZ»ß2GZ<char code="#1b"/>BèD®<char code="#13"/>B8c^þ[<char code="#1"/>=]N<char code="#8"/>!Dü¡¢&amp;P<char code="#5"/>N¦°Î	!?Hs<char code="#7"/>Á<char code="#17"/>Ú<char code="#10"/>Bx@<char code="#10"/>úE<char code="#2"/>yðY
+!<char code="#18"/>ÌÔ|Ù«©ùñ®Ê`¬V°¥<char code="#17"/><char code="#1a"/>ë<char code="#10"/>BüWcàñëÍ¸Î¥&quot;åRéjWe¨T<char code="#b"/>ZOïP`<char code="#15"/>B<char code="#8"/>qA½ÏªVV[OHáêñíb£«<char code="#12"/>h3<char code="#5"/><char code="#18"/>a¾<char code="#13"/>B<char code="#8"/>q40}<char code="#1f"/>ÂAhÄìäxW<char code="#5"/>èü<char code="#e"/>ÞdX|Þ	!ÄP<char code="#7"/><char code="#1"/>1óxÛÑF
+hHWUC
+!x÷x®<char code="#f"/>¹p&apos;<char code="#10"/>C¦¶ÜMÈ<char code="#b"/>xJù¾â*<char code="#4"/>ó½D<char code="#1"/>3mN<char code="#8"/>!D?Hqøk.åçnÜ<char code="#17"/>¼!<char code="#1f"/>&gt;×¦<char code="#13"/>B<char code="#8"/>ÑOÓÒÂ­$Týr<char code="#14"/>ÞCSÆ<char code="#0"/>Â<char code="#16"/>ãßí9&#13;í<char code="#10"/>¹<char code="#1"/>&apos;<char code="#10"/>¢<char code="#4"/>¢ze<char code="#e"/>çØmÞs³ó/<char code="#8"/>;ÏkÈüñ41ß	!¸R<char code="#5"/>²$<char code="#7"/>PÖê´2ÊGð¤<char code="#7"/>ä½<char code="#b"/>Y<char code="#1"/>ä}ËûÉýÜ°<char code="#13"/>B<char code="#8"/>q%4<char code="#f"/>úl8;ò<char code="#5"/>ä´­Bg	³<char code="#16"/>ý$ï-9±c6;l&apos;÷<char code="#13"/>B<char code="#8"/>á¡»<char code="#1e"/>ã:W<char code="#10"/>b<char code="#10"/>º3$McàsMo;9Ò	!<char code="#18"/>TÂóZ3ò<char code="#1b"/>ãnÜ	<char code="#3"/>µ.*LpB<char code="#8"/>!%]Ñt¯qÏ±þ4&apos;<char code="#10"/>ÂÓoÏ¯¥çÉ§<char code="#10"/>BrcòùLãå\<char code="#1c"/>;7Tû8!<char code="#10"/>aP<char code="#16"/>ëK<char code="#1d"/>¦Ñ,´èîä<char code="#10"/>B/)LÇ«·¬ì¾æla¦<char code="#13"/>B<char code="#8"/>Qqö[RÂ;f|ó<char code="#15"/>öØ$õlýuN<char code="#8"/>!DuGú±ÓÜÿ9D~Â:`?¶s¶¶µ]¼Æ	!¦ÅÅQxÛÖxô½î<char code="#1a"/>LRÖd<char code="#11"/>.4µ$î~<char code="#18"/>ð!o]<char code="#8"/>!<char code="#12"/>Pb^Ü;º¹£8Ùâç3R<char code="#1d"/>ÅL<char code="#6"/>áÁTGa:¿cÖª¤}<char code="#10"/>B<char code="#8"/>ñO{p@<char code="#2"/><char code="#0"/><char code="#0"/><char code="#0"/> èÿëv<char code="#4"/>*<char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/>L<char code="#4"/>âPé!<char code="#f"/>PFÊ<char code="#0"/><char code="#0"/><char code="#0"/><char code="#0"/>IEND®B`</string>
+      </void>
+      <void property="date">
+       <string>Wed May 25 11:24:00 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>11</int>
+      </void>
+      <void property="reciver">
+       <string>detectionapp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Google &lt;no-reply@accounts.google.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Access for less secure apps has been turned on</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object idref="Email1"/>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>--94eb2c05f77aa88a3605342942f4&#13;
+Content-Type: text/plain; charset=UTF-8&#13;
+&#13;
+---------- Forwarded message ----------&#13;
+From: Teofil Ursan &lt;teofil.ursan@gmail.com&gt;&#13;
+Date: Mon, May 23, 2016 at 12:30 PM&#13;
+Subject: Fwd:&#13;
+To: detectionApp@gmail.com&#13;
+&#13;
+&#13;
+&#13;
+---------- Forwarded message ----------&#13;
+From: Teofil Ursan &lt;teofil.ursan@gmail.com&gt;&#13;
+Date: Thu, Apr 28, 2016 at 8:13 PM&#13;
+Subject:&#13;
+To: detectionApp@gmail.com&#13;
+&#13;
+--94eb2c05f77aa88a3605342942f4&#13;
+Content-Type: text/html; charset=UTF-8&#13;
+Content-Transfer-Encoding: quoted-printable&#13;
+&#13;
+&lt;div dir=3D&quot;ltr&quot;&gt;&lt;br&gt;&lt;div class=3D&quot;gmail_quote&quot;&gt;---------- Forwarded messag=&#13;
+e ----------&lt;br&gt;From: &lt;b class=3D&quot;gmail_sendername&quot;&gt;Teofil Ursan&lt;/b&gt; &lt;span =&#13;
+dir=3D&quot;ltr&quot;&gt;&amp;lt;&lt;a href=3D&quot;mailto:teofil.ursan@gmail.com&quot;&gt;teofil.ursan@gmai=&#13;
+l.com&lt;/a&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;Date: Mon, May 23, 2016 at 12:30 PM&lt;br&gt;Subject: Fwd=&#13;
+:&lt;br&gt;To: &lt;a href=3D&quot;mailto:detectionApp@gmail.com&quot;&gt;detectionApp@gmail.com&lt;/=&#13;
+a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div dir=3D&quot;ltr&quot;&gt;&lt;br&gt;&lt;div class=3D&quot;gmail_quote&quot;&gt;---------- Fo=&#13;
+rwarded message ----------&lt;br&gt;From: &lt;b class=3D&quot;gmail_sendername&quot;&gt;Teofil Ur=&#13;
+san&lt;/b&gt; &lt;span dir=3D&quot;ltr&quot;&gt;&amp;lt;&lt;a href=3D&quot;mailto:teofil.ursan@gmail.com&quot; tar=&#13;
+get=3D&quot;_blank&quot;&gt;teofil.ursan@gmail.com&lt;/a&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;Date: Thu, Apr 28, =&#13;
+2016 at 8:13 PM&lt;br&gt;Subject: &lt;br&gt;To: &lt;a href=3D&quot;mailto:detectionApp@gmail.co=&#13;
+m&quot; target=3D&quot;_blank&quot;&gt;detectionApp@gmail.com&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div dir=3D&quot;ltr&quot;=&#13;
+&gt;&lt;br&gt;&lt;/div&gt;&#13;
+&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&#13;
+&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&#13;
+&#13;
+--94eb2c05f77aa88a3605342942f4--</string>
+      </void>
+      <void property="date">
+       <string>Tue May 31 23:31:40 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>12</int>
+      </void>
+      <void property="reciver">
+       <string>detectionApp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Teofil Ursan &lt;teofil.ursan@gmail.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Fwd:</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="detect.Email">
+      <void property="content">
+       <string>Pe 31 mai 2016 23:31, &quot;Teofil Ursan&quot; &lt;teofil.ursan@gmail.com&gt; a scris:&#13;
+&#13;
+&gt;&#13;
+&gt; ---------- Forwarded message ----------&#13;
+&gt; From: Teofil Ursan &lt;teofil.ursan@gmail.com&gt;&#13;
+&gt; Date: Mon, May 23, 2016 at 12:30 PM&#13;
+&gt; Subject: Fwd:&#13;
+&gt; To: detectionApp@gmail.com&#13;
+&gt;&#13;
+&gt;&#13;
+&gt;&#13;
+&gt; ---------- Forwarded message ----------&#13;
+&gt; From: Teofil Ursan &lt;teofil.ursan@gmail.com&gt;&#13;
+&gt; Date: Thu, Apr 28, 2016 at 8:13 PM&#13;
+&gt; Subject:&#13;
+&gt; To: detectionApp@gmail.com&#13;
+&gt;&#13;
+&gt;&#13;
+&gt;&#13;
+&gt;&#13;
+&gt;&#13;
+&gt;&#13;
+</string>
+      </void>
+      <void property="date">
+       <string>Thu Jun 02 18:41:58 EEST 2016</string>
+      </void>
+      <void property="emailNumber">
+       <int>13</int>
+      </void>
+      <void property="reciver">
+       <string>detectionApp@gmail.com</string>
+      </void>
+      <void property="sender">
+       <string>Teofil Ursan &lt;teofil.ursan@gmail.com&gt;</string>
+      </void>
+      <void property="subject">
+       <string>Re: Fwd:</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
