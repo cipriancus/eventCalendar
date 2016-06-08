@@ -718,7 +718,7 @@ public class MainController implements Initializable {
 
 		contactUs.setOnAction((ActionEvent evt) -> {
 			try {
-				Desktop.getDesktop().browse(new URI("http://cipriancus.github.io/eventCalendar/"));
+				Desktop.getDesktop().browse(new URI("https://github.com/cipriancus/eventCalendar"));
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
