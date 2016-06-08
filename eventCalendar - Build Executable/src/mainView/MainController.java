@@ -329,7 +329,7 @@ public class MainController implements Initializable {
 
 									.withEndLocalDateTime(LocalDateTime.of(eventTime, LocalTime.of(hour + 2, minute)))
 
-									.withSummary(event2.getSubject()).withAppointmentGroup(new Agenda.AppointmentGroupImpl().withStyleClass("group5"))
+									.withSummary(event2.getPersons()).withAppointmentGroup(new Agenda.AppointmentGroupImpl().withStyleClass("group5"))
 
 									.withDescription(event2.getSubject() + " " + event2.getPersons()
 									);
