@@ -1,0 +1,8 @@
+In order to make the program work you have to :
+
+1.Download the jar from here : https://www.dropbox.com/s/3ichxjo2wv351h6/eventCalendar.jar?dl=0
+2.Place the jar inside this folder.
+3.Run startProgram.bat
+
+
+For problems open an issue here: https://github.com/cipriancus/eventCalendar
